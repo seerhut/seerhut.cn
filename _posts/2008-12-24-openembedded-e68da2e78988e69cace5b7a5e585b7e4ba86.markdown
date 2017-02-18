@@ -1,0 +1,12 @@
+---
+author: admin
+comments: true
+date: 2008-12-24 12:46:21+00:00
+layout: post
+link: http://www.seerhut.cn/2008/12/24/openembedded-%e6%8d%a2%e7%89%88%e6%9c%ac%e5%b7%a5%e5%85%b7%e4%ba%86/
+slug: openembedded-%e6%8d%a2%e7%89%88%e6%9c%ac%e5%b7%a5%e5%85%b7%e4%ba%86
+title: OpenEmbedded 换版本工具了
+wordpress_id: 154
+---
+
+从mtn换成git，早干什么去了。。

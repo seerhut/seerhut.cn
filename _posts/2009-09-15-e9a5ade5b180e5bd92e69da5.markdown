@@ -1,0 +1,16 @@
+---
+author: admin
+comments: true
+date: 2009-09-15 14:52:18+00:00
+layout: post
+link: http://www.seerhut.cn/2009/09/15/%e9%a5%ad%e5%b1%80%e5%bd%92%e6%9d%a5/
+slug: '%e9%a5%ad%e5%b1%80%e5%bd%92%e6%9d%a5'
+title: 饭局归来
+wordpress_id: 209
+---
+
+今天同科室聚餐，吃的不错，聊的很好，只是分了两桌所以交流圈小了些。
+
+单板的初步调试也通了，之后就要同另一部分合并，争取赶在月底前完成。
+
+^ω^

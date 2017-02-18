@@ -1,0 +1,18 @@
+---
+author: admin
+comments: true
+date: 2007-11-01 12:37:44+00:00
+layout: post
+link: http://www.seerhut.cn/2007/11/01/wow%e4%b8%ad%e6%96%87%e8%be%93%e5%85%a5%e6%b3%95%e6%9b%b4%e6%96%b0/
+slug: wow%e4%b8%ad%e6%96%87%e8%be%93%e5%85%a5%e6%b3%95%e6%9b%b4%e6%96%b0
+title: WoW中文输入法更新
+wordpress_id: 64
+---
+
+终于更新了，变化较大。
+
+输入方式模拟智能拼音，可以高亮默认候选词，翻页等更人性化。
+
+项目页面：[http://wiki.seerhutlabs.com/Zhinput](http://wiki.seerhutlabs.com/Zhinput)
+
+核心已经完善，剩下的工作都是周边的功能。未来打算加入对非聊天框的支持和配置界面，不过不着急，先设计好交互方式，毕竟是业余之外的业余项目，不能浪费代码时间。

@@ -1,0 +1,16 @@
+---
+author: admin
+comments: true
+date: 2008-07-14 06:06:01+00:00
+layout: post
+link: http://www.seerhut.cn/2008/07/14/%e4%b8%83%e6%9c%88%e4%bb%bd%e4%ba%8b%e6%83%85%e4%b8%8d%e5%b0%91%e9%98%bf%e3%80%82/
+slug: '%e4%b8%83%e6%9c%88%e4%bb%bd%e4%ba%8b%e6%83%85%e4%b8%8d%e5%b0%91%e9%98%bf%e3%80%82'
+title: 七月份事情不少阿。
+wordpress_id: 82
+---
+
+google要出lively
+
+tencent要出linux上的qq
+
+atmel要出cortex-m3核的sam3

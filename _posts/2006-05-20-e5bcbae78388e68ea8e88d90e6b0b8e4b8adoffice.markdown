@@ -1,0 +1,15 @@
+---
+author: admin
+comments: true
+date: 2006-05-20 17:49:08+00:00
+layout: post
+link: http://www.seerhut.cn/2006/05/21/%e5%bc%ba%e7%83%88%e6%8e%a8%e8%8d%90%e6%b0%b8%e4%b8%adoffice/
+slug: '%e5%bc%ba%e7%83%88%e6%8e%a8%e8%8d%90%e6%b0%b8%e4%b8%adoffice'
+title: 强烈推荐永中office
+wordpress_id: 20
+---
+
+我试着用他打开网上流传的各种微软office文档，完美兼容!! starsuite 和 openoffice 与之比较连幼稚都称不上!!
+<!-- more -->
+以前用过永中的2004版，有些小毛病，主要是针对kde界面设计的软件在我的fvwm下显示有瑕疵。这回升级到2007beta后几近完美，速度也有提升。真是不可思议，中国有这么一款软件产品，1000元左右的零售价不算低，但绝对值!!
+[永中网站](http://www.evermoresw.com/webch/index.jsp)有试用版下载。

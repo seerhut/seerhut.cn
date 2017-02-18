@@ -1,0 +1,16 @@
+---
+author: admin
+comments: true
+date: 2008-12-03 05:18:30+00:00
+layout: post
+link: http://www.seerhut.cn/2008/12/03/%e9%a3%9e%e4%bf%a1%e4%b8%ad%e3%80%82%e3%80%82%e6%b3%a8%e5%86%8cproxy%e6%90%9e%e5%ae%9a/
+slug: '%e9%a3%9e%e4%bf%a1%e4%b8%ad%e3%80%82%e3%80%82%e6%b3%a8%e5%86%8cproxy%e6%90%9e%e5%ae%9a'
+title: 飞信中。。注册proxy搞定
+wordpress_id: 110
+---
+
+四次md5真要命，第一次的结果还必须是raw data，为啥为啥。。
+
+Qt的QByteArray挺好用。就是需要cast between signed and unsigned ，看起来有点不爽。
+
+继续思考程序架构，编码放慢。。。

@@ -1,0 +1,12 @@
+---
+author: admin
+comments: true
+date: 2009-09-22 14:06:55+00:00
+layout: post
+link: http://www.seerhut.cn/2009/09/22/%e8%b0%83%e9%80%9a%e4%ba%86%e5%95%8a/
+slug: '%e8%b0%83%e9%80%9a%e4%ba%86%e5%95%8a'
+title: 调通了啊
+wordpress_id: 212
+---
+
+替换了linux的协议栈，总算跑通了一个数据包，加解密都没问题了，明天开会确定下一步方案。

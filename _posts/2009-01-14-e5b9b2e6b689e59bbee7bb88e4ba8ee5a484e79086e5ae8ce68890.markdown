@@ -1,0 +1,16 @@
+---
+author: admin
+comments: true
+date: 2009-01-14 06:05:39+00:00
+layout: post
+link: http://www.seerhut.cn/2009/01/14/%e5%b9%b2%e6%b6%89%e5%9b%be%e7%bb%88%e4%ba%8e%e5%a4%84%e7%90%86%e5%ae%8c%e6%88%90/
+slug: '%e5%b9%b2%e6%b6%89%e5%9b%be%e7%bb%88%e4%ba%8e%e5%a4%84%e7%90%86%e5%ae%8c%e6%88%90'
+title: 干涉图终于处理完成
+wordpress_id: 164
+---
+
+![interferogram_pha](http://blog.seerhut.cn/wp-content/uploads/2009/01/interferogram_pha.png)
+
+![unwrapped_interferogram](http://blog.seerhut.cn/wp-content/uploads/2009/01/unwrapped_interferogram.png)
+
+下一步是做差分干涉的分析。

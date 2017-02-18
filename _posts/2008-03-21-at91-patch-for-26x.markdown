@@ -1,0 +1,18 @@
+---
+author: admin
+comments: true
+date: 2008-03-21 13:39:38+00:00
+layout: post
+link: http://www.seerhut.cn/2008/03/21/at91-patch-for-26x/
+slug: at91-patch-for-26x
+title: at91 patch for 2.6.x
+wordpress_id: 72
+---
+
+maxim.org.za的ip被封，所以顺手把patch拷过来提供下载。
+
+[2.6.24-at91.patch.gz](http://blog.seerhut.cn/wp-content/uploads/2008/03/2624-at91patch.gz)
+
+[2.6.23-at91.patch.gz](http://blog.seerhut.cn/wp-content/uploads/2008/03/2623-at91patch.gz)
+
+[2.6.22-at91.patch.gz](http://blog.seerhut.cn/wp-content/uploads/2008/03/2622-at91patch.gz)

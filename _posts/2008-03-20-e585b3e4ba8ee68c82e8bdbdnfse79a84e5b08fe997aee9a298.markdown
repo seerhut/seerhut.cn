@@ -1,0 +1,12 @@
+---
+author: admin
+comments: true
+date: 2008-03-20 21:41:11+00:00
+layout: post
+link: http://www.seerhut.cn/2008/03/21/%e5%85%b3%e4%ba%8e%e6%8c%82%e8%bd%bdnfs%e7%9a%84%e5%b0%8f%e9%97%ae%e9%a2%98/
+slug: '%e5%85%b3%e4%ba%8e%e6%8c%82%e8%bd%bdnfs%e7%9a%84%e5%b0%8f%e9%97%ae%e9%a2%98'
+title: 关于挂载NFS的小问题
+wordpress_id: 71
+---
+
+client机也需要portmap，除非设置`nolock`参数。报`error -5 `一般是这个原因。

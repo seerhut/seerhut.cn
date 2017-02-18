@@ -1,0 +1,32 @@
+---
+author: admin
+comments: true
+date: 2007-12-05 04:53:03+00:00
+layout: post
+link: http://www.seerhut.cn/2007/12/05/wow%e4%b8%ad%e6%96%87%e8%be%93%e5%85%a5%e6%b3%95%e6%9b%b4%e6%96%b0-v22/
+slug: wow%e4%b8%ad%e6%96%87%e8%be%93%e5%85%a5%e6%b3%95%e6%9b%b4%e6%96%b0-v22
+title: WoW中文输入法更新 v2.2
+wordpress_id: 67
+---
+
+饭后弄了弄，变化如下。在wow中已经没有什么功能障碍了，邮件和拍卖行都可以输入中文，现在在考虑有没有一个终极的文本框方案，只是对wow api 和lua仍然不太熟悉。下个版本可能会增加词频统计和智能学习，但是前提是仍然维持智能拼音风格的输入方式，嵌入式的选词风格很难做。。。
+
+[http://wiki.seerhutlabs.com/Zhinput](http://wiki.seerhutlabs.com/Zhinput)
+
+
+
+
+  * 
+
+  * v2.2 071204 
+
+
+  * 可以在写邮件和拍卖行搜索物品时输入中文了 
+
+	
+  * 增加了一个简单的配置界面 
+
+	
+  * 增加了一个工具盘 
+
+

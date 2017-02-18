@@ -1,0 +1,14 @@
+---
+author: admin
+comments: true
+date: 2008-12-12 14:44:10+00:00
+layout: post
+link: http://www.seerhut.cn/2008/12/12/%e9%a3%9e%e4%bf%a1%e4%b8%ad%e3%80%82%e3%80%82%e3%80%82%e8%bf%99%e4%b8%aa%e6%89%8d%e6%98%af%e9%87%8c%e7%a8%8b%e7%a2%91%e7%89%88%e6%9c%ac%ef%bc%9f/
+slug: '%e9%a3%9e%e4%bf%a1%e4%b8%ad%e3%80%82%e3%80%82%e3%80%82%e8%bf%99%e4%b8%aa%e6%89%8d%e6%98%af%e9%87%8c%e7%a8%8b%e7%a2%91%e7%89%88%e6%9c%ac%ef%bc%9f'
+title: 飞信中。。。这个才是里程碑版本？
+wordpress_id: 142
+---
+
+搞错了。。被踢是因为win32下编码不是utf8，算字符串字节个数出错了。。。
+
+做好了invite bye部分，没有明显的缺憾了。

@@ -1,0 +1,23 @@
+---
+author: admin
+comments: true
+date: 2008-05-13 20:24:03+00:00
+layout: post
+link: http://www.seerhut.cn/2008/05/14/4g%e5%86%85%e5%ad%98%e4%b8%8blinux%e7%9a%84mtrr%e8%a1%a8%e4%b8%8d%e6%ad%a3%e7%a1%ae%e7%9a%84%e8%a7%a3%e5%86%b3/
+slug: 4g%e5%86%85%e5%ad%98%e4%b8%8blinux%e7%9a%84mtrr%e8%a1%a8%e4%b8%8d%e6%ad%a3%e7%a1%ae%e7%9a%84%e8%a7%a3%e5%86%b3
+title: 4G内存下linux的mtrr表不正确的解决
+wordpress_id: 78
+---
+
+这个会导致nvidia的驱动不能加速2d，解决方案一般就是重写mtrr表，具体的google出来是这个
+
+echo "disable=2" >| /proc/mtrr
+echo "disable=1" >| /proc/mtrr
+echo "disable=3" >| /proc/mtrr
+echo "disable=4" >| /proc/mtrr
+echo "disable=0" >| /proc/mtrr
+echo "base=0x00000000 size=0x80000000 type=write-back" >| /proc/mtrr
+echo "base=0x80000000 size=0x40000000 type=write-back" >| /proc/mtrr
+echo "base=0xC0000000 size=0x10000000 type=write-back" >| /proc/mtrr
+echo "base=0x100000000 size=0x20000000 type=write-back" >| /proc/mtrr
+echo "base=0x120000000 size=0x10000000 type=write-back" >| /proc/mtrr

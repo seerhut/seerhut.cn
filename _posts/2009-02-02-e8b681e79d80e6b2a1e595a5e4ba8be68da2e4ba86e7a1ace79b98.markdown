@@ -1,0 +1,14 @@
+---
+author: admin
+comments: true
+date: 2009-02-02 02:23:37+00:00
+layout: post
+link: http://www.seerhut.cn/2009/02/02/%e8%b6%81%e7%9d%80%e6%b2%a1%e5%95%a5%e4%ba%8b%e6%8d%a2%e4%ba%86%e7%a1%ac%e7%9b%98/
+slug: '%e8%b6%81%e7%9d%80%e6%b2%a1%e5%95%a5%e4%ba%8b%e6%8d%a2%e4%ba%86%e7%a1%ac%e7%9b%98'
+title: 趁着没啥事换了硬盘
+wordpress_id: 171
+---
+
+T61p的250G着实有些小了，换了个500G的，能够用一阵子了。
+本来打算copy系统的，想着反正机器不慢就重装了。
+换用了openrc，比起以前速度提升很多，满意。

@@ -1,0 +1,12 @@
+---
+author: admin
+comments: true
+date: 2008-10-14 03:47:21+00:00
+layout: post
+link: http://www.seerhut.cn/2008/10/14/%e5%8f%91%e7%8e%b0%e6%9d%91%e7%94%b0%e7%9a%84%e5%be%ae%e6%b3%a2%e9%9b%b7%e8%be%be/
+slug: '%e5%8f%91%e7%8e%b0%e6%9d%91%e7%94%b0%e7%9a%84%e5%be%ae%e6%b3%a2%e9%9b%b7%e8%be%be'
+title: 发现村田的微波雷达
+wordpress_id: 90
+---
+
+为汽车测速设计的，配合制动力控制和动力分配。不知道距离可以有多少，超低空可否用呢。。。等着这回IEEE会上的资料。。

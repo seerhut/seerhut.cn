@@ -1,0 +1,14 @@
+---
+author: admin
+comments: true
+date: 2007-04-13 13:53:50+00:00
+layout: post
+link: http://www.seerhut.cn/2007/04/13/psp-hack/
+slug: psp-hack
+title: PSP hack
+wordpress_id: 61
+---
+
+naked PSP    不错的psp介绍，用beamer做的presentation
+
+[psp.pdf](http://www.seerhut.org/blog/wp-content/uploads/2007/04/psp.pdf)
