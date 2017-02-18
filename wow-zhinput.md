@@ -3,8 +3,8 @@ author: admin
 comments: true
 date: 2008-12-06 06:29:26+00:00
 layout: page
-link: http://www.seerhut.cn/wow%e4%b8%ad%e6%96%87%e8%be%93%e5%85%a5%e6%b3%95%e6%8f%92%e4%bb%b6/
-slug: wow%e4%b8%ad%e6%96%87%e8%be%93%e5%85%a5%e6%b3%95%e6%8f%92%e4%bb%b6
+link: http://www.seerhut.cn/wow-zhinput/
+slug: wow-zhinput
 title: WoW中文输入法插件
 wordpress_id: 117
 ---

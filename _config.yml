@@ -1,14 +1,10 @@
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+#
 version: 20170211
 title: Seerhut Labs
-tagline: hello world
+tagline: 42
 email: seerhut@gmail.com
 description: > 
-  42.
+  .
 baseurl: "" 
 url: "http://www.seerhut.cn"
 paginate: 5
@@ -16,17 +12,14 @@ colortheme: theme-base-0d
 twitter_username: seerhut
 github_username:  seerhut
 
-# Build settings
-permalink: pretty
-relative_permalink: true
+permalink: /:year/:month/:day/:title/
+#relative_permalink: true
 markdown: kramdown
-#theme: lanyon
 gems:
   - jekyll-feed
   - jekyll-paginate
 exclude:
   - Gemfile
   - Gemfile.lock
-
 
 

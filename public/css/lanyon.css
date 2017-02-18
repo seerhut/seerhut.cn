@@ -48,7 +48,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
   font-weight: 400;
   color: #313131;
-  letter-spacing: -.025rem;
+/*  letter-spacing: -.025rem; */
 }
 
 
@@ -103,6 +103,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0;
   color: #505050;
+  letter-spacing: 0.1rem;
 }
 .masthead-title a {
   color: #505050;

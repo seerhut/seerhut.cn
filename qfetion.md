@@ -3,8 +3,8 @@ author: admin
 comments: true
 date: 2008-12-11 15:10:06+00:00
 layout: page
-link: http://www.seerhut.cn/qfetion%e8%b7%a8%e5%b9%b3%e5%8f%b0%e7%9a%84%e9%a3%9e%e4%bf%a1%e5%ae%a2%e6%88%b7%e7%ab%af/
-slug: qfetion%e8%b7%a8%e5%b9%b3%e5%8f%b0%e7%9a%84%e9%a3%9e%e4%bf%a1%e5%ae%a2%e6%88%b7%e7%ab%af
+link: http://www.seerhut.cn/qfetion
+slug: Qfetion
 title: Qfetion跨平台的飞信客户端
 wordpress_id: 132
 ---
