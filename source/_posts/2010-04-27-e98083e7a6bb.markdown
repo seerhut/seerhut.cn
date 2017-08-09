@@ -1,0 +1,14 @@
+---
+author: admin
+comments: true
+date: 2010-04-27 05:27:37+00:00
+layout: post
+link: http://www.seerhut.cn/2010/04/27/%e9%80%83%e7%a6%bb/
+slug: '%e9%80%83%e7%a6%bb'
+title: 逃离
+wordpress_id: 223
+---
+
+决定不忍备案了，在境外找了服务器，但是。。。
+
+为什么python版本那么老！！ 2.3。。。

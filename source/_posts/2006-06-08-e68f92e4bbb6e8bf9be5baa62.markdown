@@ -1,0 +1,14 @@
+---
+author: admin
+comments: true
+date: 2006-06-08 17:09:27+00:00
+layout: post
+link: http://www.seerhut.cn/2006/06/09/%e6%8f%92%e4%bb%b6%e8%bf%9b%e5%ba%a62/
+slug: '%e6%8f%92%e4%bb%b6%e8%bf%9b%e5%ba%a62'
+title: 插件进度2
+wordpress_id: 30
+---
+
+基本完成！！还有一个按键event的问题，不过应该能很快解决。文档少真是郁闷，再加上本来就不强大的lua被阉割，写脚本的时候就好像被束缚住了手脚，看着一个个lua手册上的function被游戏返回未定义真不是滋味......
+
+再加把劲！！

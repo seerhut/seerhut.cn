@@ -1,0 +1,18 @@
+---
+author: admin
+comments: true
+date: 2008-12-02 14:03:43+00:00
+layout: post
+link: http://www.seerhut.cn/2008/12/02/%e9%a3%9e%e4%bf%a1%e4%b8%ad2/
+slug: '%e9%a3%9e%e4%bf%a1%e4%b8%ad2'
+title: 飞信中2
+wordpress_id: 108
+---
+
+给网络通信部分简单搭了框架，力求效率和层次能兼顾，卡在加密认证部分，回头简单看一下md5和sha1的资料。
+
+开始体会到Qt让人不爽的一面，想省心又想控制一切是不可能地。。。
+
+飞信的协议还算好懂，暂时不打算去啃SIP的大部头rfc了。
+
+恩，以上。

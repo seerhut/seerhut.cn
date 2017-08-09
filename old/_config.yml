@@ -1,0 +1,25 @@
+#
+version: 20170211
+title: Seerhut Labs
+tagline: 42
+email: seerhut@gmail.com
+description: > 
+  .
+baseurl: "" 
+url: "http://www.seerhut.cn"
+paginate: 5
+colortheme: theme-base-0d
+twitter_username: seerhut
+github_username:  seerhut
+
+permalink: /:year/:month/:day/:title/
+#relative_permalink: true
+markdown: kramdown
+gems:
+  - jekyll-feed
+  - jekyll-paginate
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+

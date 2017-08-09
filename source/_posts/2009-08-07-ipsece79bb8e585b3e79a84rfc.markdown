@@ -1,0 +1,72 @@
+---
+author: admin
+comments: true
+date: 2009-08-07 14:55:19+00:00
+layout: post
+link: http://www.seerhut.cn/2009/08/07/ipsec%e7%9b%b8%e5%85%b3%e7%9a%84rfc/
+slug: ipsec%e7%9b%b8%e5%85%b3%e7%9a%84rfc
+title: ipsec相关的rfc
+wordpress_id: 204
+---
+
+供方便查询
+
+[4301](http://www.rfc-editor.org/rfc/rfc4301.txt) Security Architecture for the Internet Protocol
+
+[4302](http://www.rfc-editor.org/rfc/rfc4302.txt) IP Authentication Header
+
+[4303](http://www.rfc-editor.org/rfc/rfc4303.txt) IP Encapsulating Security Payload (ESP)
+
+[4304](http://www.rfc-editor.org/rfc/rfc4304.txt) Extended Sequence Number (ESN) Addendum to IPsec Domain of Interpretation (DOI) for Internet Security Association and Key Management Protocol (ISAKMP)
+
+[4305](http://www.rfc-editor.org/rfc/rfc4305.txt) Cryptographic Algorithm Implementation Requirements for Encapsulating Security Payload (ESP) and Authentication Header (AH)
+
+[4306](http://www.rfc-editor.org/rfc/rfc4306.txt) Internet Key Exchange (IKEv2) Protocol
+
+[4307](http://www.rfc-editor.org/rfc/rfc4307.txt) Cryptographic Algorithms for Use in the Internet Key Exchange Version 2 (IKEv2)
+
+[4308](http://www.rfc-editor.org/rfc/rfc4308.txt) Cryptographic Suites for IPsec
+
+[4309](http://www.rfc-editor.org/rfc/rfc4309.txt) Using Advanced Encryption Standard (AES) CCM Mode with IPsec Encapsulating Security Payload (ESP)
+
+[4807](http://www.rfc-editor.org/rfc/rfc4807.txt) IPsec Security Policy Database Configuration MIB
+
+[4809](http://www.rfc-editor.org/rfc/rfc4809.txt) Requirements for an IPsec Certificate Management Profile
+
+[4868](http://www.rfc-editor.org/rfc/rfc4868.txt) Using HMAC-SHA-256, HMAC-SHA-384, and HMAC-SHA-512 with IPsec
+
+[4869](http://www.rfc-editor.org/rfc/rfc4869.txt) Suite B Cryptographic Suites for IPsec
+
+[4891](http://www.rfc-editor.org/rfc/rfc4891.txt) Using IPsec to Secure IPv6-in-IPv4 Tunnels
+
+[4894](http://www.rfc-editor.org/rfc/rfc4894.txt) Use of Hash Algorithms in Internet Key Exchange (IKE) and IPsec
+
+[5265](http://www.rfc-editor.org/rfc/rfc5265.txt) Mobile IPv4 Traversal across IPsec-Based VPN Gateways
+
+[5386](http://www.rfc-editor.org/rfc/rfc5386.txt) Better-Than-Nothing Security: An Unauthenticated Mode of IPsec
+
+[5406](http://www.rfc-editor.org/rfc/rfc5406.txt) Guidelines for Specifying the Use of IPsec Version 2
+
+2401 4301
+
+2402 4302
+
+[2403](http://www.rfc-editor.org/rfc/rfc2403.txt) The Use of HMAC-MD5-96 within ESP and AH
+
+2404 4305
+
+[2405](http://www.rfc-editor.org/rfc/rfc2405.txt) The ESP DES-CBC Cipher Algorithm With Explicit IV
+
+2406 4305 4303
+
+2407 4306
+
+2408 4306
+
+2409 4306
+
+[2410](http://www.rfc-editor.org/rfc/rfc2410.txt) The NULL Encryption Algorithm and Its Use With IPsec
+
+[3585](http://www.rfc-editor.org/rfc/rfc3585.txt) IPsec Configuration Policy Information Model
+
+[3948](http://www.rfc-editor.org/rfc/rfc3948.txt) UDP Encapsulation of IPsec ESP Packets

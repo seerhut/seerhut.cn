@@ -1,0 +1,12 @@
+---
+author: admin
+comments: true
+date: 2008-04-13 15:01:58+00:00
+layout: post
+link: http://www.seerhut.cn/2008/04/13/vvxworks%e4%b8%b2%e5%8f%a3%e8%be%93%e5%87%ba%e4%b9%b1%e7%a0%81%e7%9a%84%e9%97%ae%e9%a2%98/
+slug: vvxworks%e4%b8%b2%e5%8f%a3%e8%be%93%e5%87%ba%e4%b9%b1%e7%a0%81%e7%9a%84%e9%97%ae%e9%a2%98
+title: VxWorks串口输出乱码的问题
+wordpress_id: 77
+---
+
+确切的说是bootrom串口输出乱码，原因是一些市面的串口线把78直连了，uboot不受影响但是bootrom的串口通信就会出错，有这个问题的同志要注意

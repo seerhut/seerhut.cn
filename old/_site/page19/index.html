@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      Seerhut Labs &middot; 42
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/public/css/lanyon.css">
+  <!--link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400"-->
+
+  <!-- Icons -->
+  <link rel="shortcut icon" href="/public/favicon.ico">
+  <link rel="apple-touch-icon" sizes="57x57" href="/public/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/public/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/public/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/public/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/public/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/public/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/public/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/public/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/public/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/public/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/public/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/public/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/public/favicon-16x16.png">
+<link rel="manifest" href="/public/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/public/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+
+  <script>
+var _hmt = _hmt || [];
+(function() {
+      var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?7e34e0b4d978130592967cb5364e50c3";
+          var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+            })();
+</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-2913322-1', 'auto');
+    ga('send', 'pageview');
+
+    </script>
+
+</head>
+
+
+  <body class="theme-base-0d sidebar-overlay">
+
+    <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    <p>.
+</p>
+  </div>
+
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item" href="/">Home</a>
+
+    
+
+    
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/about/">About</a>
+        
+      
+    
+      
+    
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/qdoris/">Qdoris</a>
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/qfetion/">Qfetion</a>
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/wow-zhinput/">wow-zhinput</a>
+        
+      
+    
+
+    <span class="sidebar-nav-item">Currently v20170211</span>
+  </nav>
+
+  <div class="sidebar-item">
+    <p>
+      &copy; 2017. All rights reserved.
+    </p>
+  </div>
+</div>
+
+
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="/" title="Home">Seerhut Labs</a>
+            <small>42</small>
+          </h3>
+        </div>
+      </div>
+
+      <div class="container content">
+        <div class="posts">
+  
+  <div class="post">
+    <h2 class="post-title">
+      <a href="/2006/05/19/what-does-ft-mean/">
+        what does ft mean..
+      </a>
+    </h2>
+
+    <span class="post-date">19 May 2006</span>
+
+    <p><img src="http://nanocrew.net/wp-content/livemessenger.jpg" alt="http://nanocrew.net/wp-content/livemessenger.jpg" /></p>
+
+  </div>
+  
+  <div class="post">
+    <h2 class="post-title">
+      <a href="/2006/05/18/adsl-modem-e3-80-82-e3-80-82-e3-80-82/">
+        ADSL Modem 。。。
+      </a>
+    </h2>
+
+    <span class="post-date">19 May 2006</span>
+
+    <p>Modem断流很厉害，想给它升级一下固件。
+机器是中兴的 ZXDSL 831BII (?) ，阉割过的。 默认的web管理地址是192.168.1.1，普通用户名搜索得知 user/user ，但是管理员的帐号密码都不能使用。摸索了一会得出一个方法可以绕开管理员登录直接更改管理员密码。</p>
+
+<!-- more -->
+<p>大致是用user/user登录modem，进入用户管理页面，拷贝出源码，将form中的用户名字段改成admin，后面的密码空白，新密码填入自己的设置，保存。用浏览器访问修改的页面，提交即可修改admin的密码，然后就可以登录升级firmware了。很ft的事情是这个时候才发现没有ZTE没有给这个型号的新固件，不过我只是把它做网桥用，即使升级了固件也不见得能有什么起色，就先作罢。</p>
+
+<p>下面是改好的页面，一般直接就能用（密码也是admin）。断流的问题看来一时没法解决，不过还有一个办法是做个简单的watchdog，发现断流就重启Modem，这个方案正在准备中…………</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&lt;&lt;span class="start-tag"&gt;html&lt;/span&gt;&gt;
+&lt;&lt;span class="start-tag"&gt;head&lt;/span&gt;&gt;
+&lt;&lt;span class="start-tag"&gt;meta&lt;/span&gt;&lt;span class="attribute-name"&gt; http-equiv&lt;/span&gt;=&lt;span class="attribute-value"&gt;"content-type" &lt;/span&gt;&lt;span class="attribute-name"&gt;content&lt;/span&gt;=&lt;span class="attribute-value"&gt;"text/html; charset=GB2312"&lt;/span&gt;&gt;
+&lt;&lt;span class="start-tag"&gt;link&lt;/span&gt;&lt;span class="attribute-name"&gt; rel&lt;/span&gt;=&lt;span class="attribute-value"&gt;"stylesheet" &lt;/span&gt;&lt;span class="attribute-name"&gt;type&lt;/span&gt;=&lt;span class="attribute-value"&gt;"text/css" &lt;/span&gt;&lt;span class="attribute-name"&gt;href&lt;/span&gt;=&lt;span class="attribute-value"&gt;"http://192.168.1.1/hag/css/vikingTP.css"&lt;/span&gt;&gt;
+&lt;&lt;span class="start-tag"&gt;title&lt;/span&gt;&gt;密码设置title&lt;/span&gt;&gt;
+&lt;&lt;span class="start-tag"&gt;meta&lt;/span&gt;&lt;span class="attribute-name"&gt; http-equiv &lt;/span&gt;=&lt;span class="attribute-value"&gt;"pragma" &lt;/span&gt;&lt;span class="attribute-name"&gt;content&lt;/span&gt;=&lt;span class="attribute-value"&gt;"no-cache"&lt;/span&gt;&gt;
+&lt;&lt;span class="start-tag"&gt;script&lt;/span&gt;&lt;span class="attribute-name"&gt; language&lt;/span&gt;=&lt;span class="attribute-value"&gt;"JavaScript" &lt;/span&gt;&lt;span class="attribute-name"&gt;src&lt;/span&gt;=&lt;span class="attribute-value"&gt;"http://192.168.1.1/hag/js/global.gsv"&lt;/span&gt;&gt;script&lt;/span&gt;&gt;
+head&lt;/span&gt;&gt;
+
+&lt;&lt;span class="start-tag"&gt;body&lt;/span&gt;&lt;span class="attribute-name"&gt; class&lt;/span&gt;=&lt;span class="attribute-value"&gt;"mainbody"&lt;/span&gt;&gt;
+&lt;&lt;span class="start-tag"&gt;p&lt;/span&gt;&lt;span class="attribute-name"&gt; class&lt;/span&gt;=&lt;span class="attribute-value"&gt;"pagetitle"&lt;/span&gt;&gt;密码设置p&lt;/span&gt;&gt;
+&lt;&lt;span class="start-tag"&gt;p&lt;/span&gt;&lt;span class="attribute-name"&gt; class&lt;/span&gt;=&lt;span class="attribute-value"&gt;"pagedesc"&lt;/span&gt;&gt;修改用户密码.p&lt;/span&gt;&gt;
+&lt;&lt;span class="start-tag"&gt;form&lt;/span&gt;&lt;span class="attribute-name"&gt; name&lt;/span&gt;=&lt;span class="attribute-value"&gt;"frmChangePW" &lt;/span&gt;&lt;span class="attribute-name"&gt;id&lt;/span&gt;=&lt;span class="attribute-value"&gt;"frmChangePW" &lt;/span&gt;&lt;span class="attribute-name"&gt;action&lt;/span&gt;=&lt;span class="attribute-value"&gt;"http://192.168.1.1/Action" &lt;/span&gt;&lt;span class="attribute-name"&gt;method&lt;/span&gt;=&lt;span class="attribute-value"&gt;"POST"&lt;/span&gt;&gt;
+
+
+
+
+&lt;&lt;span class="start-tag"&gt;div&lt;/span&gt;&lt;span class="attribute-name"&gt; &lt;/span&gt;&gt;
+&lt;&lt;span class="start-tag"&gt;table&lt;/span&gt;&lt;span class="attribute-name"&gt; &lt;/span&gt;&gt;
+&lt;&lt;span class="start-tag"&gt;tr&lt;/span&gt;&lt;span class="attribute-name"&gt; &lt;/span&gt;&gt;
+&lt;&lt;span class="start-tag"&gt;td&lt;/span&gt;&lt;span class="attribute-name"&gt; class&lt;/span&gt;=&lt;span class="attribute-value"&gt;"tablerowheader"&lt;/span&gt;&gt;用户名:td&lt;/span&gt;&gt;
+&lt;&lt;span class="start-tag"&gt;td&lt;/span&gt;&lt;span class="attribute-name"&gt; class&lt;/span&gt;=&lt;span class="attribute-value"&gt;"tablerowvalue"&lt;/span&gt;&gt;usertd&lt;/span&gt;&gt;&lt;&lt;span class="start-tag"&gt;input&lt;/span&gt;&lt;span class="attribute-name"&gt; type&lt;/span&gt;=&lt;span class="attribute-value"&gt;"hidden" &lt;/span&gt;&lt;span class="attribute-name"&gt;id&lt;/span&gt;=&lt;span class="attribute-value"&gt;"login_name" &lt;/span&gt;&lt;span class="attribute-name"&gt;name&lt;/span&gt;=&lt;span class="attribute-value"&gt;"login_name" &lt;/span&gt;&lt;span class="attribute-name"&gt;value&lt;/span&gt;=&lt;span class="attribute-value"&gt;"admin" &lt;/span&gt;&gt;
+
+tr&lt;/span&gt;&gt;
+&lt;&lt;span class="start-tag"&gt;tr&lt;/span&gt;&lt;span class="attribute-name"&gt; &lt;/span&gt;&gt;
+&lt;&lt;span class="start-tag"&gt;td&lt;/span&gt;&lt;span class="attribute-name"&gt; class&lt;/span&gt;=&lt;span class="attribute-value"&gt;"tablerowheader"&lt;/span&gt;&gt;密码:td&lt;/span&gt;&gt;
+&lt;&lt;span class="start-tag"&gt;td&lt;/span&gt;&lt;span class="attribute-name"&gt; class&lt;/span&gt;=&lt;span class="attribute-value"&gt;"tablerowvalue"&lt;/span&gt;&gt;&lt;&lt;span class="start-tag"&gt;input&lt;/span&gt;&lt;span class="attribute-name"&gt; type&lt;/span&gt;=&lt;span class="attribute-value"&gt;"password" &lt;/span&gt;&lt;span class="attribute-name"&gt;id&lt;/span&gt;=&lt;span class="attribute-value"&gt;"old_pass" &lt;/span&gt;&lt;span class="attribute-name"&gt;name&lt;/span&gt;=&lt;span class="attribute-value"&gt;"old_pass" &lt;/span&gt;&lt;span class="attribute-name"&gt;value&lt;/span&gt;=&lt;span class="attribute-value"&gt;""  &lt;/span&gt;&lt;span class="attribute-name"&gt;size&lt;/span&gt;=&lt;span class="attribute-value"&gt;"32" &lt;/span&gt;&lt;span class="attribute-name"&gt;maxlength&lt;/span&gt;=&lt;span class="attribute-value"&gt;"128" &lt;/span&gt;&gt;
+td&lt;/span&gt;&gt;
+tr&lt;/span&gt;&gt;
+&lt;&lt;span class="start-tag"&gt;tr&lt;/span&gt;&lt;span class="attribute-name"&gt; &lt;/span&gt;&gt;
+
+
+
+
+&lt;&lt;span class="start-tag"&gt;td&lt;/span&gt;&lt;span class="attribute-name"&gt; class&lt;/span&gt;=&lt;span class="attribute-value"&gt;"tablerowheader"&lt;/span&gt;&gt;新密码:td&lt;/span&gt;&gt;
+&lt;&lt;span class="start-tag"&gt;td&lt;/span&gt;&lt;span class="attribute-name"&gt; class&lt;/span&gt;=&lt;span class="attribute-value"&gt;"tablerowvalue"&lt;/span&gt;&gt;&lt;&lt;span class="start-tag"&gt;input&lt;/span&gt;&lt;span class="attribute-name"&gt; type&lt;/span&gt;=&lt;span class="attribute-value"&gt;"password" &lt;/span&gt;&lt;span class="attribute-name"&gt;id&lt;/span&gt;=&lt;span class="attribute-value"&gt;"new_pass1" &lt;/span&gt;&lt;span class="attribute-name"&gt;name&lt;/span&gt;=&lt;span class="attribute-value"&gt;"new_pass1" &lt;/span&gt;&lt;span class="attribute-name"&gt;value&lt;/span&gt;=&lt;span class="attribute-value"&gt;"avalon"  &lt;/span&gt;&lt;span class="attribute-name"&gt;size&lt;/span&gt;=&lt;span class="attribute-value"&gt;"32" &lt;/span&gt;&lt;span class="attribute-name"&gt;maxlength&lt;/span&gt;=&lt;span class="attribute-value"&gt;"128" &lt;/span&gt;&gt;
+td&lt;/span&gt;&gt;
+tr&lt;/span&gt;&gt;
+&lt;&lt;span class="start-tag"&gt;tr&lt;/span&gt;&lt;span class="attribute-name"&gt; &lt;/span&gt;&gt;
+&lt;&lt;span class="start-tag"&gt;td&lt;/span&gt;&lt;span class="attribute-name"&gt; class&lt;/span&gt;=&lt;span class="attribute-value"&gt;"tablerowheader"&lt;/span&gt;&gt;确认新密码:td&lt;/span&gt;&gt;
+&lt;&lt;span class="start-tag"&gt;td&lt;/span&gt;&lt;span class="attribute-name"&gt; class&lt;/span&gt;=&lt;span class="attribute-value"&gt;"tablerowvalue"&lt;/span&gt;&gt;&lt;&lt;span class="start-tag"&gt;input&lt;/span&gt;&lt;span class="attribute-name"&gt; type&lt;/span&gt;=&lt;span class="attribute-value"&gt;"password" &lt;/span&gt;&lt;span class="attribute-name"&gt;id&lt;/span&gt;=&lt;span class="attribute-value"&gt;"new_pass2" &lt;/span&gt;&lt;span class="attribute-name"&gt;name&lt;/span&gt;=&lt;span class="attribute-value"&gt;"new_pass2" &lt;/span&gt;&lt;span class="attribute-name"&gt;value&lt;/span&gt;=&lt;span class="attribute-value"&gt;"avalon"  &lt;/span&gt;&lt;span class="attribute-name"&gt;size&lt;/span&gt;=&lt;span class="attribute-value"&gt;"32" &lt;/span&gt;&lt;span class="attribute-name"&gt;maxlength&lt;/span&gt;=&lt;span class="attribute-value"&gt;"128" &lt;/span&gt;&gt;
+td&lt;/span&gt;&gt;
+tr&lt;/span&gt;&gt;
+table&lt;/span&gt;&gt;
+div&lt;/span&gt;&gt;
+&lt;&lt;span class="start-tag"&gt;div&lt;/span&gt;&lt;span class="attribute-name"&gt; class&lt;/span&gt;=&lt;span class="attribute-value"&gt;"actionbuttons"&lt;/span&gt;&gt;&lt;&lt;span class="start-tag"&gt;input&lt;/span&gt;&lt;span class="attribute-name"&gt; type&lt;/span&gt;=&lt;span class="attribute-value"&gt;"hidden" &lt;/span&gt;&lt;span class="attribute-name"&gt;id&lt;/span&gt;=&lt;span class="attribute-value"&gt;"id" &lt;/span&gt;&lt;span class="attribute-name"&gt;name&lt;/span&gt;=&lt;span class="attribute-value"&gt;"id" &lt;/span&gt;&lt;span class="attribute-name"&gt;value&lt;/span&gt;=&lt;span class="attribute-value"&gt;"3" &lt;/span&gt;&gt;
+
+&lt;&lt;span class="start-tag"&gt;input&lt;/span&gt;&lt;span class="error"&gt;&lt;span class="attribute-name"&gt; " &lt;/span&gt;&lt;/span&gt;&lt;span class="attribute-name"&gt;name&lt;/span&gt;=&lt;span class="attribute-value"&gt;"cmd提交" &lt;/span&gt;&lt;span class="attribute-name"&gt;id&lt;/span&gt;=&lt;span class="attribute-value"&gt;"cmd提交" &lt;/span&gt;&lt;span class="attribute-name"&gt;value&lt;/span&gt;=&lt;span class="attribute-value"&gt;"提交" &lt;/span&gt;&lt;span class="attribute-name"&gt;type&lt;/span&gt;=&lt;span class="attribute-value"&gt;"submit" &lt;/span&gt;&lt;span class="attribute-name"&gt;onClick&lt;/span&gt;=&lt;span class="attribute-value"&gt;"document.frmChangePW.id.value ='3';"&lt;/span&gt;&gt;&amp;&lt;span class="entity"&gt;nbsp;&lt;/span&gt;&amp;&lt;span class="entity"&gt;nbsp;&lt;/span&gt;&amp;&lt;span class="entity"&gt;nbsp;&lt;/span&gt;&amp;&lt;span class="entity"&gt;nbsp;&lt;/span&gt;
+&lt;&lt;span class="start-tag"&gt;input&lt;/span&gt;&lt;span class="attribute-name"&gt;  name&lt;/span&gt;=&lt;span class="attribute-value"&gt;"cmd取消" &lt;/span&gt;&lt;span class="attribute-name"&gt;id&lt;/span&gt;=&lt;span class="attribute-value"&gt;"cmd取消" &lt;/span&gt;&lt;span class="attribute-name"&gt;value&lt;/span&gt;=&lt;span class="attribute-value"&gt;"取消" &lt;/span&gt;&lt;span class="attribute-name"&gt;type&lt;/span&gt;=&lt;span class="attribute-value"&gt;"button" &lt;/span&gt;&lt;span class="attribute-name"&gt;onClick&lt;/span&gt;=&lt;span class="attribute-value"&gt;"self.location.reload(true);"&lt;/span&gt;&gt;
+
+
+
+
+div&lt;/span&gt;&gt;
+body&lt;/span&gt;&gt;
+html&lt;/span&gt;&gt;
+</code></pre>
+</div>
+
+
+  </div>
+  
+  <div class="post">
+    <h2 class="post-title">
+      <a href="/2006/03/19/e4-bd-99-e5-85-89-e4-b8-ad-e3-80-88-e6-80-8e-e6-a8-a3-e6-94-b9-e9-80-b2-e8-8b-b1-e5-bc-8f-e4-b8-ad-e6-96-87-ef-bc-9f-e2-94-80-e2-94-80-e8-ab-96-e4-b8-ad-e6-96-87-e7-9a-84-e5-b8-b8-e6-85-8b-e8-88-87e/">
+        余光中〈怎樣改進英式中文？──論中文的常態與變態〉
+      </a>
+    </h2>
+
+    <span class="post-date">20 Mar 2006</span>
+
+    <p>余光中〈怎樣改進英式中文？──論中文的常態與變態〉
+    輯自《明報月刊》(1987年10月號)</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&lt;!-- more --&gt; 1
+自五四新文化運動以來，七十年間，中文的變化極大。一方面，優秀的作家與學者
+筆下的白話文愈寫愈成熟，無論表情達意或是分析事理，都能運用自如。另一方面，道
+地的中文，包括文言文與民間文學的白話文，和我們的關係日漸生疏，而英文的影響，
+無論來自直接的學習或是間接的潛移默化，則日漸顯著，因此一般人筆下的白話文，西
+化的病態日漸嚴重。一般人從大眾傳媒學到的，不僅是流行的觀念，還有那些觀念賴以
+包裝的種種說法；有時，那些說法連高明之士也抗拒不了。今日的中文雖因地區不同而
+互見差異，但共同的趨勢都是繁瑣與生硬，例如中文本來是說「因此」，現在不少人卻
+愛說「基於這個原因」；本來是說「問題很多」，現在不少人卻愛說「有很多問題存
+在」。對於這種化簡為繁、以拙代巧的趨勢，有心人如果不及時提出警告，我們的中文
+勢必越變越差，而道地中文原有的那種美德，那種簡潔而又靈活的語文生態，也必將面
+目全非。
+
+中文也有生態嗎？當然有。措詞簡潔、句式靈活、聲調鏗鏘，這些都是中文生命的
+常態。能順著這樣的生態，就能長保中文的健康。要是處處違拗這樣的生態，久而久
+之，中文就會污染而淤塞，危機日漸迫近。
+
+目前中文的一大危機，是西化。我自己出身外文系，三十多歲時有志於中文創新的
+試驗，自問並非語文的保守派。大凡有志於中文創作的人，都不會認為善用四字成語就
+是創作的能事。反之，寫文章而處處仰賴成語，等於只會用古人的腦來想，只會用古人
+的嘴來說，絕非豪傑之士。但是，再反過來說，寫文章而不會使用成語，問題就更大
+了。寫一篇完全不帶成語的文章，不見得不可能，但是很不容易；這樣的文章要寫得
+好，就更難能可貴。目前的情形是，許多人寫中文，已經不會用成語，至少會用的成語
+有限，顯得捉襟見肘。一般香港學生目前只會說「總的來說」，卻似乎忘了「總而言
+之」。同樣地，大概也不會說「一言難盡」，只會說「不是一句話就能夠說得清楚
+的」。
+
+成語歷千百年而猶存，成為文化的一部分。例如「千錘百鍊」，字義對稱，平仄協
+調，如果一定要說成「千鍊百錘」，當然也可以，不過聽來不順，不像「千錘百鍊」那
+樣含有美學。同樣，「朝秦暮楚」、「齊大非偶」、「樂不思蜀」等語之中，都含有中
+國的歷史。成語的衰退正顯示文言的淡忘，文化意識的萎縮。
+
+英文沒有學好，中文卻學壞了，或者可說，帶壞了。中文西化，不一定就是毛病。
+緩慢而適度的西化甚至是難以避免的趨勢，高妙的西化更可以截長補短。但是太快太強
+的西化，破壞了中文的自然生態，就成了惡性西化。這種危機，有心人都應該及時警覺
+而且努力抵制。在歐洲的語文裏面，文法比較單純的英文恐怕是最近於中文的了。儘管
+如此，英文與中文仍有許多基本的差異，無法十分融洽。這一點，凡有中英文互譯經驗
+的人，想必都能同意。其實，研究翻譯就等於研究比較語言學。以下擬就中英文之間的
+差異，略略分析中文西化之病。
+2
+比起中文來，英文不但富於抽象名詞，也喜歡用抽象名詞。英文可以說「他的收入
+的減少改變了他的生活方式」，中文這麼說，就太西化了。英文用抽象名詞「減少」做
+主詞，十分自然。中文的說法是以具體名詞，尤其是人，做主詞：「他因為收入減少而
+改變生活方式」，或者「他收入減少，乃改變生活方式」。
+
+中文常用一件事情 (一個短句) 做主詞，英文則常用一個名詞 (或名詞片語)。
+「橫貫公路再度坍方，是今日的頭條新聞」，是中文的說法。「橫貫公路的再度坍方，
+是今日的頭條新聞」，就是英文語法的流露了。同理，「選購書籍，只好委託你了」是
+中文語法。「書籍的選購，只好委託你了」卻是略帶西化。「推行國語，要靠大家努
+力」是自然的說法。「推行的國語，要靠大家的努力」卻嫌冗贅。這種情形也可見於受
+詞。例如「他們杯葛這種風俗的繼續」，便是一句可怕的話。無論如何，「杯葛繼續」
+總嫌生硬。如果改成「他們反對保存這種風俗」，就自然多了。
+
+英文好用抽象名詞，其結果是軟化了動詞，也可以說是架空了動詞。科學、社會科
+學與公文的用語，大舉侵入了日常生活，逼得許多明確而有力動詞漸漸變質，成為面無
+表情的片語。下面是幾個常見的例子：
+
+apply pressure: press
+give authorization: permit
+send a communication: write
+take appropriate action: act
+
+在前例之中，簡潔的單音節動詞都變成了含有抽象名詞的片詞，表面上看來，顯得比較
+堂皇而高級。例如 press 變成了 apply pressure，動作便一分為二，一半馴化為靜止
+的抽象名詞 pressure，一半淡化為廣泛而籠統的動詞 apply。巴仁 (Jacques Barzun)
+與屈林 (Lionel Trilling) 等學者把這類廣泛的動詞叫做「弱動詞」(weak verb)。他
+們說：「科學報告不免單調而冷淡，影響之餘，現代的文體喜歡把思路分解成一串靜止
+的概念，用介詞和通常是被動語氣的弱動詞連接起來。」
+
+巴仁所謂的弱動詞，相當於英國小說家歐威爾所謂的「文字的義肢」(verbal
+false limb) 。當代的中文也已呈現這種病態，喜歡把簡單明瞭的動詞分解成「萬能動
+詞+抽象名詞」的片詞。目前最流行的萬能動詞，是「作出」和「進行」，惡勢力之
+大，幾乎要吃掉一半的正規動詞。請看下面的例子：
+
+(一) 本校的校友對社會作出了重大的貢獻。
+(二) 昨晚的聽眾對訪問教授作出了十分熱烈的反應。
+(三) 我們對國際貿易的問題已經進行了詳細的研究。
+(四) 心理學家在老鼠的身上進行試驗。
+
+不管是直接或間接的影響，這樣的語法都是日漸西化的現象，因為中文原有的動詞都分
+解成上述的繁瑣片語了。前面的四句話本來可以分別說成
+
+(一) 本校的校友對社會貢獻很大。
+(二) 昨晚的聽眾對訪問教授反應十分熱烈。
+(三) 我們對國際貿易的問題已經詳加研究。
+(四) 心理學家用老鼠來做試驗。(或：心理學家用老鼠試驗。)
+
+巴仁等學者感概現代英文喜歡化簡為繁、化動為靜、化具體為抽象、化直接為迂
+迴，到了「名詞成災」(noun-plague) 的地步。學問分工日細，各種學科的行話術語，
+尤其是科學與社會科學的「夾槓」，經過本行使用，外行借用，加上「新聞體」
+(journalese) 的傳播，一方面固然使現代英文顯得多彩多姿，另一方面卻也造成混
+亂，使日常用語斑駁不堪。英國詩人格雷夫斯 (Robert Graves, 1895-1986) 在短詩
+(耕田) (Tilth) 裏批評這現象說：
+
+Gone are the sad monosyllabic days
+When "agricultural labour"still was tilth；
+And "00% approbation", praise;
+And "pornographic modernism", filth-
+And still I stand by tilth and filth and praise.
+
+「名詞成災」的流行病裏，災情最嚴重的該是所謂「科學至上」(scientism)。在
+現代的工業社會裏，科學早成顯貴，科技更是驕子，所以知識分子的口頭與筆下，有意
+無意，總愛用一些「學術化」的抽象名詞，好顯得客觀而精確。有人稱之為「偽術語」
+(pseudo-jargon)。例如：明明是 firstst step，卻要說成 initial phase：明明是
+letter，卻要說成 communication，都屬此類。
+
+中文也是如此。本來可以說「名氣」，卻憑空造出一個「知名度」來，不說「很有
+名」，卻要迂迴作態，貌若高雅，說成「具有很高的知名度」，真是酸腐可笑。另一個
+偽術語是「可讀性」，同樣活躍於書評和出版廣告。明明可以說「這本傳記很動人」，
+「這本傳記引人入勝」，或者乾脆說「這本傳記很好看」，卻要說成「這本傳記的可讀
+性頗高」。我不明白這字眼怎麼來的，因為這觀念在英文裏也只用形容詞 readable而
+不用抽象名詞 readability。英文會說：The biography is highly readable，卻不說
+The biography has high readability。此風在臺灣日漸囂張。在電視上，記者早已在
+說「昨晚的演奏頗具可聽性」。在書評裏，也已見過這樣的句子：「傳統寫實作品只要
+寫得好，豈不比一篇急躁的實驗小說更具可看性？」
+
+我實在不懂那位書評家以不能說「豈不比一篇……更耐看 (更動人)？」同理，
+「更具前瞻性」難道真比「更有遠見」要高雅嗎？長此以往，豈不要出現「他講的這件
+趣事可笑性很高」一類的怪句？此外，「某某主義」之類抽象名詞也使用過度，英美有
+心人士都主張少用為妙。中國大陸文章很愛說「富於愛國主義的精神」，其實頗有語
+病。愛國只是單純的情感，何必學術化為主義？如果愛國也成主義，我們不是也可以說
+「親日主義」、「仇美主義」、「懷鄉主義」？其次，主義也就是一種精神，不必重
+複，所以只要說「富於愛國精神」就夠了。
+名詞而分單數與複數，是歐語文的慣例。英文文法的複數變化，比起其他歐洲語文
+來，單純得多。請看「玫瑰都很嬌小」這句話在英文、法文、德文、西班牙文、義大利
+文裏的各種說法：
+
+The roses are small.
+Les roses sont petites.
+Die Rosen sind klein.
+Las rosas son chiquitas.
+Le rose sono piccole.
+每句話都是四個字，次序完全一樣，都是冠詞、名詞、動詞、形容詞。英文句裏，只有
+動詞跟著名詞變化，其他二字則不分單、複數。德文句裏，只有形容詞不變。法文、西
+班牙文、義大利文的三句裏，因為做主詞的名詞是複數，其他的字全跟著變化。
+幸而中文的名詞沒有複數的變化，也不區分性別，否則將不勝其繁瑣。舊小說的對
+話裏確有「爺們」、「娘們」、「ㄚ頭們」等複數詞，但是在敘述的部分，仍用「諸姐
+妹」、「眾ㄚ鬟」。中文要表多數的時候，也會說「民眾」、「徒眾」、「觀眾」、
+「聽眾」，所以「眾」也有點「們」的作用。但是「眾」也好，「們」也好，在中文裏
+並非處處需要複數語尾。往往，我們說「文武百官」，不說「官們」，也不說「文官
+們」、「武官們」。同理「全國的同胞」、「全校的師生」、「所有的顧客」、「一切
+乘客」當然是複數，不必再畫蛇添足，加以標明。不少國人惑於西化的意識，常愛這麼
+添足，於是「人們」取代原有的「人人」、「大家」、「大眾」、「眾人」、「世
+人」。「人們」實在是醜陃的西化詞，林語堂絕不使用，希望大家也不要使用。電視上
+也有人說「民眾們」、「聽眾們」、「球員們」，實在累贅。尤其「眾、們」並用，已
+經不通。
+
+中文詞不分數量，有時也會陷入困境。例如「一位觀眾」顯然不通，但是「觀眾之
+一」卻嫌累贅，也欠自然。「一位觀者」畢竟不像「一位讀者」那麼現成，所以，「一
+位觀眾來信說……」之類的句子，也只好由它去了。
+可是「……之一」的氾濫，卻不容忽視。「……之一」雖然是單數，但是背景的意
+識卻是多數。和其他歐洲語文一樣，英文也愛說 one of my favorite actresses, one
+of those who believe……, one of the most active promoters。中文原無「……之
+一」的句法，現在我們說「觀眾之一」實在是不得已。至於這樣的句子：
+
+劉伶是竹林七賢之一。
+作為竹林七賢之一的劉伶……
+
+目前已經非常流行。前一句雖然西化，但不算冗贅。後一句卻惡性西化的畸嬰，不但
+「作為」二字純然多餘，「之一的」也文白來雜，讀來破碎，把主詞「劉伶」壓在底
+下，更是扭捏作態。其實，後一句的意思跟前一句完全一樣，卻把英文的語法 as one
+of the Seven Worthies of Bamboo Grove, Liu Ling……生吞活剝地搬到中文裏來。
+所以，與其說「作為竹林七賢之一的劉伶以嗜酒聞名」，何不平平實實地說「劉伶是竹
+林七賢之一，以嗜酒聞名」？其實前一句也儘有辦法不說「之一」。中文本來可以說
+「劉伶乃竹林七賢之同儕」；「劉伶列於竹林七賢」；「劉伶躋身竹林七賢」；「劉伶
+是竹林七賢的同人」。
+
+「竹林七賢之一」也好，「文房四寶之一」也好，情況都不嚴重，因為七和四範圍
+明確，同時邏輯上也不能逕說「劉伶是竹林七賢」，「硯乃文房四寶」。目前的不良趨
+勢，是下列這樣的句子：
+
+紅樓夢是中國文學的名著之一。
+李廣乃漢朝名將之一。
+
+兩句之中。「之一」都是蛇足。世間萬事萬物都有其同儔同類，每次提到其一，都要照
+顧到其他，也未免太周到了。中國文學名著當然不止一部，漢朝名將當然也不會祇有一
+人，不加上這死心眼的「之一」，絕對沒有人會誤會你孤陋寡聞，或者掛一漏萬。一旦
+養成了這種惡習，只怕筆下的句子都要寫成「小張是我的好朋太之一」，「我不過是您
+的平庸的學生之一」，「他的嗜好之一是收集茶壼」了。
+
+「之一」之病到了香港，更變本加厲，成為「其中之一」。在香港的報刊上，早已
+流行「我是聽王家的兄弟其中之一說的」或者「大衛連一直以來都是我最喜歡的導演其
+中之一」這類怪句。英文複數觀念為害中文之深，由此可見。
+
+這就說到「最……之一」的語法來了。英文最喜歡說「他是當代最偉大的思想家之
+一」，好像真是精確極了，其實未必。「最偉大的」是抬到至高，「之一」卻稍加低
+抑，結果只是抬高，並未真正抬到至高。你並不知道「最偉大的思想家」究竟是幾位，
+四位嗎，還是七位，所以彈性頗大。兜了一個大圈子回來，並無多大不同。所以，只要
+說「他是一個大名人」或「他是赫赫有名的人物」就夠了，不必迂而迴之，說什麼「他
+是最有名氣的人物之一」吧。
+3
+在英文裏，詞性相同的字眼常用and來連接：例如 man and wife, you and I,
+back and forth。但在中文裏，類似的場合往往不用連接詞，所以只要說「夫妻」、
+「你我」、「前後」就夠了。同樣地，一長串同類詞在中文裏，也任其並列，無須連接
+：例如「東南西北」、「金木水火土」、「禮樂射御書數」、「柴米油鹽醬醋茶」皆
+是。中國人絕不說「開門七件事，柴、米、油、鹽、醬、醋以及茶。」誰要這麼說，一
+定會惹笑。同理，中文只說「思前想後」、「說古道今」。可是近來and的意識已經潛
+入中文，到處作怪。港報上有過這樣的句子：
+
+在政治民主化與經濟自由化的發展道路，臺北顯然比北京起步更早及
+邁步更快，致在政經體制改革的觀念、行動、範圍及對象，更為深廣更
+具實質……
+
+這樣的文筆實在不很暢順，例如前半句中，當做連接詞的「與」、「及」都不必要。
+「與」還可以說不必要，「及」簡直就要不得。後半句的「更為深廣更具實質」才像中
+文，「起步更早及邁步更快」簡直是英文。「及」字破壞了中文生態，因為中文沒有這
+種用法。此地一定要用連接詞的話，也只能用「而」，不可用「及」。正如 slow but
+sure在中文裏該說「慢而可靠」或者「緩慢而有把握」，卻不可說「慢及可靠」或者
+「緩慢與有把握」。「而」之為連接詞，不但可表更進一步，例如「學而時習之」，還
+可表後退或修正，例如「國風好色而不淫，小雅怨誹而不亂」，可謂兼有and與but之功
+用。
+
+目前的不良趨勢，是原來不用連接詞的地方，在 and 意識的教唆下，都裝上了連
+接詞；而所謂連接詞都由「和」、「與」、「及」、「以及」包辦，可是靈活而宛轉的
+「而」、「並」、「而且」等詞，幾乎要絕跡了。
+(※英：但也不要不當而而而！）
+
+4
+介詞在英文裏的用途遠比中文裏重要，簡直成了英文的潤滑劑。英文的不及物動詞加
+上介詞，往往變成了及物動詞，例如 look after, take in皆是。介詞片語
+(prepositional phrase) 又可當作形容詞或助詞使用，例如 a friend in  need,
+said it in earnest。所以英文簡直離不了介詞。中文則不盡然。「揚州十日、嘉定三
+屠」兩個片語不用一個介詞，換了英文，非用不可。
+
+「歡迎王教授今天來到我們的中間，在有關環境污染的各種問題上，為我們作一次
+學術性的演講。」這樣不中不西的開場白，到處可以聽見。其實「中間」、「有關」等
+介詞，都是畫蛇添足。有一些聖經的中譯，牧師的傳道，不顧中文的生態，會說成「神
+在你的裏面」。意思懂，卻不像中文。
+「有關」、「關於」之類，大概是用得最濫的介詞了。「有關文革的種種，令人不
+能置信」；「今天我們討論有關臺灣交通的問題」；「關於他的申請，你看過了沒有
+？」在這句子裏，「有關」、「關於」完全多餘。最近我擔任「全國學生文學獎」評
+審，有一篇投稿的題目很長，叫「關於一個河堤孩子的成長故事」。十三個字裏，「關
+於」兩字毫無作用，「一個」與「故事」也可有可無。
+「關於」有幾個表兄弟，最出風的是「由於」。這字眼在當代中文裏，往往用得不
+妥：
+
+由於秦末天下大亂，(所以) 群雄四起。
+由於好奇心的驅使，我向窗內看了一眼。
+由於他的家境貧窮，使得他只好休學。
+
+英文在形式上重邏輯，喜歡交代事物物的因果關係。中文則不盡然。「清風徐來，水波
+不興」，其中當然有因果關係，但是中文只用上下文作不言之喻。換了是英文，恐怕會
+說「因為清風徐來，所以水波不興」，或者「清風徐來，而不興起水波」。上列的第一
+句，其實刪掉「由於」與「所以」，不但無損文意，反而可使文章乾淨。第二句的「由
+於好奇心的驅使」並沒有什麼大毛病 (註四)，可是有點囉嗦，更犯不著動用「驅使」
+一類的正式字眼。如果簡化為「出於好奇，我向窗內看了一眼」或者「為了好奇，我向
+窗內看了一眼」，就好多了。第三句的不通，犯者最多。「由於他的家境貧窮」這種片
+語，只能拿來修飾動詞，卻不能當做主詞。這一句如果刪掉「由於」，「使得」一類交
+代因果的冗詞，寫成「他家境貧窮，只好休學」，反覺眉清目秀。
+
+5
+英文的副詞形式對中文為害尚不顯著，但也已經開始了。例如這樣的句子：
+
+他苦心孤詣地想出一套好辦法來。
+老師苦口婆心地勸了他半天。
+大家苦中作樂地竟然大唱其民謠。
+
+「苦」字開頭的三句成語，本來都是動詞，套上副詞語尾的「地」就降為副詞了。這麼
+一來，文章仍然清楚，文法上卻主客分明，太講從屬的關係，有點呆板。若把「地」一
+律刪去，代以逗點，不但可以擺脫這主客的關係，語氣也會靈活一些。
+
+有時這樣的西化副詞片語太長，例如「他知其不可為而為之地還是去赴了約」，就
+更應把「地」刪掉，代之以逗點，使句法鬆鬆筋骨。目前最濫的副詞是「成功地」。有
+一次我不該為入學試出了這麼一個作文題目：〈國父誕辰的感想〉，結果十個考生裏至
+少有六個都說：「國父孫中山先生成功地推翻了滿清。」這副詞「成功地」在此毫無意
+義，因為既然推而翻之，就是成功了，何待重複。同理，「成功地發明了相對論」、
+「成功地泳渡了直布羅陀海峽」也都是饒舌之說。天下萬事，凡做到的都要加上「成功
+地」，豈不累人？
+
+6
+白話文一用到形容詞，似乎就離不開「的」，簡直無「的」不成句了。在白話文
+裏，這「的」字成了形容詞除不掉的尾巴，至少會出現在這些場合：
+
+好的，好的，我就來。是的，沒問題。
+快來看這壯麗的落日！
+你的筆乾了，先用我的筆吧。
+也像西湖的有裏外湖一樣，麗芒分為大湖小湖兩部分。
+他當然是別有用心的。你不去是對的。
+
+喜歡用「的」或者無力拒「的」之人，也許還有更多的場合要偏勞這萬能「的」字。我
+說「偏勞」，因為在英文裏，形容詞常用的語尾有-tive, -able, -ical, -ous等多
+種，不像在中文裏全由「的」來擔任。英文句子裏常常連用幾個形容詞，但因語尾變化
+頗大，不會落入今日中文的公式。例如雪萊的句子：
+
+An old, mad, blind, despised, and dying king──
+
+一連五個形容詞，直譯過來，就成了：
+
+一位衰老的、瘋狂的、瞎眼的、被人蔑視的、垂死的君王──
+
+一碰到形容詞，就不假思索，交給「的」去組織，正是流行的白話文所以僵化的原因。
+白話文所以囉嗦而軟弱，虛字太多是一大原因，而用得最濫的虛字正是「的」。學會少
+用「的」字之道，恐怕是白話文作家的第一課吧。其實許多名作家在這方面都很隨便，
+且舉數例為證：
+
+(一) 月光是隔了樹照過來的，高處叢生的灌木，落下參差的斑駁的黑影， 峭楞
+楞如鬼一般；彎彎的楊柳的稀疏的倩影，卻又像是畫在荷葉上。
+
+(二) 最後的鴿群……也許是誤認這灰暗的淒冷的天空為夜色的來襲，或是 也預
+感到風雨的將至，遂過早地飛回它們溫暖的木舍。
+
+(三) 白色的鴨也似有一點煩躁了，有不潔的顏色的都市的河溝裏傳出它們焦 急
+的叫聲。
+
+第一句的「參差的斑駁的黑影」和「彎彎的楊柳的稀疏的倩影」，都是單調而生硬的重
+疊。用這麼多「的」，真有必要嗎？為什麼不能說「參差而斑駁」呢？後面半句的原意
+本是「彎彎的楊柳投下稀疏的倩影」，卻不分層次，連用三個「的」，讀者很自然會分
+成「彎彎的、楊柳的、稀疏的、倩影」。第二句至少可以省掉三個「的」。就是把「灰
+暗的淒冷的天空」改成「灰暗而淒冷的天空」，再把「夜色的來襲」和「風雨的將至」
+改成「夜色來襲」、「風雨將至」。前文說過，中文好用短句，英文好用名詞，尤其是
+抽象名詞。「夜色來襲」何等有力，「夜色的來襲」就鬆軟下來了。最差的該是第三句
+了。「白色的鴨」跟「白鴨」有什麼不同呢？「有不潔的顏色的都市的河溝」，亂用
+「的」字，最是惑人。此句原意應是「顏色不潔的都市河溝」(本可簡化為)「都市的髒
+河溝」，但讀者同樣會念成「有不潔的、顏色的、都市的、河溝」。
+
+目前的形容詞又有了新的花樣，那便是用學術面貌的抽象名詞來打扮。再舉數例為
+證：
+這是難度很高的技巧。
+他不愧為熱情型的人。
+太專業性的字眼恐怕查不到吧。
+
+「難度很高的」是什麼鬼話呢？原意不就是「很難的」嗎？同理，「熱情型的人」就是
+「熱情的人」；「太專業性的字眼」就是「太專門的字眼」。到抽象名詞裏去兜了一圈
+回來，門面像是堂皇了，內容仍是空洞的。
+
+形容詞或修飾語 (modifier) 可以放在名詞之前，謂之前飾，也可以跟在名詞之
+後，謂之後飾。法文往往後飾，例如紀德的作品 La Symphonie pastorale與 Les
+Nourritures terrestres，形容詞都跟在名詞之後；若譯成英文，例如 The Pastoral
+Symphony，便是前飾了。中文譯為「田園交響樂」，也是前飾。
+
+英文的形容詞照例是前飾，例如前引雪萊的詩句，但有時也可以後飾，例如雪萊的
+另一詩句：One too like thee--tameless, and swift, and proud 。至於形容詞片或
+子句，則往往後飾，例如：man of action, I saw a man who looked like your
+brother。（※英：此例極佳，請注意！）
+
+目前的白話文，不知何故，幾乎一律前飾，似乎不懂後飾之道。例如前引的英文
+句，若用中文來說，一般人會不假思索說成：「我見到一個長得像你兄弟的男人。」卻
+很少人會說：「我見到一個男人，長得像你兄弟。」如果句短，前飾也無所謂。如果句
+長，前飾就太生硬了。例如下面這句：「我見到一個長得像你兄弟說話也有點像他的陌
+生男人。」就冗長得尾大不掉了。要是改為後飾，就自然得多：「我見到一個陌生男
+人，長得像你兄弟，說話也有點像他。」其實文言文的句子往往是後飾的，例如司馬遷
+寫項羽與李廣的這兩句：
+
+籍長八尺餘，力能扛鼎，才氣過人。
+廣為人長，猿臂，其善射亦天性也。
+
+這兩句在當代白話文裏，很可能變成：
+
+項籍是一個身高八尺，力能扛鼎，同時才氣過人的漢子。
+李廣是一個高個子，手臂長得好像猿臂，天性就會射箭的人。
+
+後飾句可以一路加下去，雖長而不失自然，富於彈性。前飾句以名詞壓底，一長了，就
+顯得累贅，緊張，不勝負擔。所以前飾句是關閉句，後飾句是開放句。
+
+7
+動詞是英文文法的是非之地，多少糾紛，都是動詞惹出來的。英文時態的變化，比
+起其他歐洲語文來，畢竟單純得多。若是西班牙文，一個動詞就會變出七十八種時態。
+中文的名詞不分單複與陰陽，動詞也不變時態，不知省了多少麻煩。(阿房宮賦) 的句
+子：「秦人不暇自哀，而後人哀之。後人哀之而不鑑之，亦使後人而復哀後人也。」就
+這麼一個「哀」字，若用西文來說，真不知要玩出多少花樣來。
+
+中文本無時態變化，所以在這方面幸而免於西化。中國文化這麼精妙，中文當然不
+會拙於分別時間之先後。散文裏說：「人之將死，其言也善」；「議論未定，而兵已渡
+河。」詩裏說：「已涼天氣未寒時」。這裏面的時態夠清楚的了。蘇軾的七絕：「荷盡
+已無擎雨蓋，菊殘猶有傲霜枝。一年好景君須記，最是橙黃橘綠時。」裏面的時序，有
+已逝，有將逝，更有正在發生，區別得準確而精細。
+
+中文的動詞既然不便西化，一般人最多也只能寫出「我們將要開始比賽了」之類的
+句子，問題並不嚴重。動詞西化的危機另有兩端：一是單純動詞分解為「弱動詞+抽象
+名詞」的複合動詞，前文已經說過。不說「一架客機失事，死了九十八人」，卻說「一
+架客機失事，造成九十八人死亡」，實在是迂迴作態。
+另一端是採用被動詞語氣。凡是及物動詞，莫不發於施者而及於受者。所以用及物
+動詞敘述一件事，不出下列三種方式：
+
+(一) 哥倫布發現了新大陸。
+(二) 新大陸被哥倫布發現了。
+(三) 新大陸被發現了。
+
+第一句施者做主詞，乃主動語氣。第二句受者做主詞，乃被動語氣。第三句仍是受者做
+主詞，仍是被動，卻不見施者。這三種句子在英文裏都很普遍，但在中文裏卻以第一種
+最常見，第二、第三種就少得多。第三種在中文裏常變成主動語氣，例如「糖都吃光
+了」，「戲看完了」，「稿寫了一半」，「錢已經用了」。
+目前西化的趨勢，是在原來可以用主動語氣的場合改用被動語氣。請看下列的例句
+：
+
+(一) 我不會被你這句話嚇倒。
+(二) 他被懷疑偷東西。
+(三) 他這意見不被人們接受。
+(四) 他被升為營長。
+(五) 他不被准許入學。
+
+這些話都失之生硬，違反了中文的生態。其實，我們儘可還原為主動語氣如下：
+
+(一) 你這句話嚇不倒我。
+(二) 他有偷東西的嫌疑。
+(三) 他這意見大家都不接受。
+(四) 他升為營長。
+(五) 他未獲准入學。
+
+同樣，「他被選為議長」不如「他當選為議長」。「他被指出許多錯誤」也不如「有人
+指出他許多錯誤」。「他常被詢及該案的真相」也不如「常有人問起他該案的真相」。
+
+目前中文的被動語氣有兩個毛病。一個是用生硬的被動語氣來取代自然的主動語
+氣。另一個是千篇一律只會用「被」字，似乎因為它發音近於英文的 by，卻不解從
+「受難」到「遇害」，從「挨打」到「遭殃」，從「輕人指點」到「為世所重」，可用
+的字還有許多，不必套一個公式。
+
+8
+中文的西化有重有輕，有暗有明，但其範圍愈益擴大，其現象愈益昭彰，頗有加速
+之勢。以上僅就名詞、連接詞、介詞、副詞、形容詞、動詞等西化之病稍加分析，希望
+讀者能舉一反三，知所防範。
+
+常有樂觀的人士說，語言是活的，有如河流，不能阻其前進，所謂西化乃必然趨
+勢。語言誠然是活的，但應該活得健康，不應帶病延年。至於河流的比喻，也不能忘了
+兩岸，否則氾濫也會成災。西化的趨勢當然也無可避免，但不宜太快、太甚，應該截長
+補短，而非以短害長。
+
+頗有前衛作家不以杞人之憂為然，認為堅持中文的常規，會妨礙作家的創新。這句
+話我十分同情，因為我也是「過來人」了。「語法豈為我輩而設哉！」詩人本有越界的
+自由。我在本文強調中文的生態，原為一般寫作說法，無意規範文學的創作。前衛作家
+大可放心去追逐繆思，不用礙手礙腳，作語法之奴。
+
+不過有一點不可不知。中文發展了好幾千年，從清通到高妙，自有千錘百鍊的一套
+常態。誰要是不知常態為何物而貿然自詡為求變，其結果也許只是獻拙，而非生巧。變
+化之妙，要有常態襯托才顯得出來。一旦常態不存，餘下的只是亂，不是變了。
+</code></pre>
+</div>
+
+  </div>
+  
+  <div class="post">
+    <h2 class="post-title">
+      <a href="/2006/03/18/keroro-101/">
+        keroro tv list
+      </a>
+    </h2>
+
+    <span class="post-date">18 Mar 2006</span>
+
+    <h1 id="軍曹keroro-tv">軍曹\keroro TV\</h1>
+
+<p>001 在下乃 Keroro 軍曹 + Keroro 立於大地之上
+002 桃華 &amp; Tamama 出擊 + 桃華 &amp; Tamama 日向家登陸
+003 Keroro 突破危險臨點界 + Keroro 絕秘任務開始
+004 Giroro 宇宙最危險的男人 + Keroro 下雨是危險男人
+005 深愛玩具的男人們之歌前、後篇</p>
+
+<!-- more -->
+<p>006 桃華  Love Love 南海大作戰 + 桃華 靈異南海大作戰
+007 摩亞 初次的地球破壞 + Tamama 對摩亞 結果Tamama敗北
+008 Keroro 侵略作戰形勢大好 + Keroro 錯誤百出的基地建造
+009 夏美 邁向戀愛之路 Kululu  + 日向秋 爆炸性的女人
+010 決戰！第三大臼齒前、後篇
+011 Keroro小隊 上電視前、後篇
+012 Sumomo 偶像要穿越宇宙 + Giroro 戰場上的小天使
+013 Dororo 被遺忘的戰士 + Dororo 和 小雪 友情是美好的嗎
+014 五人結集！可能是史上最大的作戰前、後篇
+015 桃華 裡桃華 登埸 + 另一個桃華 計中計
+016 摩亞 裡摩亞 登埸 + 摩亞 摩亞摩亞大混亂
+017 Keroro Vs 夏美 水中大決戰 + 冬樹 歡迎來到恐怖世界
+018 夏美 爆笑！大人的海岸故事前、後篇
+019 Keroro Vs 夏美 節日大決戰 + Keroro 讓侵略廣播傳入你耳朵
+020 冬樹 Meet A Girl + 冬樹 農特露瑪的使者
+021 Keroro 侵略也要節能 + Keroro 向鄉下進軍
+022 Tamama 從今天起我是隊長前、後篇
+023 Panic！日向家最喧鬧的一天前、後篇
+024 Keroro 正義和貧窮的偵探 + 556 特輯就職最前線
+025 桃華 愛 青春 與混亂的逃亡前、後篇
+026 Keroro 團結一致 入侵運動日前、後篇
+027 Keroro 來了老爸 青蛙老爸 + Keroro 溫泉 Go！Go！Go！
+028 Keroro 雪戰生存演習 + Kululu kukuku的ku
+029 夏美 &amp; 小雪 舞台上的青春 + Keroro 新聞是Ng
+030 Tamama K隆星來的少年 + 桃華 目標是豐滿的身材
+031 Keroro 想要回家 卻回不了前、後篇
+032 Keroro 動物隊員大集合 + Giroro 貓咪想說話
+033 Keroro小隊 用動畫侵略藍星前、後篇
+034 桃華 Vs 小雪 溫泉爭奪戰 + Keroro &amp; 冬樹 一起出遊
+035 極秘！夏美生日大作戰前、後篇
+036 Keroro 死鬥！軍曹 Vs 冬將軍 + 冬樹 就那麼回事啦 西澤
+037 Dororo 來忍者教室 + Keroro的恐龍
+038 Giroro 愛的機動步兵 + Giroro 對夏美 相遇
+039 Keroro 聖誕節大作戰 + Keroro 年終大掃除
+040 摩亞 就是說 謹賀新年 + Keroro 過節也不錯 可是還有作業
+041 Keroro 雙六攻略戰 + Dororo 揮灑熱血吧
+042 Keroro 熱血的Keroro小隊 + Tamama 友情的嫉妒踢
+043 Giroro 紅鬼不哭 + Giroro 飛躍節分
+044 Keroro Vs 冬樹 體術激鬥 + Kululu Vs 秋 侵略機器人爆鬥
+045 keroro 愛的Ikinari糰子 + 夏美 &amp; 桃華 發動V作戰
+046 Keroro 你被遺忘了嗎？前、後篇
+047 夏美 保護女孩節 + Keroro 爆炸頭音顫
+048 Keroro小隊 春天的煥發精神大作戰 + 冬樹 發懶行動救出作戰
+049 Kululu 在宇宙裡順利工作的方法 + 桃華 白色情人節顛峰作戰
+050 夏美 高熱的地球戰士 + Giroro 我不做誰做？
+051 Keroro 小隊撤退！別了藍星前、後篇
+052 Keroro 再次來到大地之上 + Tamama 暗黑Tamama
+053 Keroro 寶物侵略大作戰 + 安格爾‧摩亞 賞花的摩亞
+054 冬樹 我是名偵探 + Dororo 復活的戰士
+055 Giroro 甦醒的戰士 + 冬樹 游吧鯉魚旗
+056 夏美和小雪 網球公主 + Keroro 侵略中的一絲曙光
+057 Dororo 逆襲有我 + Keroro 巨蛙對南海大怪獸
+058 Keroro 自助販賣機侵略 + Tamama 醒覺！新必殺技
+059 Keroro 培養城 + Keroro 的移動城
+060 Keroro  KeroKero機械猛道 + 摩亞 睡美人 就是說 想睡覺？
+061 冬樹 神祕的轉校少女發生了什麼？ + 夏美 和 三郎 回不去的2人
+062 桃華&amp;夏美&amp;摩亞 More Peach Summer + Keroro 必勝！ 水中大決戰
+063 Keroro 教師GeroGero的故事 + Keroro 再見、父親哦
+064 Keroro 再吸就吸！還是別說謊為好 + dororo 從心靈創傷裏解脫
+065 Keroro 向藍星怒吼 + Tamama K隆星來的訪問者
+066 Giroro 拯救愛的大作戰 + 夏美和小雪 心跳的初次約見
+067 冬樹和桃華 秘密的靈異探險約見 + Keroro 喂 來製作遊戲吧
+068 Keroro 大改造！ 翻新就要有戲劇性 + Dororo 去吧！宿命對決
+069 夏美和冬樹的神隱 + Keroro 憤例！盛夏的微笑對抗
+070 K隆星人對地球人 終於要全面對決了麼 + 小雪 緊張的初捏飯團
+071 極惡！ 麻煩！ 宇宙忘記作業大王傳說前、後篇
+072 Keroro 鐵人廚師的挑戰書 + Tamama 最強戰士的挑戰書
+073 冬樹 198X‧我們的暑假前、後篇
+074 GeroGero 30分鐘
+075 桃華 覺醒！ 第三個桃華前、後篇
+076 Keroro小隊 帶我去月亮吧前、後篇
+077 恭喜你 Tamama二等 要幸福啊 + Tamama 封印Tamama衝擊波
+078 Keroro 找寶還是要到寶島找前、後篇
+079 冬樹 不放棄運動日 + Giroro 貓咪知道
+080 Keroro 唉！離家出走還真是寂寞啊前、後篇
+081 Giroro 真紅的忍耐之日 + 戰鬥的小雪 為了守護重要的人
+082 623 來上我的節目吧 + Keroro Vs 夏美 1∕6認真對決！
+083 Keroro 露天混浴溫泉殺人事件 + Kululu 討厭到底的傢伙
+084 桃華 去宇宙吃午餐吧 +  Keroro 尋找松茸！
+085 Keroro 一轉就換 + 夏美 變成魔法少女的話
+086 夏美＆冬樹 住在日向家的惡魔 + Keroro 變成超級英雄
+087 Keroro 慶祝！生日快樂 + 摩亞 不可思議國的摩亞
+088 DASONUMASO 藍星歸我了！老實說 我也不想要前、後篇
+089 Giroro 7面男人 + 冬樹 沸騰吧！神秘現象大賽
+090 Keroro 說不出聖誕快樂前、後篇
+091 Keroro 新年‧新生Keroro誕生 + 小雪 外婆來了
+092 Keroro小隊 向天空傾註愛 + 桃華對摩亞 激戰羽毛鍵對抗
+093 夏美 侵入秘密基地 + 日向 秋 可能是宇宙最強的女人
+094 karara &amp; Taruru 藍星歸我們了！
+095 夏美 和 Giroro 分開？拚命的解救作戰
+096 More Peach Summer Snow 之決戰情人節 + Keroro世上也有不幸的故事
+097 桃華 寫成強敵卻念成朋友 + keroro和冬樹 兩個人
+098 桃華 私奔大作戰 + Dororo和小雪 相遇時的記憶
+099 夏美 名犬小夏 + keroro 頑皮K隆派
+100 keroro 唉？我是誰？你們是誰？
+101 Keroro小隊 藍星靜止之日！?
+102 keroro小隊 藍星！！走向滅亡的愛之星啊！！
+103 keroro小隊 恢復你的真心
+104 Keroro 告別可愛的Keroro！+ Keroro 數向滅亡的倒數計時
+105 Keroro 新裝開店微笑服務 + 桃華 觀櫻花Love Love大亂戰
+106 冬樹和夏美 擅自侵入者 + Giroro 趣味的時間
+107 夏美恐怖的身體檢查 + 夏美和冬樹 姊弟大戰
+108 Tamama 獨占！大人的時間 + 冬樹＆桃華 Dr.Kululu之島
+109 Keroro 媽媽大人療養大作戰 + Dororo 沈默的暴走銀河特快
+110 Keroro 有些不可思議的特效藥 + Keroro 條條大路通楊桃
+111 小雪 忍者派的睡衣晚會 + 夏美 突如其來的家庭訪問
+112 Kululu和三郎的相遇 畫物成真戰的勝負前、後篇
+113 Keroro 戰鬥吧我們的潮濕王 + 夏美 再次出現的潮濕王
+114 Giroro 我們要復仇 + Keroro 又是又是又是dasunumaso？
+115 keroro ryuroro對機械ryuroro + keroro 不和nyubo一起去
+116 keroro 目標極品風呂 + 摩亞 叔叔日記
+117 keroro 向七夕許願 + keroro 復活！怪傑多巴胺
+118 幽靈妹妹 去學校吧 + kululu 咖哩曹長大人
+119 Giroro 壯烈！暑假合宿 + keroro 抓住週六的丑日
+120 ケロロ 土井中村リターンズ であります/桃華 ひと夏の経験 であります</p>
+
+<p>附註：83集前半全稱
+KERORO 露天混浴溫泉殺人事件
+漂泊在浴氣中 宇宙第一不幸的兄妹魂
+哥哥做的彩色盒子溫泉
+緊急想要進去 卻只進去了一隻腳 因為意外而滑倒 在哥哥氣絕時 妹妹的眼淚隨浴花飛舞</p>
+
+
+  </div>
+  
+  <div class="post">
+    <h2 class="post-title">
+      <a href="/2006/03/12/e7-bb-88-e4-ba-8e-e5-86-b3-e5-ae-9a-e6-9b-b4-e6-8d-a2browser-e4-ba-86/">
+        终于决定更换Browser了
+      </a>
+    </h2>
+
+    <span class="post-date">13 Mar 2006</span>
+
+    <p>slackware刚从第4版跳至第7版的时候开始用Mozilla。这之后就没考虑过别的浏览器，但是firefox的插件对mozilla的兼容性越来越差，甚至前些日子mozilla的网站上还出现了酷似Mozilla suite的新项目Seamonkey，似乎大家已经准备好了抛弃这个Netscape时代的遗留物。</p>
+
+<p>不合时宜的话还是不多说了，做技术总要有这点觉悟的。</p>
+
+<p>想想~/.mozilla下还保存着各种passwd cookie form bookmarks mails ，每次回家这点东西总是要带走的，否则寸步难行。。呵呵。讽刺的是发现firefox的用户目录竟然是在~/.mozilla之下，恩，也是，毕竟是mozilla的后代么，先这么想着。。。。</p>
+
+  </div>
+  
+</div>
+
+<div class="pagination">
+  
+    <a class="pagination-item older" href="/page20">Older</a>
+  
+  
+    
+      <a class="pagination-item newer" href="/page18">Newer</a>
+    
+  
+</div>
+
+
+      </div>
+    </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+    <script>
+      (function(document) {
+        var toggle = document.querySelector('.sidebar-toggle');
+        var sidebar = document.querySelector('#sidebar');
+        var checkbox = document.querySelector('#sidebar-checkbox');
+
+        document.addEventListener('click', function(e) {
+          var target = e.target;
+
+          if(!checkbox.checked ||
+             sidebar.contains(target) ||
+             (target === checkbox || target === toggle)) return;
+
+          checkbox.checked = false;
+        }, false);
+      })(document);
+    </script>
+  </body>
+</html>

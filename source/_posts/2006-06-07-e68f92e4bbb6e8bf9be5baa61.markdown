@@ -1,0 +1,12 @@
+---
+author: admin
+comments: true
+date: 2006-06-07 17:45:09+00:00
+layout: post
+link: http://www.seerhut.cn/2006/06/08/%e6%8f%92%e4%bb%b6%e8%bf%9b%e5%ba%a61/
+slug: '%e6%8f%92%e4%bb%b6%e8%bf%9b%e5%ba%a61'
+title: 插件进度1
+wordpress_id: 29
+---
+
+现在架子已经搭好了，但是WoW API的资料太少了，除了wowwiki甚至只能自己啃从游戏压缩包里找来的文件，很郁闷很郁闷...不过既然做到这一步想来必定是可以完成的，只是莫名的bug不会少。决定暂且只做一个单字输入的，等稳定了再添加词组输入、频度统计、词库学习、智能联想......先这么YY着吧

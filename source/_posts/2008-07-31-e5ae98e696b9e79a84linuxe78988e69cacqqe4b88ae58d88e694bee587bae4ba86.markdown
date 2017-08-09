@@ -1,0 +1,12 @@
+---
+author: admin
+comments: true
+date: 2008-07-31 07:21:00+00:00
+layout: post
+link: http://www.seerhut.cn/2008/07/31/%e5%ae%98%e6%96%b9%e7%9a%84linux%e7%89%88%e6%9c%acqq%e4%b8%8a%e5%8d%88%e6%94%be%e5%87%ba%e4%ba%86/
+slug: '%e5%ae%98%e6%96%b9%e7%9a%84linux%e7%89%88%e6%9c%acqq%e4%b8%8a%e5%8d%88%e6%94%be%e5%87%ba%e4%ba%86'
+title: 官方的linux版本QQ上午放出了
+wordpress_id: 83
+---
+
+[QQ for Linux](http://im.qq.com/qq/linux/)

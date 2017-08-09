@@ -1,0 +1,22 @@
+---
+author: admin
+comments: true
+date: 2008-12-16 12:40:03+00:00
+layout: post
+link: http://www.seerhut.cn/2008/12/16/%e9%a3%9e%e4%bf%a1%e4%b8%ad%e3%80%82%e3%80%82%e3%80%82win32%e7%a7%bb%e6%a4%8d%ef%bc%8cdone/
+slug: '%e9%a3%9e%e4%bf%a1%e4%b8%ad%e3%80%82%e3%80%82%e3%80%82win32%e7%a7%bb%e6%a4%8d%ef%bc%8cdone'
+title: 飞信中。。。win32移植，done
+wordpress_id: 150
+---
+
+如果打算跨平台开发的话，始终使用gcc是首选对策。。。
+
+我对vc不熟悉，不过似乎很多情况下用vc9编译的东西放在干净的机器上没法运行，把vc9的运行时放过去也不行，只能安装.net 3.5或者用非express的vc版本打包。。。这是无法接受的。。
+
+前些天程序不正常的原因就是win32 下的 openssl 库用了vc9编译，而主程序和主要的库是mingw编译的，所以程序能运行，而Qt network库去load openssl库时openssl就会无法正常加载symbol，此时qt的network库并不报错，而是默默的把https请求变成http请求发出去。。。。。如果不是听了一下包我怎么也不会相信的。。
+
+花了一个下午用mingw重新编译了openssl库，（虚拟机里编译！！！）编译出来的dll竟然和vc编译出来的不同名。。。。改了一下名字后qt network库终于可以使用ssl通信了。。。
+
+qt库不用重新编译，把各种模块，plugin和外部库分开其实更方便发布和更新。。。
+
+今天swap终于开始工作了。。4G的内存也不能再泰然下去了，一个eclipse，一个firefox，一个编译用的winxp，一个clean的测试winxp，一个测试用的fedora9，还有永远不舍得关的mldonkey。。。

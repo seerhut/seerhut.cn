@@ -1,0 +1,78 @@
+---
+author: admin
+comments: true
+date: 2006-05-18 19:39:04+00:00
+layout: post
+link: http://www.seerhut.cn/2006/05/19/adsl-modem-%e3%80%82%e3%80%82%e3%80%82/
+slug: adsl-modem-%e3%80%82%e3%80%82%e3%80%82
+title: ADSL Modem 。。。
+wordpress_id: 18
+---
+
+Modem断流很厉害，想给它升级一下固件。
+机器是中兴的 ZXDSL 831BII (?) ，阉割过的。 默认的web管理地址是192.168.1.1，普通用户名搜索得知 user/user ，但是管理员的帐号密码都不能使用。摸索了一会得出一个方法可以绕开管理员登录直接更改管理员密码。
+
+<!-- more -->大致是用user/user登录modem，进入用户管理页面，拷贝出源码，将form中的用户名字段改成admin，后面的密码空白，新密码填入自己的设置，保存。用浏览器访问修改的页面，提交即可修改admin的密码，然后就可以登录升级firmware了。很ft的事情是这个时候才发现没有ZTE没有给这个型号的新固件，不过我只是把它做网桥用，即使升级了固件也不见得能有什么起色，就先作罢。
+
+下面是改好的页面，一般直接就能用（密码也是admin）。断流的问题看来一时没法解决，不过还有一个办法是做个简单的watchdog，发现断流就重启Modem，这个方案正在准备中…………
+
+    
+    <<span class="start-tag">html</span>>
+    <<span class="start-tag">head</span>>
+    <<span class="start-tag">meta</span><span class="attribute-name"> http-equiv</span>=<span class="attribute-value">"content-type" </span><span class="attribute-name">content</span>=<span class="attribute-value">"text/html; charset=GB2312"</span>>
+    <<span class="start-tag">link</span><span class="attribute-name"> rel</span>=<span class="attribute-value">"stylesheet" </span><span class="attribute-name">type</span>=<span class="attribute-value">"text/css" </span><span class="attribute-name">href</span>=<span class="attribute-value">"http://192.168.1.1/hag/css/vikingTP.css"</span>>
+    <<span class="start-tag">title</span>>密码设置title</span>>
+    <<span class="start-tag">meta</span><span class="attribute-name"> http-equiv </span>=<span class="attribute-value">"pragma" </span><span class="attribute-name">content</span>=<span class="attribute-value">"no-cache"</span>>
+    <<span class="start-tag">script</span><span class="attribute-name"> language</span>=<span class="attribute-value">"JavaScript" </span><span class="attribute-name">src</span>=<span class="attribute-value">"http://192.168.1.1/hag/js/global.gsv"</span>>script</span>>
+    head</span>>
+    
+    <<span class="start-tag">body</span><span class="attribute-name"> class</span>=<span class="attribute-value">"mainbody"</span>>
+    <<span class="start-tag">p</span><span class="attribute-name"> class</span>=<span class="attribute-value">"pagetitle"</span>>密码设置p</span>>
+    <<span class="start-tag">p</span><span class="attribute-name"> class</span>=<span class="attribute-value">"pagedesc"</span>>修改用户密码.p</span>>
+    <<span class="start-tag">form</span><span class="attribute-name"> name</span>=<span class="attribute-value">"frmChangePW" </span><span class="attribute-name">id</span>=<span class="attribute-value">"frmChangePW" </span><span class="attribute-name">action</span>=<span class="attribute-value">"http://192.168.1.1/Action" </span><span class="attribute-name">method</span>=<span class="attribute-value">"POST"</span>>
+
+
+
+    
+    <<span class="start-tag">div</span><span class="attribute-name"> </span>>
+    <<span class="start-tag">table</span><span class="attribute-name"> </span>>
+    <<span class="start-tag">tr</span><span class="attribute-name"> </span>>
+    <<span class="start-tag">td</span><span class="attribute-name"> class</span>=<span class="attribute-value">"tablerowheader"</span>>用户名:td</span>>
+    <<span class="start-tag">td</span><span class="attribute-name"> class</span>=<span class="attribute-value">"tablerowvalue"</span>>usertd</span>><<span class="start-tag">input</span><span class="attribute-name"> type</span>=<span class="attribute-value">"hidden" </span><span class="attribute-name">id</span>=<span class="attribute-value">"login_name" </span><span class="attribute-name">name</span>=<span class="attribute-value">"login_name" </span><span class="attribute-name">value</span>=<span class="attribute-value">"admin" </span>>
+    
+    tr</span>>
+    <<span class="start-tag">tr</span><span class="attribute-name"> </span>>
+    <<span class="start-tag">td</span><span class="attribute-name"> class</span>=<span class="attribute-value">"tablerowheader"</span>>密码:td</span>>
+    <<span class="start-tag">td</span><span class="attribute-name"> class</span>=<span class="attribute-value">"tablerowvalue"</span>><<span class="start-tag">input</span><span class="attribute-name"> type</span>=<span class="attribute-value">"password" </span><span class="attribute-name">id</span>=<span class="attribute-value">"old_pass" </span><span class="attribute-name">name</span>=<span class="attribute-value">"old_pass" </span><span class="attribute-name">value</span>=<span class="attribute-value">""  </span><span class="attribute-name">size</span>=<span class="attribute-value">"32" </span><span class="attribute-name">maxlength</span>=<span class="attribute-value">"128" </span>>
+    td</span>>
+    tr</span>>
+    <<span class="start-tag">tr</span><span class="attribute-name"> </span>>
+
+
+
+    
+    <<span class="start-tag">td</span><span class="attribute-name"> class</span>=<span class="attribute-value">"tablerowheader"</span>>新密码:td</span>>
+    <<span class="start-tag">td</span><span class="attribute-name"> class</span>=<span class="attribute-value">"tablerowvalue"</span>><<span class="start-tag">input</span><span class="attribute-name"> type</span>=<span class="attribute-value">"password" </span><span class="attribute-name">id</span>=<span class="attribute-value">"new_pass1" </span><span class="attribute-name">name</span>=<span class="attribute-value">"new_pass1" </span><span class="attribute-name">value</span>=<span class="attribute-value">"avalon"  </span><span class="attribute-name">size</span>=<span class="attribute-value">"32" </span><span class="attribute-name">maxlength</span>=<span class="attribute-value">"128" </span>>
+    td</span>>
+    tr</span>>
+    <<span class="start-tag">tr</span><span class="attribute-name"> </span>>
+    <<span class="start-tag">td</span><span class="attribute-name"> class</span>=<span class="attribute-value">"tablerowheader"</span>>确认新密码:td</span>>
+    <<span class="start-tag">td</span><span class="attribute-name"> class</span>=<span class="attribute-value">"tablerowvalue"</span>><<span class="start-tag">input</span><span class="attribute-name"> type</span>=<span class="attribute-value">"password" </span><span class="attribute-name">id</span>=<span class="attribute-value">"new_pass2" </span><span class="attribute-name">name</span>=<span class="attribute-value">"new_pass2" </span><span class="attribute-name">value</span>=<span class="attribute-value">"avalon"  </span><span class="attribute-name">size</span>=<span class="attribute-value">"32" </span><span class="attribute-name">maxlength</span>=<span class="attribute-value">"128" </span>>
+    td</span>>
+    tr</span>>
+    table</span>>
+    div</span>>
+    <<span class="start-tag">div</span><span class="attribute-name"> class</span>=<span class="attribute-value">"actionbuttons"</span>><<span class="start-tag">input</span><span class="attribute-name"> type</span>=<span class="attribute-value">"hidden" </span><span class="attribute-name">id</span>=<span class="attribute-value">"id" </span><span class="attribute-name">name</span>=<span class="attribute-value">"id" </span><span class="attribute-name">value</span>=<span class="attribute-value">"3" </span>>
+    
+    <<span class="start-tag">input</span><span class="error"><span class="attribute-name"> " </span></span><span class="attribute-name">name</span>=<span class="attribute-value">"cmd提交" </span><span class="attribute-name">id</span>=<span class="attribute-value">"cmd提交" </span><span class="attribute-name">value</span>=<span class="attribute-value">"提交" </span><span class="attribute-name">type</span>=<span class="attribute-value">"submit" </span><span class="attribute-name">onClick</span>=<span class="attribute-value">"document.frmChangePW.id.value ='3';"</span>>&<span class="entity">nbsp;</span>&<span class="entity">nbsp;</span>&<span class="entity">nbsp;</span>&<span class="entity">nbsp;</span>
+    <<span class="start-tag">input</span><span class="attribute-name">  name</span>=<span class="attribute-value">"cmd取消" </span><span class="attribute-name">id</span>=<span class="attribute-value">"cmd取消" </span><span class="attribute-name">value</span>=<span class="attribute-value">"取消" </span><span class="attribute-name">type</span>=<span class="attribute-value">"button" </span><span class="attribute-name">onClick</span>=<span class="attribute-value">"self.location.reload(true);"</span>>
+
+
+
+    
+    div</span>>
+    body</span>>
+    html</span>>
+
+
+

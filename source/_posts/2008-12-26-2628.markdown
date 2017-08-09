@@ -1,0 +1,18 @@
+---
+author: admin
+comments: true
+date: 2008-12-26 04:08:10+00:00
+layout: post
+link: http://www.seerhut.cn/2008/12/26/2628/
+slug: '2628'
+title: 2.6.28
+wordpress_id: 157
+---
+
+添加了ext4，观望。
+GEM完全取代了TTM，不知发展会如何。
+
+还重写了一部分内存管理的模块。
+Disk Shock Protection，有点用的小玩意。
+
+总之不是小改进。

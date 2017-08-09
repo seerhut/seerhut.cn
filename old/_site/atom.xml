@@ -1,0 +1,2898 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Seerhut Labs</title>
+ <link href="http://localhost:4000/atom.xml" rel="self"/>
+ <link href="http://localhost:4000/"/>
+ <updated>2017-04-07T12:54:32+08:00</updated>
+ <id>http://localhost:4000</id>
+ <author>
+   <name></name>
+   <email></email>
+ </author>
+
+ 
+ <entry>
+   <title>duke和linux，新闻</title>
+   <link href="http://localhost:4000/2011/05/25/duke-e5-92-8clinux-ef-bc-8c-e6-96-b0-e9-97-bb/"/>
+   <updated>2011-05-25T11:51:12+08:00</updated>
+   <id>http://localhost:4000/2011/05/25/duke%e5%92%8clinux%ef%bc%8c%e6%96%b0%e9%97%bb</id>
+   <content type="html">&lt;p&gt;两条新闻：&lt;/p&gt;
+
+&lt;p&gt;一是Linux Kernel Maillist里的：Torvalds同学说：&lt;/p&gt;
+
+&lt;p&gt;“PS. The voices in my head also tell me that the numbers are getting
+too big. I may just call the thing 2.8.0. And I almost guarantee that
+this PS is going to result in more discussion than the rest, but when
+the voices tell me to do things, I listen.”&lt;/p&gt;
+
+&lt;p&gt;二是﻿Duke Nukem Forever终于确定发售日了，6月10-14日！&lt;/p&gt;
+
+&lt;p&gt;特此纪念。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>关于Bitcoin</title>
+   <link href="http://localhost:4000/2011/05/18/e5-85-b3-e4-ba-8ebitcoin/"/>
+   <updated>2011-05-19T02:55:30+08:00</updated>
+   <id>http://localhost:4000/2011/05/18/%e5%85%b3%e4%ba%8ebitcoin</id>
+   <content type="html">&lt;p&gt;bitcoin今天突然在中文圈爆红，可能是因为某篇报道或易懂的blog文章开始流传了。这东西存在有几年了，但最近社区膨胀的速度有点出乎意料。&lt;/p&gt;
+
+&lt;p&gt;bitcoin的成功恐怕在于他同时有贵金属和纸币的一些特性，又有严谨的算法维持信用体系，不过我还是有一点疑问：&lt;/p&gt;
+
+&lt;p&gt;货币的稀有性基于人类有限的计算能力以及对计算能力增长的预估，但是算法的实现复杂度可能会发生骤变，包括sha系列算法实现方式的进步，专有硬件的出现，这不是幻想，openCL/CUDA系列的mining程序已经满天飞了，twitter上一群失恋电信男在讨论verilog实现。如果真有获利机会，一定会有人砸钱搞低成本mining farm的。在original client中有算法保证相同计算量获得的BTC会逐渐降低，因此可以避免货币贬值，但是当网络中充斥着不遵循这条规则的客户端后就会重新回到上面所担心的情况。&lt;/p&gt;
+
+&lt;p&gt;流通依赖整个p2p网络的共识，但节点数上规模后会不会出现一些比较“自我”的区域，其中的节点数足够多但信息向外广播不畅（镇里……）导致此区域的决定和整个p2p不和，因此某些在其中受到认可的交易其实全局看来是非法的？这种情况可能的话，对这个网络的攻击也就可行。&lt;/p&gt;
+
+&lt;p&gt;现在的pooled mining有点像当年的淘金热，淘金热里真正获得财富的人并不多，倒是levi’s这类服务商获利颇丰，现在的mining热里能真正获得有意义的收益的人（比起计算带来的成本，电费，冷却，维护时间，机器折旧……）恐怕很少，但是p2p理论和各种高性能计算相关的技术恐怕可以小小进步下了，这可是直接算出钱来阿，算出钱来阿，算出……&lt;/p&gt;
+
+&lt;p&gt;整个体系中银行消失了，这可能是最诱人的一部分。货币的发行，消费的认证都由用户自己进行，但大众对这种基于某算法的信用体系有多少信心，这种算法本身的可靠度如何还未知。&lt;/p&gt;
+
+&lt;p&gt;在BIDU时，林主席问过我计算是什么，但我无论如何也没想到还有这么个回答：计算是黄金。。。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>推荐vpsyou和startssl</title>
+   <link href="http://localhost:4000/2010/11/30/e6-8e-a8-e8-8d-90vpsyou-e5-92-8cstartssl/"/>
+   <updated>2010-11-30T10:53:39+08:00</updated>
+   <id>http://localhost:4000/2010/11/30/%e6%8e%a8%e8%8d%90vpsyou%e5%92%8cstartssl</id>
+   <content type="html">&lt;p&gt;180M内存的xen vps只需￥70/month，可以安装centos/ubuntu/slackware/gentoo，32 or 64 bit，跑各种服务无障碍。&lt;/p&gt;
+
+&lt;p&gt;startssl提供免费的class 1 ca，而且各浏览器ie/ff/ch/sf都信任此根证书！&lt;/p&gt;
+
+&lt;p&gt;稳定性有待测试，机房网络安全有待测试。。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>vmware sharedFolder的符号链接问题</title>
+   <link href="http://localhost:4000/2010/10/13/vmware-sharedfolder-e7-9a-84-e7-ac-a6-e5-8f-b7-e9-93-be-e6-8e-a5-e9-97-ae-e9-a2-98/"/>
+   <updated>2010-10-13T21:31:58+08:00</updated>
+   <id>http://localhost:4000/2010/10/13/vmware-sharedfolder%e7%9a%84%e7%ac%a6%e5%8f%b7%e9%93%be%e6%8e%a5%e9%97%ae%e9%a2%98</id>
+   <content type="html">&lt;p&gt;win guest无法识别share Folder中的符号链接，解决办法：&lt;/p&gt;
+
+&lt;p&gt;在虚拟机的vmx文件中添加&lt;/p&gt;
+
+&lt;p&gt;sharedFolder0.followSymlinks = “TRUE”
+这问题很久前就碰到了，怎么就一直没仔细搜一下呢&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>需要一次大甩卖</title>
+   <link href="http://localhost:4000/2010/07/17/e9-9c-80-e8-a6-81-e4-b8-80-e6-ac-a1-e5-a4-a7-e7-94-a9-e5-8d-96/"/>
+   <updated>2010-07-17T14:25:04+08:00</updated>
+   <id>http://localhost:4000/2010/07/17/%e9%9c%80%e8%a6%81%e4%b8%80%e6%ac%a1%e5%a4%a7%e7%94%a9%e5%8d%96</id>
+   <content type="html">&lt;p&gt;卖示波器 一台模拟一台数字， 卖各类运放，卖电源ic，卖光电开关，卖st的cortex-cm3 mcu多量。。。如果有时间的话&lt;/p&gt;
+
+&lt;p&gt;仔细请点了一下，没想到有这么多项目残留物体，有些ic还是整条的，用来当仓库的房间已经塞满了，一定要处理一下了。。。如果有时间的话&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>该整理一下了</title>
+   <link href="http://localhost:4000/2010/07/16/e8-af-a5-e6-95-b4-e7-90-86-e4-b8-80-e4-b8-8b-e4-ba-86/"/>
+   <updated>2010-07-17T00:15:42+08:00</updated>
+   <id>http://localhost:4000/2010/07/16/%e8%af%a5%e6%95%b4%e7%90%86%e4%b8%80%e4%b8%8b%e4%ba%86</id>
+   <content type="html">&lt;p&gt;感觉这段日子过得很快，很多问题也浮出水面，到了整理一下的时候了。&lt;/p&gt;
+
+&lt;p&gt;书在桌上越堆越高，不过已经没有闲书的踪影了，这就是所谓专注么。&lt;/p&gt;
+
+&lt;p&gt;马上就面临硬仗了，全新的领域，必须120%的投入。&lt;/p&gt;
+
+&lt;p&gt;有想法和方案就赶紧动手，别想太多了。&lt;/p&gt;
+
+&lt;p&gt;私人的时间就暂时不要了吧。。&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>重装系统。。。</title>
+   <link href="http://localhost:4000/2010/06/16/e9-87-8d-e8-a3-85-e7-b3-bb-e7-bb-9f-e3-80-82-e3-80-82-e3-80-82/"/>
+   <updated>2010-06-16T14:09:33+08:00</updated>
+   <id>http://localhost:4000/2010/06/16/%e9%87%8d%e8%a3%85%e7%b3%bb%e7%bb%9f%e3%80%82%e3%80%82%e3%80%82</id>
+   <content type="html">&lt;p&gt;这两天看球，顺便重装了系统，因为需要切换到64位。
+32位的系统是02年开始使用，之后换了两次电脑也一直没重新装过，现在需要切换到64位，终于可以重新装一次了。
+安装顺利。。64位桌面很成熟鸟，二进制发布的软件也对64位支持甚好，只是baidu vpn的client需要32位的java vm，略折腾了一下。&lt;/p&gt;
+
+&lt;p&gt;昨天在大悦城逛了逛apple店，决定下一个电脑是mbp。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Intro To Erlang</title>
+   <link href="http://localhost:4000/2010/05/08/intro-to-erlang/"/>
+   <updated>2010-05-09T00:23:59+08:00</updated>
+   <id>http://localhost:4000/2010/05/08/intro-to-erlang</id>
+   <content type="html">&lt;p&gt;不错的介绍，转载来标记一下，待细看&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://www.slideshare.net/asceth/intro-to-erlang-presentation&quot;&gt;Intro To Erlang&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;View more &lt;a href=&quot;http://www.slideshare.net/&quot;&gt;presentations&lt;/a&gt; from &lt;a href=&quot;http://www.slideshare.net/asceth&quot;&gt;asceth&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://www.slideshare.net/btedev/erlang-concurrency-presentation&quot;&gt;Erlang Concurrency&lt;/a&gt;&lt;/strong&gt;View more &lt;a href=&quot;http://www.slideshare.net/&quot;&gt;presentations&lt;/a&gt; from &lt;a href=&quot;http://www.slideshare.net/btedev&quot;&gt;Barry Ezell&lt;/a&gt;.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>在豆瓣认领自己，again</title>
+   <link href="http://localhost:4000/2010/04/27/e5-9c-a8-e8-b1-86-e7-93-a3-e8-ae-a4-e9-a2-86-e8-87-aa-e5-b7-b1-ef-bc-8cagain/"/>
+   <updated>2010-04-28T04:52:05+08:00</updated>
+   <id>http://localhost:4000/2010/04/27/%e5%9c%a8%e8%b1%86%e7%93%a3%e8%ae%a4%e9%a2%86%e8%87%aa%e5%b7%b1%ef%bc%8cagain</id>
+   <content type="html">&lt;p&gt;doubanclaim5b6101043a94526d&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>逃离</title>
+   <link href="http://localhost:4000/2010/04/27/e9-80-83-e7-a6-bb/"/>
+   <updated>2010-04-27T13:27:37+08:00</updated>
+   <id>http://localhost:4000/2010/04/27/%e9%80%83%e7%a6%bb</id>
+   <content type="html">&lt;p&gt;决定不忍备案了，在境外找了服务器，但是。。。&lt;/p&gt;
+
+&lt;p&gt;为什么python版本那么老！！ 2.3。。。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Build Android Splash Screen</title>
+   <link href="http://localhost:4000/2010/03/13/build-android-splash-screen/"/>
+   <updated>2010-03-13T14:47:42+08:00</updated>
+   <id>http://localhost:4000/2010/03/13/build-android-splash-screen</id>
+   <content type="html">&lt;p&gt;累了，搞点轻松的玩意。&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;convert -depth 8 splash.png rgb:splash.raw rgb2565 &amp;lt; splash.raw &amp;gt; splash.raw565
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;然后把splash.raw565烧入flash就好&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;fastboot flash splash1 splash.raw565
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Android Notes [system view]</title>
+   <link href="http://localhost:4000/2009/12/27/android-notes-system-view/"/>
+   <updated>2009-12-27T15:29:10+08:00</updated>
+   <id>http://localhost:4000/2009/12/27/android-notes-system-view</id>
+   <content type="html">&lt;p&gt;android系统是一个典型的嵌入式linux，基础是linux kernel，整个android框架运行于一个称为dalvik的虚拟机之上，因此app是平台无关的，如果没有使用特殊的硬件，在armv6上运行的app可以直接放在android on mips中一致运行。事实上android为常用的硬件（gps,加速度感应等）提供了jni的接口，移植时只要重新把硬件操作包裹成.so供框架调用。&lt;/p&gt;
+
+&lt;p&gt;flash分为几个block：&lt;/p&gt;
+
+&lt;blockquote&gt;# cat /proc/mtd
+dev:    size   erasesize  name
+mtd0: 00040000 00020000 &quot;misc&quot;
+mtd1: 00500000 00020000 &quot;recovery&quot;
+mtd2: 00280000 00020000 &quot;boot&quot;
+mtd3: 05a00000 00020000 &quot;system&quot;
+mtd4: 05000000 00020000 &quot;cache&quot;
+mtd5: 127c0000 00020000 &quot;userdata&quot;
+mtd6: 20000000 00020000 &quot;msm_nand&quot;
+#&lt;/blockquote&gt;
+
+&lt;p&gt;boot存放kernel和ramdisk，dump出来后需要split_bootimg.pl或者unpack-H.pl来把两者分离出来。boot区的结构如下：&lt;/p&gt;
+
+&lt;blockquote&gt;format (from bootimg.h)
+** +-----------------+
+** | boot header     | 1 page
+** +-----------------+
+** | kernel          | n pages
+** +-----------------+
+** | ramdisk         | m pages
+** +-----------------+
+** | second stage    | o pages
+** +-----------------+
+**
+** n = (kernel_size + page_size - 1) / page_size
+** m = (ramdisk_size + page_size - 1) / page_size
+** o = (second_size + page_size - 1) / page_size&lt;/blockquote&gt;
+
+&lt;p&gt;header中存放kernel和ramdisk的偏移信息：&lt;/p&gt;
+
+&lt;blockquote&gt;header_format (from bootimg.h)
+struct boot_img_hdr
+{
+unsigned char magic[BOOT_MAGIC_SIZE];
+
+unsigned kernel_size;  /* size in bytes */
+unsigned kernel_addr;  /* physical load addr */
+
+unsigned ramdisk_size; /* size in bytes */
+unsigned ramdisk_addr; /* physical load addr */
+
+unsigned second_size;  /* size in bytes */
+unsigned second_addr;  /* physical load addr */
+
+unsigned tags_addr;    /* physical addr for kernel tags */
+unsigned page_size;    /* flash page size we assume */
+unsigned unused[2];    /* future expansion: should be 0 */
+
+unsigned char name[BOOT_NAME_SIZE]; /* asciiz product name */
+
+unsigned char cmdline[BOOT_ARGS_SIZE];
+
+unsigned id[8]; /* timestamp / checksum / sha1 / etc */
+};&lt;/blockquote&gt;
+
+&lt;p&gt;这样系统就可以在启动时找到kernel和ramdisk。&lt;/p&gt;
+
+&lt;p&gt;ramdisk结构如下&lt;/p&gt;
+
+&lt;blockquote&gt;$ tree root -p
+root
+|-- [drwxr-xr-x]  data
+|-- [-rw-r--r--]  default.prop
+|-- [drwxr-xr-x]  dev
+|-- [-rwxr-xr-x]  init
+|-- [-rw-r--r--]  init.goldfish.rc
+|-- [-rw-r--r--]  init.rc
+|-- [-rw-r--r--]  init.sapphire.rc
+|-- [drwxr-xr-x]  proc
+|-- [drwxr-xr-x]  sbin
+|   `-- [-rwxr-xr-x]  adbd
+|-- [drwxr-xr-x]  sys
+`-- [drwxr-xr-x]  system&lt;/blockquote&gt;
+
+&lt;p&gt;android不使用init.d管理启动过程，init读取init.xxx直接管理启动过程，主要完成重要目录、文件、环境变量的建立，挂载block，启动服务等。&lt;/p&gt;
+
+&lt;p&gt;system block存放系统目录，启动的时候ro挂载在ramdisk的/system下：&lt;/p&gt;
+
+&lt;blockquote&gt;$ tree -p system -L 1
+system
+|-- [drwxr-xr-x]  app
+|-- [drwxr-xr-x]  bin
+|-- [-rw-r--r--]  build.prop
+|-- [drwxr-xr-x]  etc
+|-- [drwxr-xr-x]  fonts
+|-- [drwxr-xr-x]  framework
+|-- [drwxr-xr-x]  lib
+|-- [drwxr-xr-x]  usr
+`-- [drwxr-xr-x]  xbin&lt;/blockquote&gt;
+
+&lt;p&gt;framework存放android框架文件，app存放系统自带的apps，以.apk的形式，不可由用户卸载。其他的目录沿袭linux传统。&lt;/p&gt;
+
+&lt;p&gt;userdata block存放用户数据，启动的时候rw挂载到/data，用户安装的apps存放于这里，apps的配置文件也在此目录中。&lt;/p&gt;
+
+&lt;p&gt;recovery block 存放一个小型的rootfs，recovery模式启动的时候会挂载此区域，此时系统一些基本的功能用于备份还原等管理功能。recovery模式下init过程较为简单，启动adbd服务后就执行recovery程序接受用户操作：&lt;/p&gt;
+
+&lt;blockquote&gt;$ tree -p recovery -L 3
+recovery
+`-- [drwxr-xr-x]  root
+|-- [drwxr-xr-x]  data
+|-- [-rw-r--r--]  default.prop
+|-- [drwxr-xr-x]  dev
+|-- [drwxr-xr-x]  etc
+|-- [-rwxr-xr-x]  init
+|-- [-rw-r--r--]  init.goldfish.rc
+|-- [-rw-r--r--]  init.rc
+|-- [-rw-r--r--]  init.sapphire.rc
+|-- [drwxr-xr-x]  proc
+|-- [drwxr-xr-x]  res
+|   |-- [drwxr-xr-x]  images
+|   `-- [-rw-r--r--]  keys
+|-- [drwxr-xr-x]  sbin
+|   |-- [-rwxr-xr-x]  adbd
+|   `-- [-rwxr-xr-x]  recovery
+|-- [drwxr-xr-x]  sys
+|-- [drwxr-xr-x]  system
+`-- [drwxr-xr-x]  tmp&lt;/blockquote&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>$uname -a</title>
+   <link href="http://localhost:4000/2009/11/26/uname-a/"/>
+   <updated>2009-11-26T10:22:50+08:00</updated>
+   <id>http://localhost:4000/2009/11/26/uname-a</id>
+   <content type="html">&lt;blockquote&gt;Linux localhost 2.6.21.7 #143 SMP Thu Nov 26 01:46:05 UTC 2009 mips GNU/Linux&lt;/blockquote&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>调通了啊</title>
+   <link href="http://localhost:4000/2009/09/22/e8-b0-83-e9-80-9a-e4-ba-86-e5-95-8a/"/>
+   <updated>2009-09-22T22:06:55+08:00</updated>
+   <id>http://localhost:4000/2009/09/22/%e8%b0%83%e9%80%9a%e4%ba%86%e5%95%8a</id>
+   <content type="html">&lt;p&gt;替换了linux的协议栈，总算跑通了一个数据包，加解密都没问题了，明天开会确定下一步方案。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>饭局归来</title>
+   <link href="http://localhost:4000/2009/09/15/e9-a5-ad-e5-b1-80-e5-bd-92-e6-9d-a5/"/>
+   <updated>2009-09-15T22:52:18+08:00</updated>
+   <id>http://localhost:4000/2009/09/15/%e9%a5%ad%e5%b1%80%e5%bd%92%e6%9d%a5</id>
+   <content type="html">&lt;p&gt;今天同科室聚餐，吃的不错，聊的很好，只是分了两桌所以交流圈小了些。&lt;/p&gt;
+
+&lt;p&gt;单板的初步调试也通了，之后就要同另一部分合并，争取赶在月底前完成。&lt;/p&gt;
+
+&lt;p&gt;^ω^&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>总结之一</title>
+   <link href="http://localhost:4000/2009/09/11/e6-80-bb-e7-bb-93-e4-b9-8b-e4-b8-80/"/>
+   <updated>2009-09-12T00:17:01+08:00</updated>
+   <id>http://localhost:4000/2009/09/11/%e6%80%bb%e7%bb%93%e4%b9%8b%e4%b8%80</id>
+   <content type="html">&lt;p&gt;对路由和交换的部分兴趣不大，但还是得好好参与设计，只是苦于之前产品的设计文档不太全，努力寻找中。&lt;/p&gt;
+
+&lt;p&gt;linux的内核开发方面没搞啥新东西，只是把原来arm上做的事情移到mips上，好吧，其实还是会很不一样的，但那部分仍未开始。&lt;/p&gt;
+
+&lt;p&gt;总之处于很微妙的状态，不知道这个项目会进展到什么程度，会重新设计开发还是接续完善维护。。。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>ipsec相关的rfc</title>
+   <link href="http://localhost:4000/2009/08/07/ipsec-e7-9b-b8-e5-85-b3-e7-9a-84rfc/"/>
+   <updated>2009-08-07T22:55:19+08:00</updated>
+   <id>http://localhost:4000/2009/08/07/ipsec%e7%9b%b8%e5%85%b3%e7%9a%84rfc</id>
+   <content type="html">&lt;p&gt;供方便查询&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.rfc-editor.org/rfc/rfc4301.txt&quot;&gt;4301&lt;/a&gt; Security Architecture for the Internet Protocol&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.rfc-editor.org/rfc/rfc4302.txt&quot;&gt;4302&lt;/a&gt; IP Authentication Header&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.rfc-editor.org/rfc/rfc4303.txt&quot;&gt;4303&lt;/a&gt; IP Encapsulating Security Payload (ESP)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.rfc-editor.org/rfc/rfc4304.txt&quot;&gt;4304&lt;/a&gt; Extended Sequence Number (ESN) Addendum to IPsec Domain of Interpretation (DOI) for Internet Security Association and Key Management Protocol (ISAKMP)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.rfc-editor.org/rfc/rfc4305.txt&quot;&gt;4305&lt;/a&gt; Cryptographic Algorithm Implementation Requirements for Encapsulating Security Payload (ESP) and Authentication Header (AH)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.rfc-editor.org/rfc/rfc4306.txt&quot;&gt;4306&lt;/a&gt; Internet Key Exchange (IKEv2) Protocol&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.rfc-editor.org/rfc/rfc4307.txt&quot;&gt;4307&lt;/a&gt; Cryptographic Algorithms for Use in the Internet Key Exchange Version 2 (IKEv2)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.rfc-editor.org/rfc/rfc4308.txt&quot;&gt;4308&lt;/a&gt; Cryptographic Suites for IPsec&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.rfc-editor.org/rfc/rfc4309.txt&quot;&gt;4309&lt;/a&gt; Using Advanced Encryption Standard (AES) CCM Mode with IPsec Encapsulating Security Payload (ESP)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.rfc-editor.org/rfc/rfc4807.txt&quot;&gt;4807&lt;/a&gt; IPsec Security Policy Database Configuration MIB&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.rfc-editor.org/rfc/rfc4809.txt&quot;&gt;4809&lt;/a&gt; Requirements for an IPsec Certificate Management Profile&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.rfc-editor.org/rfc/rfc4868.txt&quot;&gt;4868&lt;/a&gt; Using HMAC-SHA-256, HMAC-SHA-384, and HMAC-SHA-512 with IPsec&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.rfc-editor.org/rfc/rfc4869.txt&quot;&gt;4869&lt;/a&gt; Suite B Cryptographic Suites for IPsec&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.rfc-editor.org/rfc/rfc4891.txt&quot;&gt;4891&lt;/a&gt; Using IPsec to Secure IPv6-in-IPv4 Tunnels&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.rfc-editor.org/rfc/rfc4894.txt&quot;&gt;4894&lt;/a&gt; Use of Hash Algorithms in Internet Key Exchange (IKE) and IPsec&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.rfc-editor.org/rfc/rfc5265.txt&quot;&gt;5265&lt;/a&gt; Mobile IPv4 Traversal across IPsec-Based VPN Gateways&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.rfc-editor.org/rfc/rfc5386.txt&quot;&gt;5386&lt;/a&gt; Better-Than-Nothing Security: An Unauthenticated Mode of IPsec&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.rfc-editor.org/rfc/rfc5406.txt&quot;&gt;5406&lt;/a&gt; Guidelines for Specifying the Use of IPsec Version 2&lt;/p&gt;
+
+&lt;p&gt;2401 4301&lt;/p&gt;
+
+&lt;p&gt;2402 4302&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.rfc-editor.org/rfc/rfc2403.txt&quot;&gt;2403&lt;/a&gt; The Use of HMAC-MD5-96 within ESP and AH&lt;/p&gt;
+
+&lt;p&gt;2404 4305&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.rfc-editor.org/rfc/rfc2405.txt&quot;&gt;2405&lt;/a&gt; The ESP DES-CBC Cipher Algorithm With Explicit IV&lt;/p&gt;
+
+&lt;p&gt;2406 4305 4303&lt;/p&gt;
+
+&lt;p&gt;2407 4306&lt;/p&gt;
+
+&lt;p&gt;2408 4306&lt;/p&gt;
+
+&lt;p&gt;2409 4306&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.rfc-editor.org/rfc/rfc2410.txt&quot;&gt;2410&lt;/a&gt; The NULL Encryption Algorithm and Its Use With IPsec&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.rfc-editor.org/rfc/rfc3585.txt&quot;&gt;3585&lt;/a&gt; IPsec Configuration Policy Information Model&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.rfc-editor.org/rfc/rfc3948.txt&quot;&gt;3948&lt;/a&gt; UDP Encapsulation of IPsec ESP Packets&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>趁着没啥事换了硬盘</title>
+   <link href="http://localhost:4000/2009/02/02/e8-b6-81-e7-9d-80-e6-b2-a1-e5-95-a5-e4-ba-8b-e6-8d-a2-e4-ba-86-e7-a1-ac-e7-9b-98/"/>
+   <updated>2009-02-02T10:23:37+08:00</updated>
+   <id>http://localhost:4000/2009/02/02/%e8%b6%81%e7%9d%80%e6%b2%a1%e5%95%a5%e4%ba%8b%e6%8d%a2%e4%ba%86%e7%a1%ac%e7%9b%98</id>
+   <content type="html">&lt;p&gt;T61p的250G着实有些小了，换了个500G的，能够用一阵子了。
+本来打算copy系统的，想着反正机器不慢就重装了。
+换用了openrc，比起以前速度提升很多，满意。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>休整中</title>
+   <link href="http://localhost:4000/2009/01/14/e4-bc-91-e6-95-b4-e4-b8-ad/"/>
+   <updated>2009-01-15T01:44:56+08:00</updated>
+   <id>http://localhost:4000/2009/01/14/%e4%bc%91%e6%95%b4%e4%b8%ad</id>
+   <content type="html">&lt;p&gt;可以暂时抛开副业，昨天今天搞了下sam9261的板子。&lt;/p&gt;
+
+&lt;p&gt;先是移植了最新的内核，话说15到27的变动真是不少，api change有8、9页。。。不过代码结构清晰了些。&lt;/p&gt;
+
+&lt;p&gt;接着是做rootfs，oe有了不少更新，正好重新编译，顺便把目录结构弄得合理些。&lt;/p&gt;
+
+&lt;p&gt;qt-embedded 4.4的移植很顺利，gui在lcd上运行良好。只是尝试移植qtopia 4.3的时候不太走运，程序大致可以正常运行，但是lcd花屏，似乎是qtopia用了极低的色彩深度，原因未知。。。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>干涉图终于处理完成</title>
+   <link href="http://localhost:4000/2009/01/14/e5-b9-b2-e6-b6-89-e5-9b-be-e7-bb-88-e4-ba-8e-e5-a4-84-e7-90-86-e5-ae-8c-e6-88-90/"/>
+   <updated>2009-01-14T14:05:39+08:00</updated>
+   <id>http://localhost:4000/2009/01/14/%e5%b9%b2%e6%b6%89%e5%9b%be%e7%bb%88%e4%ba%8e%e5%a4%84%e7%90%86%e5%ae%8c%e6%88%90</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;http://blog.seerhut.cn/wp-content/uploads/2009/01/interferogram_pha.png&quot; alt=&quot;interferogram_pha&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://blog.seerhut.cn/wp-content/uploads/2009/01/unwrapped_interferogram.png&quot; alt=&quot;unwrapped_interferogram&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;下一步是做差分干涉的分析。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>the new way...</title>
+   <link href="http://localhost:4000/2009/01/02/the-new-way/"/>
+   <updated>2009-01-02T15:11:05+08:00</updated>
+   <id>http://localhost:4000/2009/01/02/the-new-way</id>
+   <content type="html">&lt;p&gt;大致试了一下cuda，效果不错，当然是针对特定应用。cuda的硬件架构还是显得不够灵活，不过同现在的CPU有不错的互补性。&lt;/p&gt;
+
+&lt;p&gt;cuda最大的启发恐怕不是技术上的，而是这种以消费市场来启动专用计算的路子很是特别，不管是不是nv主动进行的策略。&lt;/p&gt;
+
+&lt;p&gt;过去总是抱怨消费市场“弄脏”了技术领域，或是消费市场把技术引入歧途，今后可能会有所变化吧。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>2.6.28</title>
+   <link href="http://localhost:4000/2008/12/26/2628/"/>
+   <updated>2008-12-26T12:08:10+08:00</updated>
+   <id>http://localhost:4000/2008/12/26/2628</id>
+   <content type="html">&lt;p&gt;添加了ext4，观望。
+GEM完全取代了TTM，不知发展会如何。&lt;/p&gt;
+
+&lt;p&gt;还重写了一部分内存管理的模块。
+Disk Shock Protection，有点用的小玩意。&lt;/p&gt;
+
+&lt;p&gt;总之不是小改进。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>OpenEmbedded 换版本工具了</title>
+   <link href="http://localhost:4000/2008/12/24/openembedded-e6-8d-a2-e7-89-88-e6-9c-ac-e5-b7-a5-e5-85-b7-e4-ba-86/"/>
+   <updated>2008-12-24T20:46:21+08:00</updated>
+   <id>http://localhost:4000/2008/12/24/openembedded-%e6%8d%a2%e7%89%88%e6%9c%ac%e5%b7%a5%e5%85%b7%e4%ba%86</id>
+   <content type="html">&lt;p&gt;从mtn换成git，早干什么去了。。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>飞信中。。。win32移植，done</title>
+   <link href="http://localhost:4000/2008/12/16/e9-a3-9e-e4-bf-a1-e4-b8-ad-e3-80-82-e3-80-82-e3-80-82win32-e7-a7-bb-e6-a4-8d-ef-bc-8cdone/"/>
+   <updated>2008-12-16T20:40:03+08:00</updated>
+   <id>http://localhost:4000/2008/12/16/%e9%a3%9e%e4%bf%a1%e4%b8%ad%e3%80%82%e3%80%82%e3%80%82win32%e7%a7%bb%e6%a4%8d%ef%bc%8cdone</id>
+   <content type="html">&lt;p&gt;如果打算跨平台开发的话，始终使用gcc是首选对策。。。&lt;/p&gt;
+
+&lt;p&gt;我对vc不熟悉，不过似乎很多情况下用vc9编译的东西放在干净的机器上没法运行，把vc9的运行时放过去也不行，只能安装.net 3.5或者用非express的vc版本打包。。。这是无法接受的。。&lt;/p&gt;
+
+&lt;p&gt;前些天程序不正常的原因就是win32 下的 openssl 库用了vc9编译，而主程序和主要的库是mingw编译的，所以程序能运行，而Qt network库去load openssl库时openssl就会无法正常加载symbol，此时qt的network库并不报错，而是默默的把https请求变成http请求发出去。。。。。如果不是听了一下包我怎么也不会相信的。。&lt;/p&gt;
+
+&lt;p&gt;花了一个下午用mingw重新编译了openssl库，（虚拟机里编译！！！）编译出来的dll竟然和vc编译出来的不同名。。。。改了一下名字后qt network库终于可以使用ssl通信了。。。&lt;/p&gt;
+
+&lt;p&gt;qt库不用重新编译，把各种模块，plugin和外部库分开其实更方便发布和更新。。。&lt;/p&gt;
+
+&lt;p&gt;今天swap终于开始工作了。。4G的内存也不能再泰然下去了，一个eclipse，一个firefox，一个编译用的winxp，一个clean的测试winxp，一个测试用的fedora9，还有永远不舍得关的mldonkey。。。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>飞信中。。。还是win32的移植</title>
+   <link href="http://localhost:4000/2008/12/15/e9-a3-9e-e4-bf-a1-e4-b8-ad-e3-80-82-e3-80-82-e3-80-82-e8-bf-98-e6-98-afwin32-e7-9a-84-e7-a7-bb-e6-a4-8d/"/>
+   <updated>2008-12-15T14:36:10+08:00</updated>
+   <id>http://localhost:4000/2008/12/15/%e9%a3%9e%e4%bf%a1%e4%b8%ad%e3%80%82%e3%80%82%e3%80%82%e8%bf%98%e6%98%afwin32%e7%9a%84%e7%a7%bb%e6%a4%8d</id>
+   <content type="html">&lt;p&gt;大致在msdn浏览了一下相关的问题，结果却在adobe的开发页面上找到资料。&lt;/p&gt;
+
+&lt;p&gt;总之是vs8之后的manifest啥啥，一会装个clean的虚拟机试试。。&lt;/p&gt;
+
+&lt;p&gt;另外做了keep-alive部分，昨天挂了6小时没掉线。&lt;/p&gt;
+
+&lt;p&gt;去除了裸C++的md5库，改用Qt自己的crypt类。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Doris出图了，终于</title>
+   <link href="http://localhost:4000/2008/12/12/doris-e5-87-ba-e5-9b-be-e4-ba-86-ef-bc-8c-e7-bb-88-e4-ba-8e/"/>
+   <updated>2008-12-12T23:21:24+08:00</updated>
+   <id>http://localhost:4000/2008/12/12/doris%e5%87%ba%e5%9b%be%e4%ba%86%ef%bc%8c%e7%bb%88%e4%ba%8e</id>
+   <content type="html">&lt;p&gt;找到轨道数据后又试了一次，终于出来了&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>飞信中。。。这个才是里程碑版本？</title>
+   <link href="http://localhost:4000/2008/12/12/e9-a3-9e-e4-bf-a1-e4-b8-ad-e3-80-82-e3-80-82-e3-80-82-e8-bf-99-e4-b8-aa-e6-89-8d-e6-98-af-e9-87-8c-e7-a8-8b-e7-a2-91-e7-89-88-e6-9c-ac-ef-bc-9f/"/>
+   <updated>2008-12-12T22:44:10+08:00</updated>
+   <id>http://localhost:4000/2008/12/12/%e9%a3%9e%e4%bf%a1%e4%b8%ad%e3%80%82%e3%80%82%e3%80%82%e8%bf%99%e4%b8%aa%e6%89%8d%e6%98%af%e9%87%8c%e7%a8%8b%e7%a2%91%e7%89%88%e6%9c%ac%ef%bc%9f</id>
+   <content type="html">&lt;p&gt;搞错了。。被踢是因为win32下编码不是utf8，算字符串字节个数出错了。。。&lt;/p&gt;
+
+&lt;p&gt;做好了invite bye部分，没有明显的缺憾了。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>飞信中。。。移植到win32，done</title>
+   <link href="http://localhost:4000/2008/12/12/e9-a3-9e-e4-bf-a1-e4-b8-ad-e3-80-82-e3-80-82-e3-80-82-e7-a7-bb-e6-a4-8d-e5-88-b0win32-ef-bc-8cdone/"/>
+   <updated>2008-12-12T16:11:02+08:00</updated>
+   <id>http://localhost:4000/2008/12/12/%e9%a3%9e%e4%bf%a1%e4%b8%ad%e3%80%82%e3%80%82%e3%80%82%e7%a7%bb%e6%a4%8d%e5%88%b0win32%ef%bc%8cdone</id>
+   <content type="html">&lt;p&gt;遇上一些问题，默认的win是不装openssl的，qt也是不带ssl的（虽然qxxsocket链接到ssl库），实在不熟悉win32的开发，花了两个小时才移植完，现在winxp下可以跑了。&lt;/p&gt;
+
+&lt;p&gt;多说一句，主动invite没做完。。所以我的客户端不能互发。。会被服务器踢下来，但是和官方的交流没问题。。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>飞信中。。里程碑版本</title>
+   <link href="http://localhost:4000/2008/12/11/e9-a3-9e-e4-bf-a1-e4-b8-ad-e3-80-82-e3-80-82-e9-87-8c-e7-a8-8b-e7-a2-91-e7-89-88-e6-9c-ac/"/>
+   <updated>2008-12-11T22:37:48+08:00</updated>
+   <id>http://localhost:4000/2008/12/11/%e9%a3%9e%e4%bf%a1%e4%b8%ad%e3%80%82%e3%80%82%e9%87%8c%e7%a8%8b%e7%a2%91%e7%89%88%e6%9c%ac</id>
+   <content type="html">&lt;p&gt;可以发送消息和短信，当然也可以接收，另外简单重写了底层的协议栈，应该没有问题了。&lt;/p&gt;
+
+&lt;p&gt;到此告一段落，基础功能大多实现了，剩下的慢慢来。。&lt;/p&gt;
+
+&lt;p&gt;开始飞信正好十二天，比预计提前，很好。。。&lt;/p&gt;
+
+&lt;p&gt;明天开始搞那个合成孔径雷达差分干涉测量图的解析软件。。。bless me&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>飞信中。。。联系人信息、状态</title>
+   <link href="http://localhost:4000/2008/12/09/e9-a3-9e-e4-bf-a1-e4-b8-ad-e3-80-82-e3-80-82-e3-80-82-e8-81-94-e7-b3-bb-e4-ba-ba-e4-bf-a1-e6-81-af-e3-80-81-e7-8a-b6-e6-80-81/"/>
+   <updated>2008-12-09T22:10:11+08:00</updated>
+   <id>http://localhost:4000/2008/12/09/%e9%a3%9e%e4%bf%a1%e4%b8%ad%e3%80%82%e3%80%82%e3%80%82%e8%81%94%e7%b3%bb%e4%ba%ba%e4%bf%a1%e6%81%af%e3%80%81%e7%8a%b6%e6%80%81</id>
+   <content type="html">&lt;p&gt;可以获取联系人的信息和接受服务器传来的联系人状态变化，支持自定义的状态短语。&lt;/p&gt;
+
+&lt;p&gt;图标暂时还是不做，先搞现实的功能。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://blog.seerhut.cn/wp-content/uploads/2008/12/gkrellshoot_2008-12-09_214518.jpg&quot;&gt; &lt;img src=&quot;http://blog.seerhut.cn/wp-content/uploads/2008/12/gkrellshoot_2008-12-09_214518-147x300.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;a href=&quot;http://blog.seerhut.cn/wp-content/uploads/2008/12/gkrellshoot_2008-12-09_2144581.jpg&quot;&gt; &lt;img src=&quot;http://blog.seerhut.cn/wp-content/uploads/2008/12/gkrellshoot_2008-12-09_2144581-147x300.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;最新的theme和80年代的unix WM，凑活看吧。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>飞信中。。。用户信息和联系人列表</title>
+   <link href="http://localhost:4000/2008/12/07/e9-a3-9e-e4-bf-a1-e4-b8-ad-e3-80-82-e3-80-82-e3-80-82-e7-94-a8-e6-88-b7-e4-bf-a1-e6-81-af-e5-92-8c-e8-81-94-e7-b3-bb-e4-ba-ba-e5-88-97-e8-a1-a8/"/>
+   <updated>2008-12-07T22:45:02+08:00</updated>
+   <id>http://localhost:4000/2008/12/07/%e9%a3%9e%e4%bf%a1%e4%b8%ad%e3%80%82%e3%80%82%e3%80%82%e7%94%a8%e6%88%b7%e4%bf%a1%e6%81%af%e5%92%8c%e8%81%94%e7%b3%bb%e4%ba%ba%e5%88%97%e8%a1%a8</id>
+   <content type="html">&lt;p&gt;一边完善架构一边增加功能。用户信息可以获取/解析/显示，暂无图片。联系人列表可以获取/显示，带分组，暂无图片。&lt;/p&gt;
+
+&lt;p&gt;优化了一下类的结构，重新组织了信号的传递，结构清晰多了，大部分dirty code弄干净了。。。&lt;/p&gt;
+
+&lt;p&gt;另外把聊天窗口做好备用，有点麻烦，这种限制于工具的活。&lt;/p&gt;
+
+&lt;p&gt;明天中午开始做联系人信息获取/解析/显示部分，以及presence事件的相关部分。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>飞信中。。。关于用户信息的属性名</title>
+   <link href="http://localhost:4000/2008/12/06/e9-a3-9e-e4-bf-a1-e4-b8-ad-e3-80-82-e3-80-82-e3-80-82-e5-85-b3-e4-ba-8e-e7-94-a8-e6-88-b7-e4-bf-a1-e6-81-af-e7-9a-84-e5-b1-9e-e6-80-a7-e5-90-8d/"/>
+   <updated>2008-12-06T14:16:08+08:00</updated>
+   <id>http://localhost:4000/2008/12/06/%e9%a3%9e%e4%bf%a1%e4%b8%ad%e3%80%82%e3%80%82%e3%80%82%e5%85%b3%e4%ba%8e%e7%94%a8%e6%88%b7%e4%bf%a1%e6%81%af%e7%9a%84%e5%b1%9e%e6%80%a7%e5%90%8d</id>
+   <content type="html">&lt;p&gt;关于显示在用户和联系人列表中的除了nickname和status的那东西，搭建程序架构时我一直称呼为complaint，觉得很贴切，也没多想。 开始写获取用户信息代码的时候看了看抓来的sip包，飞信的称呼竟然是impresa,寒意顿生。。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>飞信中...终于把框架确定了</title>
+   <link href="http://localhost:4000/2008/12/06/e9-a3-9e-e4-bf-a1-e4-b8-ad-e7-bb-88-e4-ba-8e-e6-8a-8a-e6-a1-86-e6-9e-b6-e7-a1-ae-e5-ae-9a-e4-ba-86/"/>
+   <updated>2008-12-06T12:14:13+08:00</updated>
+   <id>http://localhost:4000/2008/12/06/%e9%a3%9e%e4%bf%a1%e4%b8%ad%e7%bb%88%e4%ba%8e%e6%8a%8a%e6%a1%86%e6%9e%b6%e7%a1%ae%e5%ae%9a%e4%ba%86</id>
+   <content type="html">&lt;p&gt;确认了登录和发信息正常后开始分离各种数据和功能，到昨天晚上确定了大致的框架，开始填代码。&lt;/p&gt;
+
+&lt;p&gt;各个类的封装性还是不错的，花了两天搞这个，功能方面一点没进展，但是不做好这些以后要吃苦头的。&lt;/p&gt;
+
+&lt;p&gt;暂时不做界面的css。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>飞信中。。注册proxy搞定</title>
+   <link href="http://localhost:4000/2008/12/03/e9-a3-9e-e4-bf-a1-e4-b8-ad-e3-80-82-e3-80-82-e6-b3-a8-e5-86-8cproxy-e6-90-9e-e5-ae-9a/"/>
+   <updated>2008-12-03T13:18:30+08:00</updated>
+   <id>http://localhost:4000/2008/12/03/%e9%a3%9e%e4%bf%a1%e4%b8%ad%e3%80%82%e3%80%82%e6%b3%a8%e5%86%8cproxy%e6%90%9e%e5%ae%9a</id>
+   <content type="html">&lt;p&gt;四次md5真要命，第一次的结果还必须是raw data，为啥为啥。。&lt;/p&gt;
+
+&lt;p&gt;Qt的QByteArray挺好用。就是需要cast between signed and unsigned ，看起来有点不爽。&lt;/p&gt;
+
+&lt;p&gt;继续思考程序架构，编码放慢。。。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>飞信中2</title>
+   <link href="http://localhost:4000/2008/12/02/e9-a3-9e-e4-bf-a1-e4-b8-ad2/"/>
+   <updated>2008-12-02T22:03:43+08:00</updated>
+   <id>http://localhost:4000/2008/12/02/%e9%a3%9e%e4%bf%a1%e4%b8%ad2</id>
+   <content type="html">&lt;p&gt;给网络通信部分简单搭了框架，力求效率和层次能兼顾，卡在加密认证部分，回头简单看一下md5和sha1的资料。&lt;/p&gt;
+
+&lt;p&gt;开始体会到Qt让人不爽的一面，想省心又想控制一切是不可能地。。。&lt;/p&gt;
+
+&lt;p&gt;飞信的协议还算好懂，暂时不打算去啃SIP的大部头rfc了。&lt;/p&gt;
+
+&lt;p&gt;恩，以上。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>飞信中1</title>
+   <link href="http://localhost:4000/2008/11/30/e9-a3-9e-e4-bf-a1-e4-b8-ad1/"/>
+   <updated>2008-11-30T22:17:42+08:00</updated>
+   <id>http://localhost:4000/2008/11/30/%e9%a3%9e%e4%bf%a1%e4%b8%ad1</id>
+   <content type="html">&lt;p&gt;能登录SSI Portal了，明天修改一下结构再继续做proxy register部分&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>打一枪就换个地方</title>
+   <link href="http://localhost:4000/2008/11/30/e6-89-93-e4-b8-80-e6-9e-aa-e5-b0-b1-e6-8d-a2-e4-b8-aa-e5-9c-b0-e6-96-b9/"/>
+   <updated>2008-11-30T12:16:58+08:00</updated>
+   <id>http://localhost:4000/2008/11/30/%e6%89%93%e4%b8%80%e6%9e%aa%e5%b0%b1%e6%8d%a2%e4%b8%aa%e5%9c%b0%e6%96%b9</id>
+   <content type="html">&lt;p&gt;看中飞信了，抓包看了看协议，是变种SIP。。。&lt;/p&gt;
+
+&lt;p&gt;准备着手弄一个玩玩&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>关于STM32中CAN Filter的笔记</title>
+   <link href="http://localhost:4000/2008/11/14/e5-85-b3-e4-ba-8estm32-e4-b8-adcan-filter-e7-9a-84-e7-ac-94-e8-ae-b0/"/>
+   <updated>2008-11-14T14:55:22+08:00</updated>
+   <id>http://localhost:4000/2008/11/14/%e5%85%b3%e4%ba%8estm32%e4%b8%adcan-filter%e7%9a%84%e7%ac%94%e8%ae%b0</id>
+   <content type="html">&lt;p&gt;Rx mailbox的identifier register有32位，最低三位是0:reserved  1:RTR 2:IDE，因此extID的最低位存于id register的低第3位；而stdID的最低位从id register的21位开始，stdID占据高11位。&lt;/p&gt;
+
+&lt;p&gt;filter bank register也是32位，和mailbox id register一一对应，因此filter bank bits对RTR和IDE也有效。STM32的fwlib中CAN_FilterIdHigh/Low CAN_FilterMaskIdHigh/Low都是raw bits，而RxMessage.StdId之类却由fwlib管理offset，因此两者不能直接对应，filter register需要手动移位来控制。&lt;/p&gt;
+
+&lt;p&gt;如果要接受stdID为0x&lt;em&gt;1&lt;/em&gt;的数据帧：&lt;/p&gt;
+
+&lt;blockquote&gt;/* CAN filter init */
+CAN_FilterInitStructure.CAN_FilterNumber=0;
+CAN_FilterInitStructure.CAN_FilterMode=CAN_FilterMode_IdMask;
+CAN_FilterInitStructure.CAN_FilterScale=CAN_FilterScale_32bit;
+CAN_FilterInitStructure.CAN_FilterIdHigh=0x10 &amp;lt;&amp;lt; 5;
+CAN_FilterInitStructure.CAN_FilterIdLow=0x0000 | 0x0 &amp;lt;&amp;lt; 1 | 0x0 &amp;lt;&amp;lt; 2;
+CAN_FilterInitStructure.CAN_FilterMaskIdHigh=0xF0 &amp;lt;&amp;lt; 5;
+CAN_FilterInitStructure.CAN_FilterMaskIdLow=0x0000 | 0x1 &amp;lt;&amp;lt; 1 | 0x1 &amp;lt;&amp;lt; 2;
+CAN_FilterInitStructure.CAN_FilterFIFOAssignment=CAN_FilterFIFO0;
+CAN_FilterInitStructure.CAN_FilterActivation=ENABLE;
+CAN_FilterInit(&amp;amp;CAN_FilterInitStructure);&lt;/blockquote&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>关于STM32的CAN总线</title>
+   <link href="http://localhost:4000/2008/11/11/e5-85-b3-e4-ba-8estm32-e7-9a-84can-e6-80-bb-e7-ba-bf/"/>
+   <updated>2008-11-11T19:01:32+08:00</updated>
+   <id>http://localhost:4000/2008/11/11/%e5%85%b3%e4%ba%8estm32%e7%9a%84can%e6%80%bb%e7%ba%bf</id>
+   <content type="html">&lt;p&gt;loopback很快就没问题了，接入网络的时候要注意几个问题：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;不要忘记remap用作CAN的引脚，需要的话。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;记清楚时钟用了HSE还是PLL，还有PCLK2是怎么从HCLK分频的。算CAN总线速率的时候是用CAN的时钟去除以(SJW+BS1+BS2)再除以Prescaler。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;终端电阻的配备。总之注意阻抗和相应的信号反射问题就是了。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;开了中断不去处理是要遭报应的。。。别忘记把收到的message删掉。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;模拟示波器这个时候是没用的。。。。要是有台带协议分析的存储示波器就好了。&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;以上。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>重回C++</title>
+   <link href="http://localhost:4000/2008/11/05/e9-87-8d-e5-9b-9ec/"/>
+   <updated>2008-11-05T22:32:08+08:00</updated>
+   <id>http://localhost:4000/2008/11/05/%e9%87%8d%e5%9b%9ec</id>
+   <content type="html">&lt;p&gt;终于回到纯软件的地盘，花了10天快速熟悉了QT，除了多媒体部分外大致可以上手。从上海回来就要着手那个所谓差分干涉雷达遥感图像处理系统，又是全新的领域，不知会用掉我多少天。要是东西出的早再花点时间把处理引擎搬到PS3上试试。。恩 我承认其实我的打算是搬到PS3的集群里试试。。。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>发现村田的微波雷达</title>
+   <link href="http://localhost:4000/2008/10/14/e5-8f-91-e7-8e-b0-e6-9d-91-e7-94-b0-e7-9a-84-e5-be-ae-e6-b3-a2-e9-9b-b7-e8-be-be/"/>
+   <updated>2008-10-14T11:47:21+08:00</updated>
+   <id>http://localhost:4000/2008/10/14/%e5%8f%91%e7%8e%b0%e6%9d%91%e7%94%b0%e7%9a%84%e5%be%ae%e6%b3%a2%e9%9b%b7%e8%be%be</id>
+   <content type="html">&lt;p&gt;为汽车测速设计的，配合制动力控制和动力分配。不知道距离可以有多少，超低空可否用呢。。。等着这回IEEE会上的资料。。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Port or Rewrite</title>
+   <link href="http://localhost:4000/2008/09/22/port-or-rewrite/"/>
+   <updated>2008-09-22T11:01:11+08:00</updated>
+   <id>http://localhost:4000/2008/09/22/port-or-rewrite</id>
+   <content type="html">&lt;p&gt;翻看了world wind的java sdk 代码，不是一个小工程，关键是很多技术在移动平台上没有替代，所以遇到了同cf的作者一样的困境。这两天有空继续读代码，争取尽快弄出线索。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>6个日夜啊！</title>
+   <link href="http://localhost:4000/2008/09/04/6-e4-b8-aa-e6-97-a5-e5-a4-9c-e5-95-8a-ef-bc-81/"/>
+   <updated>2008-09-04T08:00:30+08:00</updated>
+   <id>http://localhost:4000/2008/09/04/6%e4%b8%aa%e6%97%a5%e5%a4%9c%e5%95%8a%ef%bc%81</id>
+   <content type="html">&lt;p&gt;终于完成隔离部分，模拟部分的开发也就基本结束了，剩下只需微调误差和热漂移。&lt;/p&gt;
+
+&lt;p&gt;其他部分只剩CAN总线的通信和整体的控制，这些就轻松多了。&lt;/p&gt;
+
+&lt;p&gt;花在模拟上的时间比起花在数字电路和程序上的时间高了若干个数量级。。。怪不得AD和BB的东西卖这么贵。&lt;/p&gt;
+
+&lt;p&gt;总结：搞不通的东西可以先放放，试试别的方法，不过别忘了时不时回头看看。&lt;/p&gt;
+
+&lt;p&gt;最后狂吻我的kenwood oscilloscope，汗马功劳阿，哈哈哈。。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Bell Labs Kills Fundamental Physics Research</title>
+   <link href="http://localhost:4000/2008/08/28/bell-labs-kills-fundamental-physics-research/"/>
+   <updated>2008-08-29T05:03:12+08:00</updated>
+   <id>http://localhost:4000/2008/08/28/bell-labs-kills-fundamental-physics-research</id>
+   <content type="html">&lt;p&gt;see http://science.slashdot.org/science/08/08/28/209220.shtml&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>官方的linux版本QQ上午放出了</title>
+   <link href="http://localhost:4000/2008/07/31/e5-ae-98-e6-96-b9-e7-9a-84linux-e7-89-88-e6-9c-acqq-e4-b8-8a-e5-8d-88-e6-94-be-e5-87-ba-e4-ba-86/"/>
+   <updated>2008-07-31T15:21:00+08:00</updated>
+   <id>http://localhost:4000/2008/07/31/%e5%ae%98%e6%96%b9%e7%9a%84linux%e7%89%88%e6%9c%acqq%e4%b8%8a%e5%8d%88%e6%94%be%e5%87%ba%e4%ba%86</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;http://im.qq.com/qq/linux/&quot;&gt;QQ for Linux&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>七月份事情不少阿。</title>
+   <link href="http://localhost:4000/2008/07/14/e4-b8-83-e6-9c-88-e4-bb-bd-e4-ba-8b-e6-83-85-e4-b8-8d-e5-b0-91-e9-98-bf-e3-80-82/"/>
+   <updated>2008-07-14T14:06:01+08:00</updated>
+   <id>http://localhost:4000/2008/07/14/%e4%b8%83%e6%9c%88%e4%bb%bd%e4%ba%8b%e6%83%85%e4%b8%8d%e5%b0%91%e9%98%bf%e3%80%82</id>
+   <content type="html">&lt;p&gt;google要出lively&lt;/p&gt;
+
+&lt;p&gt;tencent要出linux上的qq&lt;/p&gt;
+
+&lt;p&gt;atmel要出cortex-m3核的sam3&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>终于了结周边项目，开始主攻正题</title>
+   <link href="http://localhost:4000/2008/06/24/e7-bb-88-e4-ba-8e-e4-ba-86-e7-bb-93-e5-91-a8-e8-be-b9-e9-a1-b9-e7-9b-ae-ef-bc-8c-e5-bc-80-e5-a7-8b-e4-b8-bb-e6-94-bb-e6-ad-a3-e9-a2-98/"/>
+   <updated>2008-06-25T04:00:31+08:00</updated>
+   <id>http://localhost:4000/2008/06/24/%e7%bb%88%e4%ba%8e%e4%ba%86%e7%bb%93%e5%91%a8%e8%be%b9%e9%a1%b9%e7%9b%ae%ef%bc%8c%e5%bc%80%e5%a7%8b%e4%b8%bb%e6%94%bb%e6%ad%a3%e9%a2%98</id>
+   <content type="html">&lt;p&gt;VxWorks上的莫名项目终于了结，某网站也基本完工，现在开始全时间投入变电站的设备开发上。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>usb转串口线使用记录及其他</title>
+   <link href="http://localhost:4000/2008/05/20/usb-e8-bd-ac-e4-b8-b2-e5-8f-a3-e7-ba-bf-e4-bd-bf-e7-94-a8-e8-ae-b0-e5-bd-95-e5-8f-8a-e5-85-b6-e4-bb-96/"/>
+   <updated>2008-05-20T17:17:50+08:00</updated>
+   <id>http://localhost:4000/2008/05/20/usb%e8%bd%ac%e4%b8%b2%e5%8f%a3%e7%ba%bf%e4%bd%bf%e7%94%a8%e8%ae%b0%e5%bd%95%e5%8f%8a%e5%85%b6%e4%bb%96</id>
+   <content type="html">&lt;p&gt;把vxworks usart 的波特率搞错了，结果这些天像没头苍蝇一样。不知为什么总是固执的以为9600，结果今天回去看了眼代码发现是38400，忏悔中。。。。。
+这样的话当时用linux开发板连vxworks再用ssh登上linux开minicom也是可行的了，不过既然买了usb转串口线就不折腾板子了。
+下面是正题，买了两条usb串口线，一条50－60RMB，Z-TEK的;一条BAFO,110买的。两条都可以连linux，但是只有BAFO连vxworks正常，z-tek乱码。卖线的人说BAFO可以连cisco的路由，开来不是吹牛，在此提醒诸位vxworks的生徒要选BAFO的线。。。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>4G内存下linux的mtrr表不正确的解决</title>
+   <link href="http://localhost:4000/2008/05/13/4g-e5-86-85-e5-ad-98-e4-b8-8blinux-e7-9a-84mtrr-e8-a1-a8-e4-b8-8d-e6-ad-a3-e7-a1-ae-e7-9a-84-e8-a7-a3-e5-86-b3/"/>
+   <updated>2008-05-14T04:24:03+08:00</updated>
+   <id>http://localhost:4000/2008/05/13/4g%e5%86%85%e5%ad%98%e4%b8%8blinux%e7%9a%84mtrr%e8%a1%a8%e4%b8%8d%e6%ad%a3%e7%a1%ae%e7%9a%84%e8%a7%a3%e5%86%b3</id>
+   <content type="html">&lt;p&gt;这个会导致nvidia的驱动不能加速2d，解决方案一般就是重写mtrr表，具体的google出来是这个&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;echo “disable=2” &amp;gt;&lt;/td&gt;
+      &lt;td&gt;/proc/mtrr&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;echo “disable=1” &amp;gt;&lt;/td&gt;
+      &lt;td&gt;/proc/mtrr&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;echo “disable=3” &amp;gt;&lt;/td&gt;
+      &lt;td&gt;/proc/mtrr&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;echo “disable=4” &amp;gt;&lt;/td&gt;
+      &lt;td&gt;/proc/mtrr&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;echo “disable=0” &amp;gt;&lt;/td&gt;
+      &lt;td&gt;/proc/mtrr&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;echo “base=0x00000000 size=0x80000000 type=write-back” &amp;gt;&lt;/td&gt;
+      &lt;td&gt;/proc/mtrr&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;echo “base=0x80000000 size=0x40000000 type=write-back” &amp;gt;&lt;/td&gt;
+      &lt;td&gt;/proc/mtrr&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;echo “base=0xC0000000 size=0x10000000 type=write-back” &amp;gt;&lt;/td&gt;
+      &lt;td&gt;/proc/mtrr&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;echo “base=0x100000000 size=0x20000000 type=write-back” &amp;gt;&lt;/td&gt;
+      &lt;td&gt;/proc/mtrr&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;echo “base=0x120000000 size=0x10000000 type=write-back” &amp;gt;&lt;/td&gt;
+      &lt;td&gt;/proc/mtrr&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>VxWorks串口输出乱码的问题</title>
+   <link href="http://localhost:4000/2008/04/13/vvxworks-e4-b8-b2-e5-8f-a3-e8-be-93-e5-87-ba-e4-b9-b1-e7-a0-81-e7-9a-84-e9-97-ae-e9-a2-98/"/>
+   <updated>2008-04-13T23:01:58+08:00</updated>
+   <id>http://localhost:4000/2008/04/13/vvxworks%e4%b8%b2%e5%8f%a3%e8%be%93%e5%87%ba%e4%b9%b1%e7%a0%81%e7%9a%84%e9%97%ae%e9%a2%98</id>
+   <content type="html">&lt;p&gt;确切的说是bootrom串口输出乱码，原因是一些市面的串口线把78直连了，uboot不受影响但是bootrom的串口通信就会出错，有这个问题的同志要注意&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>at91 patch for 2.6.x</title>
+   <link href="http://localhost:4000/2008/03/21/at91-patch-for-26x/"/>
+   <updated>2008-03-21T21:39:38+08:00</updated>
+   <id>http://localhost:4000/2008/03/21/at91-patch-for-26x</id>
+   <content type="html">&lt;p&gt;maxim.org.za的ip被封，所以顺手把patch拷过来提供下载。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://blog.seerhut.cn/wp-content/uploads/2008/03/2624-at91patch.gz&quot;&gt;2.6.24-at91.patch.gz&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://blog.seerhut.cn/wp-content/uploads/2008/03/2623-at91patch.gz&quot;&gt;2.6.23-at91.patch.gz&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://blog.seerhut.cn/wp-content/uploads/2008/03/2622-at91patch.gz&quot;&gt;2.6.22-at91.patch.gz&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>关于挂载NFS的小问题</title>
+   <link href="http://localhost:4000/2008/03/20/e5-85-b3-e4-ba-8e-e6-8c-82-e8-bd-bdnfs-e7-9a-84-e5-b0-8f-e9-97-ae-e9-a2-98/"/>
+   <updated>2008-03-21T05:41:11+08:00</updated>
+   <id>http://localhost:4000/2008/03/20/%e5%85%b3%e4%ba%8e%e6%8c%82%e8%bd%bdnfs%e7%9a%84%e5%b0%8f%e9%97%ae%e9%a2%98</id>
+   <content type="html">&lt;p&gt;client机也需要portmap，除非设置&lt;code class=&quot;highlighter-rouge&quot;&gt;nolock&lt;/code&gt;参数。报&lt;code class=&quot;highlighter-rouge&quot;&gt;error -5 &lt;/code&gt;一般是这个原因。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>关于ARM平台上建立linux rootfs的后话</title>
+   <link href="http://localhost:4000/2008/03/19/e5-85-b3-e4-ba-8earm-e5-b9-b3-e5-8f-b0-e4-b8-8a-e5-bb-ba-e7-ab-8blinux-rootfs-e7-9a-84-e5-90-8e-e8-af-9d/"/>
+   <updated>2008-03-19T14:17:42+08:00</updated>
+   <id>http://localhost:4000/2008/03/19/%e5%85%b3%e4%ba%8earm%e5%b9%b3%e5%8f%b0%e4%b8%8a%e5%bb%ba%e7%ab%8blinux-rootfs%e7%9a%84%e5%90%8e%e8%af%9d</id>
+   <content type="html">&lt;p&gt;只有从源码建立才能最大限度保证兼容和稳定，尤其是现在各个发行套件使用的glibc甚至ABI版本都不同，因此必须使用一个buildroot套件进行工作。我选的是OpenEmbeded ( &lt;a href=&quot;http://www.openembedded.org/&quot;&gt;http://www.openembedded.org&lt;/a&gt;  )，使用12/2007发布的stable版本，库和程序较新，又很稳定，可以轻松建立从bootstrap到desktop的环境，同时保持很不错的可定制能力，最难得的是这个套件生成的rootfs几乎是最省空间的。&lt;/p&gt;
+
+&lt;p&gt;为了开发方便，可以把rootfs根目录直接挂上工作站的某个 NFS path，这样对文件系统的修改就方便很多。NFS的参数要作为args传给内核，内核中必须打开IP自动配置和NFS支持。挂载上rootfs开始init后系统会remount一次，这回用的不是kernel args里面指定的IP配置了，因此要修改启动脚本让网络环境设置正确。我在这里卡了一点时间，由于dhcp程序不能正常工作，将之nuke掉就好了。&lt;/p&gt;
+
+&lt;p&gt;一开始rootfs不用太精简，略微臃肿一些无妨，反正是用NFS rootfs。这样可以避免缺少某些包而启动失败，等系统运行正常再开始剪裁也不迟。注意OE的一些bootstrap-image helloworld-image等等精简系统似乎不能适应NFS rootfs环境，我在这里转了很大一圈，现在确定可以使用的最简配置如下：
+&lt;!-- more --&gt;
+` ANGSTROM_EXTRA_INSTALL ?= “”
+#DISTRO_SSH_DAEMON ?= “dropbear”
+IMAGE_INSTALL =” \
+base-files \
+base-passwd \
+busybox \
+mdev \
+cron \
+initscripts \
+#modutils-initscripts \
+netbase \
+update-alternatives \
+sysvinit \
+sysvinit-pidof \
+tinylogin \
+angstrom-version \
+#ppp \
+setserial \
+#nfs-utils \
+#portmap \
+mtd-utils”&lt;code class=&quot;highlighter-rouge&quot;&gt;
+&lt;/code&gt;
+export IMAGE_BASENAME = “seerhut-test-image”
+IMAGE_LINGUAS = “”
+inherit image
+`&lt;/p&gt;
+
+&lt;p&gt;同时/bin/login的owner必须是root。设置成u+s也不行。这样基本就完成了。&lt;/p&gt;
+
+&lt;p&gt;商业发布的套件几乎全是生成old arm abi二进制文件 的，而且同时发布的rootfs都很臃肿，不便剪裁。如果一定要使用商业套件，推荐timesys的toolchain，但是它的rootfs太大了，&amp;lt;32M的NAND几乎无法使用。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>关于ARM target的cross compile toolchain和root builder的选择</title>
+   <link href="http://localhost:4000/2008/03/13/e5-85-b3-e4-ba-8earm-target-e7-9a-84cross-compile-toolchain-e5-92-8croot-builder-e7-9a-84-e9-80-89-e6-8b-a9/"/>
+   <updated>2008-03-13T23:53:09+08:00</updated>
+   <id>http://localhost:4000/2008/03/13/%e5%85%b3%e4%ba%8earm-target%e7%9a%84cross-compile-toolchain%e5%92%8croot-builder%e7%9a%84%e9%80%89%e6%8b%a9</id>
+   <content type="html">&lt;p&gt;当然是在x86 host上的。
+首先试了uclibc的buildroot，可编译toolchain和rootfs，svn更新。使用很方便，用了类似内核和busybox的配置界面menuconfig，可定制项目较细，自动化程度好。但是有个硬伤，不能选择使用glibc，强制使用uclibc。。。。但可能有patch能去掉这个限制。考虑到这个项目的主页也是buildroot.uclibc.org就不难理解这个限制了。对于使用uclinux的用户倒是很合适。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://buildroot.uclibc.org&quot;&gt;http://buildroot.uclibc.org&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;其次是timesys的商业套件，直接提供成品toolchain和BSP。大致每个季度更新，可以下载个人版，基本的工具还是全的。这公司似乎同atmel和arm联系较紧密 ，技术应该很可靠，但是要真正做项目个人版还是不够的，不过个人版提供的一些资料还是很由用处。顺便说一句，我的ebd9261就是提供了这个作为开发工具。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.timesys.com&quot;&gt;http://www.timesys.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;接着是open embedded，可编译toolchain和target package。总得来说做得不错，自动化程度很高，随时更新（用户从版本库检出更新），使用配置文件进行基本配置，可以选择任意包编译。build package的时候会把需安装的文件单独存放，而且粒度很细，比如vim就分放在vim vim-common vim-doc vim-dev vim-syntax vim-dbg vim-help等目录下，同时也提供存放完整vim文件的目录，还提供上述所有的ipk包，总之很是贴心。但是本项目使用的版本管理工具略显怪异。。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.openembedded.org&quot;&gt;http://www.openembedded.org&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;随后是gentoo自己的crossdev，这个没什么可说的，四海一家的方案。。。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.gentoo.org/proj/en/base/embedded/handbook&quot;&gt;http://www.gentoo.org/proj/en/base/embedded/handbook&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>newsmth:邱大力称赞KID A仍然健在。。</title>
+   <link href="http://localhost:4000/2007/12/06/newsmth-e9-82-b1-e5-a4-a7-e5-8a-9b-e7-a7-b0-e8-b5-9ekid-a-e4-bb-8d-e7-84-b6-e5-81-a5-e5-9c-a8-e3-80-82-e3-80-82/"/>
+   <updated>2007-12-06T12:13:30+08:00</updated>
+   <id>http://localhost:4000/2007/12/06/newsmth%e9%82%b1%e5%a4%a7%e5%8a%9b%e7%a7%b0%e8%b5%9ekid-a%e4%bb%8d%e7%84%b6%e5%81%a5%e5%9c%a8%e3%80%82%e3%80%82</id>
+   <content type="html">&lt;p&gt;上学的时候找到摇滚版赫然看见此帖已被re了三年，遂知此版不是我等纯洁青少年混的了的地方，于是每次仅仅浏览而已，不敢出声。&lt;/p&gt;
+
+&lt;p&gt;现在一只脚已然迈入大叔了，下了新的bjork，兴致满满的玩了guitar hero I II III，觉得自己还没被抛弃，突然想起那个版面，回去看看，首页，三条标题，都是，称赞KID A，鼓足勇气，点击同主题第一条，2000年11月，啊，是我入学前，关了浏览器。&lt;/p&gt;
+
+&lt;p&gt;今天是2007年12月，立此存照。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>WoW中文输入法更新 v2.2</title>
+   <link href="http://localhost:4000/2007/12/05/wow-e4-b8-ad-e6-96-87-e8-be-93-e5-85-a5-e6-b3-95-e6-9b-b4-e6-96-b0-v22/"/>
+   <updated>2007-12-05T12:53:03+08:00</updated>
+   <id>http://localhost:4000/2007/12/05/wow%e4%b8%ad%e6%96%87%e8%be%93%e5%85%a5%e6%b3%95%e6%9b%b4%e6%96%b0-v22</id>
+   <content type="html">&lt;p&gt;饭后弄了弄，变化如下。在wow中已经没有什么功能障碍了，邮件和拍卖行都可以输入中文，现在在考虑有没有一个终极的文本框方案，只是对wow api 和lua仍然不太熟悉。下个版本可能会增加词频统计和智能学习，但是前提是仍然维持智能拼音风格的输入方式，嵌入式的选词风格很难做。。。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://wiki.seerhutlabs.com/Zhinput&quot;&gt;http://wiki.seerhutlabs.com/Zhinput&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;v2.2 071204&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;可以在写邮件和拍卖行搜索物品时输入中文了&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;增加了一个简单的配置界面&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;增加了一个工具盘&lt;/li&gt;
+&lt;/ul&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>关于：尝试迁移至Movable Type</title>
+   <link href="http://localhost:4000/2007/11/29/e5-85-b3-e4-ba-8e-ef-bc-9a-e5-b0-9d-e8-af-95-e8-bf-81-e7-a7-bb-e8-87-b3movable-type/"/>
+   <updated>2007-11-29T20:51:28+08:00</updated>
+   <id>http://localhost:4000/2007/11/29/%e5%85%b3%e4%ba%8e%ef%bc%9a%e5%b0%9d%e8%af%95%e8%bf%81%e7%a7%bb%e8%87%b3movable-type</id>
+   <content type="html">&lt;p&gt;其实。。其实迁移成功过。&lt;/p&gt;
+
+&lt;p&gt;那个失去响应的问题莫名其妙的消失了，应该是因为我摆弄了一下文件和目录的权限，但是具体的原因和究竟那些文件的什么权限都是个迷。。。google这个问题可以找到一篇和我的情况类似的文章，最后的结果也是摆弄了一下文件权限后系统即正常了，细节为迷。。。&lt;/p&gt;
+
+&lt;p&gt;弃用Movable Type的真正原因一是不熟悉架构：需要加入google analytics的跟踪代码和anti spam的插件，但是短时间内搞不定。二是mt的系统加上其他的文件就会比我的空间大了一点点，wp的话就正好比空间小了一点点。。。&lt;/p&gt;
+
+&lt;p&gt;总的来说Movable Type的系统很精巧，而且生成的网站性能很高，不过已经失去竞争的有利位置了，看看plugin的数量就知道。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>尝试迁移至Movable Type</title>
+   <link href="http://localhost:4000/2007/11/11/e5-b0-9d-e8-af-95-e8-bf-81-e7-a7-bb-e8-87-b3movable-type/"/>
+   <updated>2007-11-12T01:25:52+08:00</updated>
+   <id>http://localhost:4000/2007/11/11/%e5%b0%9d%e8%af%95%e8%bf%81%e7%a7%bb%e8%87%b3movable-type</id>
+   <content type="html">&lt;p&gt;可耻的失败了。。。。&lt;/p&gt;
+
+&lt;p&gt;mt似乎会疯狂连接数据库，造成mysql停止响应，系统中又没有sqlite的模块，只好作罢。&lt;/p&gt;
+
+&lt;p&gt;我在自己的工作站上试了一下，发布一个只有十来篇blog的站点竟然需要query 6000次，无法理解。&lt;/p&gt;
+
+&lt;p&gt;好的一面是可以往mt导入从wp导出的内容，而且工作的很完美。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>WoW中文输入法更新</title>
+   <link href="http://localhost:4000/2007/11/01/wow-e4-b8-ad-e6-96-87-e8-be-93-e5-85-a5-e6-b3-95-e6-9b-b4-e6-96-b0/"/>
+   <updated>2007-11-01T20:37:44+08:00</updated>
+   <id>http://localhost:4000/2007/11/01/wow%e4%b8%ad%e6%96%87%e8%be%93%e5%85%a5%e6%b3%95%e6%9b%b4%e6%96%b0</id>
+   <content type="html">&lt;p&gt;终于更新了，变化较大。&lt;/p&gt;
+
+&lt;p&gt;输入方式模拟智能拼音，可以高亮默认候选词，翻页等更人性化。&lt;/p&gt;
+
+&lt;p&gt;项目页面：&lt;a href=&quot;http://wiki.seerhutlabs.com/Zhinput&quot;&gt;http://wiki.seerhutlabs.com/Zhinput&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;核心已经完善，剩下的工作都是周边的功能。未来打算加入对非聊天框的支持和配置界面，不过不着急，先设计好交互方式，毕竟是业余之外的业余项目，不能浪费代码时间。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>搬迁完毕</title>
+   <link href="http://localhost:4000/2007/10/31/e6-90-ac-e8-bf-81-e5-ae-8c-e6-af-95/"/>
+   <updated>2007-10-31T12:39:49+08:00</updated>
+   <id>http://localhost:4000/2007/10/31/%e6%90%ac%e8%bf%81%e5%ae%8c%e6%af%95</id>
+   <content type="html">&lt;p&gt;原先的域名供应商抱病而亡，导致我的域名无法续费而被抢占。。。。再加上原先的空间到期，决定干脆更换域名和空间。&lt;/p&gt;
+
+&lt;p&gt;域名使用seerhut.cn和seerhut.com（转发到前者）&lt;/p&gt;
+
+&lt;p&gt;空间选了&lt;a href=&quot;http://www.icho.cn&quot;&gt;icho.cn&lt;/a&gt;的，支持mod_python，mod_perl，国内算是很难得了，唯一的缺点就是流量卡的太紧。。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Reiser案新进展。。</title>
+   <link href="http://localhost:4000/2007/05/06/reiser-e6-a1-88-e6-96-b0-e8-bf-9b-e5-b1-95-e3-80-82-e3-80-82/"/>
+   <updated>2007-05-06T10:28:28+08:00</updated>
+   <id>http://localhost:4000/2007/05/06/reiser%e6%a1%88%e6%96%b0%e8%bf%9b%e5%b1%95%e3%80%82%e3%80%82</id>
+   <content type="html">&lt;p&gt;自己看吧，没想到扯出这么大一桩案子。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.wired.com/politics/law/news/2007/05/reiser&quot;&gt;http://www.wired.com/politics/law/news/2007/05/reiser&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>PSP hack</title>
+   <link href="http://localhost:4000/2007/04/13/psp-hack/"/>
+   <updated>2007-04-13T21:53:50+08:00</updated>
+   <id>http://localhost:4000/2007/04/13/psp-hack</id>
+   <content type="html">&lt;p&gt;naked PSP    不错的psp介绍，用beamer做的presentation&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.seerhut.org/blog/wp-content/uploads/2007/04/psp.pdf&quot;&gt;psp.pdf&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>团舞现身</title>
+   <link href="http://localhost:4000/2007/01/30/e5-9b-a2-e8-88-9e-e7-8e-b0-e8-ba-ab/"/>
+   <updated>2007-01-30T22:54:11+08:00</updated>
+   <id>http://localhost:4000/2007/01/30/%e5%9b%a2%e8%88%9e%e7%8e%b0%e8%ba%ab</id>
+   <content type="html">&lt;p&gt;可悲的是新加入的动作惨不忍睹，处处透着傻气。。。。。如果不是跳舞的角色可爱真是看不下去&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Second Life frees source code under GPL</title>
+   <link href="http://localhost:4000/2007/01/08/second-life-frees-source-code-under-gpl/"/>
+   <updated>2007-01-08T23:07:36+08:00</updated>
+   <id>http://localhost:4000/2007/01/08/second-life-frees-source-code-under-gpl</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;http://blog.secondlife.com/2007/01/08/embracing-the-inevitable/&quot;&gt;详细在这 &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;昨天刚看见一个项目libsecondlife实现了一些游戏的功能，今天就出现了这个消息。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Sun Open Sources Java Platform Implementations</title>
+   <link href="http://localhost:4000/2007/01/08/sun-open-sources-java-platform-implementations/"/>
+   <updated>2007-01-08T23:02:17+08:00</updated>
+   <id>http://localhost:4000/2007/01/08/sun-open-sources-java-platform-implementations</id>
+   <content type="html">&lt;p&gt;消息很早就放出了，可没人会想到licence是GPL吧。&lt;/p&gt;
+
+&lt;p&gt;ovember 13, 2006
+&lt;strong&gt;&lt;a href=&quot;http://www.sun.com/opensource/java/&quot;&gt;Sun Open Sources Java Platform Implementations&lt;/a&gt;&lt;/strong&gt;
+Sun is open sourcing its implementation of the Java platform as free software. Get involved!  &lt;a href=&quot;http://sun.com/opensource/java/&quot;&gt;» Learn More&lt;/a&gt;&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Gentoo on PS3</title>
+   <link href="http://localhost:4000/2006/12/08/gentoo-on-ps3/"/>
+   <updated>2006-12-09T00:22:09+08:00</updated>
+   <id>http://localhost:4000/2006/12/08/gentoo-on-ps3</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;http://whitesanjuro.googlepages.com/&quot;&gt;http://whitesanjuro.googlepages.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;买ps3又多了一个理由，现在很多媒体库还没有移植，不过冲着CELL估计很快就能完成。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Joint letter from Novell and Microsoft</title>
+   <link href="http://localhost:4000/2006/11/03/joint-letter-from-novell-and-microsoft/"/>
+   <updated>2006-11-03T21:37:17+08:00</updated>
+   <id>http://localhost:4000/2006/11/03/joint-letter-from-novell-and-microsoft</id>
+   <content type="html">&lt;p&gt;new age ?&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;h1 id=&quot;joint-letter-to-the-open-source-community&quot;&gt;Joint letter to the Open Source Community&lt;/h1&gt;
+
+&lt;h2 id=&quot;from-novell-and-microsoft&quot;&gt;From Novell and Microsoft&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.novell.com/news/press/item.jsp?id=1196&quot;&gt;Today’s announcement of the collaboration between Microsoft and Novell marks the beginning of a new era: Microsoft is coming to terms with Linux. &lt;strong&gt;Read more&lt;/strong&gt; +&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Over the past six years, we’ve seen the effect that the open source community has had on Microsoft. They’ve shared some source code, driven community projects like IronPython and WiX, and they continue to work with a number of open source software companies like JBoss, SugarCRM, XenSource, and Zend.&lt;/p&gt;
+
+&lt;p&gt;However, today’s news is a big step forward for the Linux market. Today, for the first time, Microsoft is collaborating directly with a Linux and Open Source software vendor. With this news, Microsoft is saying that Linux is an important part of the IT infrastructure.&lt;/p&gt;
+
+&lt;p&gt;More importantly, Microsoft announced today that it will not assert its patents against individual, non-commercial developers. Novell has secured an irrevocable promise from Microsoft to allow individual and non-commercial contributors the freedom to continue open source development, free from any concern of Microsoft patent lawsuits. That’s right, Microsoft wants you to keep hacking.&lt;/p&gt;
+
+&lt;p&gt;Why is Microsoft doing this? Because they recognize that customers today are deploying mixed source solutions - Windows and Linux - and they want these solutions to work well together. This will help Microsoft by making it easier for Linux customers to deploy Windows in their Linux environments. Microsoft is committing significant resources to promote joint Windows-Linux solutions. This is all about co-existence and giving customers greater choice.&lt;/p&gt;
+
+&lt;p&gt;The collaboration has multiple pieces:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Patent coverage&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;The concern over potential patent infringements makes some people nervous about the deployment of open source technologies.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;To do this, Novell and Microsoft are providing covenants to each other’s customers, therefore releasing each company from the other’s patent portfolio.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;What it really means is that customers deploying technologies from Novell and Microsoft no longer have to fear about possible lawsuits or potential patent infringement from either company.&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Virtualization&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;Microsoft and Novell will collaborate in enhancing and developing the functionality required to efficiently virtualize Windows on Linux and Linux on Windows.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Both will now be first class citizens in data centers, addressing the needs of mixed environments. They will both enjoy optimized, supported and tuned device drivers to maximize their potential.&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Virtualization Management&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;As a plus, the companies will work together to implement the necessary standards to manage data centers that run mixed environments (WS-Management).&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Novell will develop tools to manage virtualized Windows machines, and Microsoft will develop tools to manage virtualized Linux systems.&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Office Open XML&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;Novell engineers have been working for the last year together with Microsoft engineers through the ECMA TC45 working group in producing a complete specification that would allow for interoperability across office suites.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Novell will develop the code necessary to bring support for Office Open XML into OpenOffice, and we will contribute that support back to the OpenOffice.org organization. We will also distribute the Office Open XML plug-in in our own edition of OpenOffice. In addition, we will participate in the Open XML Translator open source project.&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Collaboration Framework&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;One of the most important components of the collaboration agreement today is that we have setup a framework between Novell and Microsoft to discuss future collaborations.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Today’s announcement marks the beginning of a new era, and should not be considered a limitation. With the collaboration framework in place, we will periodically evaluate areas where we can work together improving the interoperability of our products.&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Mono, OpenOffice and Samba&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;Under the patent agreement, customers will receive coverage for Mono, Samba, and OpenOffice as well as .NET and Windows Server.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;All of these technologies will be improved upon during the 5 years of the agreement and there are some limits on the coverage that would be provided for future technologies added to these offerings.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;The collaboration framework we have put in place allows us to work on complex subjects such as this where intellectual property and innovation are important parts of the conversation.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Novell customers can use these technologies, secure in the knowledge that Microsoft and Novell are working together to offer the best possible joint solution.&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This is a watershed moment for Linux. It fundamentally changes the rules of the game. We’re really excited about this deal, and we hope you are too.&lt;/p&gt;
+
+&lt;p&gt;For more information, please see &lt;a href=&quot;http://www.novell.com/linux/microsoft/faq.html&quot;&gt;Q&amp;amp;A;&lt;/a&gt;.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>WoW's User Interface API changed</title>
+   <link href="http://localhost:4000/2006/09/06/wows-user-interface-api-changed/"/>
+   <updated>2006-09-06T23:00:52+08:00</updated>
+   <id>http://localhost:4000/2006/09/06/wows-user-interface-api-changed</id>
+   <content type="html">&lt;p&gt;from  &lt;strong&gt;&lt;a href=&quot;http://forums.worldofwarcraft.com/thread.html?topicId=15401595&amp;amp;sid=1&quot;&gt;2.0.0 Changes - Concise List&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;09/02/2006 03:12:11 AM UTC&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This is a consolidated list of the announced (and sometimes observed) changes in the User Interface API’s and functionality for the Burning Crusade expansion (2.0) release. Please note that this thread is to discuss the upcoming changes and any clarifications or features that are a direct result of those changes, or things which we’ve been asked to remind slouken of.&lt;/p&gt;
+
+&lt;!-- more --&gt;
+&lt;p&gt;IMPORTANT: Off-topic or entirely redundant posts are liable to get deleted. It is however in everyone’s best interest to not post them in the first place - We’d rather slouken could spend his time coding us cool things than moderating this thread!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Significant Changes&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;The expansion will be using Lua version 5.1.1, which provides a number of useful features, most notably incremental garbage collection and memory-efficient variable arguments. There ARE some incompatible changes with Lua 5.0 and authors are advised to familiarize themselves with &lt;a href=&quot;http://www.lua.org/manual/5.1&quot;&gt;http://www.lua.org/manual/5.1&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Slash Commands&lt;/strong&gt;
+The following new slash commands will be available:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Targetting: /targetlasttarget&lt;/li&gt;
+  &lt;li&gt;Items and equipment: /use , /equip , /equipslot&lt;/li&gt;
+  &lt;li&gt;Pet control: /petattack, /petfollow, /petstay, /petpassive, /petdefensive, /petaggressive&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Spell Casting&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;When casting a ranked buff spell that’s too high a level for a friendly target the game will automatically use the highest appropriate rank of the spell instead.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Actions&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;The old CURRENT_ACTIONBAR_PAGE variable is no longer used, the ChangeActionBarPage(page) function now takes the new page as its argument, and GetActionBarPage() returns the current page number.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Unit Function Changes&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;The GetSlashCmdTarget() UI function is no longer necessary. All the functions that required it now properly interpret the unit tokens (“player”, “pet”, etc.) in addition to names, and an empty string defaults to your current target.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Key Bindings&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;You will be able to bind keys directly to spells, using the scripting interface, e.g. /script SetBinding(“[”, “Holy Light”)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Bug Fixes&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Fixed missing CHAT_MSG_SPELL_SELF_BUFF messages (Opening, Mining, Gathering)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;Last updated 2006-09-04 19:11 pacific&lt;/em&gt;
+[ Post edited by Iriel ]&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;UI and Macros Forum MVP&lt;/strong&gt; - Understand GC!&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>回来了 和 照片们</title>
+   <link href="http://localhost:4000/2006/07/28/e5-9b-9e-e6-9d-a5-e4-ba-86-e5-92-8c-e7-85-a7-e7-89-87-e4-bb-ac/"/>
+   <updated>2006-07-28T15:34:13+08:00</updated>
+   <id>http://localhost:4000/2006/07/28/%e5%9b%9e%e6%9d%a5%e4%ba%86-%e5%92%8c-%e7%85%a7%e7%89%87%e4%bb%ac</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;http://blog.seerhut.cn/wp-content/uploads/2006/07/DSC_0634.thumbnail.JPG&quot; alt=&quot;DSC_0634.JPG&quot; /&gt; &lt;img src=&quot;http://blog.seerhut.cn/wp-content/uploads/2006/07/DSC_0658.thumbnail.JPG&quot; alt=&quot;DSC_0658.JPG&quot; /&gt; &lt;img src=&quot;http://blog.seerhut.cn/wp-content/uploads/2006/07/DSC_0756.thumbnail.JPG&quot; alt=&quot;DSC_0756.JPG&quot; /&gt; &lt;img src=&quot;http://blog.seerhut.cn/wp-content/uploads/2006/07/DSC_0693.thumbnail.JPG&quot; alt=&quot;DSC_0693.JPG&quot; /&gt; &lt;img src=&quot;http://blog.seerhut.cn/wp-content/uploads/2006/07/DSC_0683.thumbnail.JPG&quot; alt=&quot;DSC_0683.JPG&quot; /&gt; &lt;img src=&quot;http://blog.seerhut.cn/wp-content/uploads/2006/07/DSC_0770.thumbnail.JPG&quot; alt=&quot;DSC_0770.JPG&quot; /&gt; &lt;img src=&quot;http://blog.seerhut.cn/wp-content/uploads/2006/07/DSC_0865.thumbnail.JPG&quot; alt=&quot;DSC_0865.JPG&quot; /&gt;
+&lt;!-- more --&gt; &lt;img src=&quot;http://blog.seerhut.cn/wp-content/uploads/2006/07/DSC_0770.JPG&quot; alt=&quot;DSC_0770.JPG&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://blog.seerhut.cn/wp-content/uploads/2006/07/DSC_0683.JPG&quot; alt=&quot;DSC_0683.JPG&quot; /&gt;
+&lt;img src=&quot;http://blog.seerhut.cn/wp-content/uploads/2006/07/DSC_0658.JPG&quot; alt=&quot;DSC_0658.JPG&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://blog.seerhut.cn/wp-content/uploads/2006/07/DSC_0693.JPG&quot; alt=&quot;DSC_0693.JPG&quot; /&gt;
+&lt;img src=&quot;http://blog.seerhut.cn/wp-content/uploads/2006/07/DSC_0756.JPG&quot; alt=&quot;DSC_0756.JPG&quot; /&gt;
+&lt;!-- more --&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://blog.seerhut.cn/wp-content/uploads/2006/07/DSC_0634.JPG&quot; alt=&quot;DSC_0634.JPG&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://blog.seerhut.cn/wp-content/uploads/2006/07/DSC_0865.JPG&quot; alt=&quot;DSC_0865.JPG&quot; /&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Barrett dies aged 60</title>
+   <link href="http://localhost:4000/2006/07/11/barrett-dies-aged-60/"/>
+   <updated>2006-07-12T01:29:15+08:00</updated>
+   <id>http://localhost:4000/2006/07/11/barrett-dies-aged-60</id>
+   <content type="html">&lt;p&gt;No Content Found&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>「日本の正式国名」について</title>
+   <link href="http://localhost:4000/2006/07/10/e3-80-8c-e6-97-a5-e6-9c-ac-e3-81-ae-e6-ad-a3-e5-bc-8f-e5-9b-bd-e5-90-8d-e3-80-8d-e3-81-ab-e3-81-a4-e3-81-84-e3-81-a6/"/>
+   <updated>2006-07-10T23:57:55+08:00</updated>
+   <id>http://localhost:4000/2006/07/10/%e3%80%8c%e6%97%a5%e6%9c%ac%e3%81%ae%e6%ad%a3%e5%bc%8f%e5%9b%bd%e5%90%8d%e3%80%8d%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6</id>
+   <content type="html">&lt;p&gt;从石原的主页上找到的，颇有趣，看看吧。。&lt;/p&gt;
+
+&lt;!-- more --&gt;
+&lt;table cellpadding=&quot;5&quot; width=&quot;100%&quot; border=&quot;0&quot; cellspacing=&quot;1&quot; bgcolor=&quot;#cc0000&quot;&gt;
+&lt;tr&gt;
+
+&lt;td bgcolor=&quot;#cc0000&quot; align=&quot;center&quot; style=&quot;width: 20px&quot;&gt;**1**
+&lt;/td&gt;
+
+&lt;td bgcolor=&quot;#ffffff&quot;&gt;**日本皇国**
+＊本作品は応募者多数のため、[作者名はこちらからご覧ください。](javascript:void(0))
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;table cellpadding=&quot;5&quot; width=&quot;100%&quot; border=&quot;0&quot; cellspacing=&quot;1&quot; bgcolor=&quot;#cc3300&quot;&gt;
+&lt;tr&gt;
+
+&lt;td bgcolor=&quot;#cc3300&quot; align=&quot;center&quot; style=&quot;width: 20px&quot;&gt;**2**
+&lt;/td&gt;
+
+&lt;td bgcolor=&quot;#ffffff&quot;&gt;**大日本帝国**
+＊本作品は応募者多数のため、[作者名はこちらからご覧ください。](javascript:void(0))　
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;table cellpadding=&quot;5&quot; width=&quot;100%&quot; border=&quot;0&quot; cellspacing=&quot;1&quot; bgcolor=&quot;#cc6600&quot;&gt;
+&lt;tr&gt;
+
+&lt;td bgcolor=&quot;#cc6600&quot; align=&quot;center&quot; style=&quot;width: 20px&quot;&gt;**3**
+&lt;/td&gt;
+
+&lt;td bgcolor=&quot;#ffffff&quot;&gt;**アメリカ合衆国日本州**
+＊本作品は応募者多数のため、[作者名はこちらからご覧ください。](javascript:void(0))
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;p&gt;４　日本官僚社会主義連邦共和国
+(東京都　青山貞一　５６歳)&lt;/p&gt;
+
+&lt;p&gt;５　不良外国人犯罪コンテスト実施場ニッポン
+(東京都　高橋茜　１７歳)&lt;/p&gt;
+
+&lt;p&gt;６　マゾヒストジャパン
+(東京都　二階堂豹介　３８歳)&lt;/p&gt;
+
+&lt;p&gt;７　日本国（ひきこもりsince1945）
+(東京都　みほ　１９歳)&lt;/p&gt;
+
+&lt;p&gt;８　中華人民共和国日本省
+(福井県　Exective-Yellow-Monkey　１９歳)
+(横浜市　啄木鳥)&lt;/p&gt;
+&lt;table cellpadding=&quot;0&quot; width=&quot;500&quot; border=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+&lt;tr&gt;
+
+&lt;td style=&quot;width: 20px&quot; valign=&quot;top&quot;&gt;９
+&lt;/td&gt;
+
+&lt;td&gt;アメリカのアメリカによるアメリカのための統治により無責任天皇制(天皇を象徴とし、誰も責任をとらなくてもいいようにごまかすことのできる体 制)を受け入れることにより自らを経済活動に傾向することによりごまかして来たが破綻し、その矛盾に耐え切れなくなり、実は反省していない戦争の惨禍に向 かって歩む、アメリカを宗主国とする、特定の宗教に加担することはないことを宣言する日本社会自由民主共和国
+(神奈川県　オサム　４０歳)
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;p&gt;１０　サービス残業国家日本国
+(愛知県　安達英俊　２２歳)&lt;/p&gt;
+
+&lt;p&gt;１１　やればできるんです!! やらないけどね。日本
+(フランス・ローヌ県　テツ　２３歳)&lt;/p&gt;
+
+&lt;p&gt;１２　ことなかれ主義国日本
+(福島県　星野節子　４３歳)&lt;/p&gt;
+
+&lt;p&gt;１３　どんな犯罪を犯しても少年法で守って差し上げます日本
+(福岡県　弁天　１８歳)&lt;/p&gt;
+
+&lt;p&gt;１４　真正包茎日本国
+(埼玉県　BASARA　３５歳)&lt;/p&gt;
+
+&lt;p&gt;１５　スパイ天国日本
+(神奈川県　ふかさわ　２８歳)&lt;/p&gt;
+
+&lt;p&gt;１６　去勢国家日本
+(三島由紀夫はなぜ逝ったのか？)&lt;/p&gt;
+
+&lt;p&gt;１７　日本他力本願教国
+(宮城県　富良満男　４０歳)&lt;/p&gt;
+&lt;table cellpadding=&quot;0&quot; width=&quot;500&quot; border=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+&lt;tr&gt;
+
+&lt;td style=&quot;width: 30px&quot; valign=&quot;top&quot;&gt;１８
+&lt;/td&gt;
+
+&lt;td style=&quot;width: 470px&quot;&gt;日本太陽神戸三井住友朝日三和大和東海富士第一勧銀日本興業東京三菱銀行国
+(大阪府　茜城織鳥　２８歳)
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;p&gt;１９　売国奴には寛大な日本国
+(morimori)&lt;/p&gt;
+
+&lt;p&gt;２０　国の事なんて俺には関係ないや主義者共和国
+（Anti-Nationalizm People’s Republic of Japan）
+(東京都　ヒンディー）&lt;/p&gt;
+
+&lt;p&gt;２１　オキュパイド・ジャパン(占領下日本)
+(東京都　Minuteman1208　４２歳)&lt;/p&gt;
+
+&lt;p&gt;２２　放置国家日本
+(東京都　きゅろひ)
+(北海道　インプ　２６歳)
+(zinmi)
+(静岡県 まちゅもと ３５歳)&lt;/p&gt;
+
+&lt;p&gt;２３　日本多神教的多民族国家
+(千葉県　晴代　５０代)&lt;/p&gt;
+
+&lt;p&gt;２４　外国人犯罪誘致国日本
+(大阪府　CHA　２６歳)&lt;/p&gt;
+
+&lt;p&gt;２５　教育にはある程度厳しさが必要じゃ！わかれ日本
+(toCtoC)&lt;/p&gt;
+
+&lt;p&gt;２６　縦割民主主義人民共和国日本
+(香川県　大高一樹　１５歳)&lt;/p&gt;
+
+&lt;p&gt;２７　なんとかなるだろう日本
+(大阪府　浪速っ子　２２歳)&lt;/p&gt;
+
+&lt;p&gt;２８　辞めればＯＫ国日本
+(栃木県　 エンちやん　５６歳)&lt;/p&gt;
+
+&lt;p&gt;２９　自国はダメだと嘆いている人民が集まった国
+(東京都　天才ロボット)&lt;/p&gt;
+
+&lt;p&gt;３０　土下座共和国
+(千葉県　北島進之介)&lt;/p&gt;
+
+&lt;p&gt;３１　ニホンベイベー(米米)！
+(埼玉県　U-1　２４歳)&lt;/p&gt;
+
+&lt;p&gt;３２　どーやってNo!っと言ったらいいか分かんない国ニッポン
+(東京都　 加藤れいし　２９歳)&lt;/p&gt;
+
+&lt;p&gt;３３　バカインテリ北朝鮮擁護帝国日本
+(東京都　石黒純一)&lt;/p&gt;
+
+&lt;p&gt;３４　月火水木金土日本
+(東京都　IKKAN)&lt;/p&gt;
+&lt;table cellpadding=&quot;0&quot; width=&quot;500&quot; border=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+&lt;tr&gt;
+
+&lt;td style=&quot;width: 30px&quot; valign=&quot;top&quot;&gt;３５
+&lt;/td&gt;
+
+&lt;td style=&quot;width: 470px&quot;&gt;ことなかれ志向・うやむや主義・とりあえず的中途半端ソリューション国 日本
+(米国ＮＹ　 エンジョイ・マイライフ)
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;p&gt;３６　有事に円ばらまきトンズラ共和国
+(東京都　がるーだ)&lt;/p&gt;
+
+&lt;p&gt;３７　朝鮮人天国日本
+(兵庫県　 石原ガンガレ！　３０歳)&lt;/p&gt;
+
+&lt;p&gt;３８　赤信号交通国家日本
+(福岡県　ぐっち　１８歳)&lt;/p&gt;
+
+&lt;p&gt;３９　精神異常国日本
+(千葉県　都丸悠　２５歳)&lt;/p&gt;
+&lt;table cellpadding=&quot;0&quot; width=&quot;500&quot; border=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+&lt;tr&gt;
+
+&lt;td style=&quot;width: 30px&quot; valign=&quot;top&quot;&gt;４０
+&lt;/td&gt;
+
+&lt;td style=&quot;width: 470px&quot;&gt;自民党（Ｊ）アンド（A）パーティー（Ｐ）of　アンチ（A）自民だけど、投票したい政党が見つからない人達の国家（Ｎ）ation
+(神奈川県　 Tomy船長　４５歳)
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Hero SP !!!</title>
+   <link href="http://localhost:4000/2006/07/08/hero-sp/"/>
+   <updated>2006-07-09T01:15:45+08:00</updated>
+   <id>http://localhost:4000/2006/07/08/hero-sp</id>
+   <content type="html">&lt;p&gt;【剧　名】：『Hero SP』
+【电视台】：富士电视CX
+【首　播】：2006-07-03 星期一 21:00~23:18
+【回　数】：1
+【收视率】：30.9%&lt;/p&gt;
+
+&lt;p&gt;30.9  汗。。。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>吓死我了</title>
+   <link href="http://localhost:4000/2006/07/07/e5-90-93-e6-ad-bb-e6-88-91-e4-ba-86/"/>
+   <updated>2006-07-08T00:58:30+08:00</updated>
+   <id>http://localhost:4000/2006/07/07/%e5%90%93%e6%ad%bb%e6%88%91%e4%ba%86</id>
+   <content type="html">&lt;p&gt;中午理光突然罢工，在这个节骨眼上，好在晚饭后突然恢复了。&lt;/p&gt;
+
+&lt;p&gt;不过还是决定再弄两个机身带着，一是方便换胶卷，而是互相备用吧。。。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>开始准备</title>
+   <link href="http://localhost:4000/2006/07/04/e5-bc-80-e5-a7-8b-e5-87-86-e5-a4-87/"/>
+   <updated>2006-07-05T01:56:49+08:00</updated>
+   <id>http://localhost:4000/2006/07/04/%e5%bc%80%e5%a7%8b%e5%87%86%e5%a4%87</id>
+   <content type="html">&lt;p&gt;确定人员后就开始正式为入藏做准备了。&lt;/p&gt;
+
+&lt;p&gt;好在有一台D70s，可以让行李减轻不少，不过今天试机发现可能还是得带上胶片机 ，数码的质量离我的期望还很远。。。。。&lt;/p&gt;
+
+&lt;p&gt;Velvia已经43一卷了，真是放血。。。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Ran retired</title>
+   <link href="http://localhost:4000/2006/06/27/ran-retired/"/>
+   <updated>2006-06-28T02:35:31+08:00</updated>
+   <id>http://localhost:4000/2006/06/27/ran-retired</id>
+   <content type="html">&lt;p&gt;朝河蘭  2001入道 年均出产200+  绝对女王
+&lt;!-- more --&gt;值得一提的是不知哪个国内的孩子恶作剧谎称她去世，结果ran的网站上留了整整数页用汉语写的悼念贴，汗一个。。。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>ZZ中国版达芬奇密码——《唐伯虎密码》</title>
+   <link href="http://localhost:4000/2006/06/23/zz-e4-b8-ad-e5-9b-bd-e7-89-88-e8-be-be-e8-8a-ac-e5-a5-87-e5-af-86-e7-a0-81-e3-80-8a-e5-94-90-e4-bc-af-e8-99-8e-e5-af-86-e7-a0-81-e3-80-8b/"/>
+   <updated>2006-06-23T23:32:28+08:00</updated>
+   <id>http://localhost:4000/2006/06/23/zz%e4%b8%ad%e5%9b%bd%e7%89%88%e8%be%be%e8%8a%ac%e5%a5%87%e5%af%86%e7%a0%81-%e3%80%8a%e5%94%90%e4%bc%af%e8%99%8e%e5%af%86%e7%a0%81%e3%80%8b</id>
+   <content type="html">&lt;table width=&quot;100%&quot; border=&quot;0&quot; cellspacing=&quot;0&quot; style=&quot;overflow: hidden&quot; class=&quot;fixedTable blogpost&quot;&gt;
+&lt;tr&gt;
+
+&lt;td class=&quot;bvh8&quot;&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+
+&lt;td class=&quot;ellipse&quot;&gt;ZZ中国版达芬奇密码——《唐伯虎密码》
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+
+&lt;td class=&quot;bvh8&quot;&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+
+&lt;td id=&quot;msgcns!71C110C75E271E36!789&quot;&gt;
+
+
+
+
+
+话说陕西省某博物馆里头，突然有个看门老头死了，死在一尊唐三彩马旁边，肚子上插着一把飞镖，流血过多而死，死之前把身上衣服脱光光，还摆成一个打坐的形状，地板上写了几个字“孙女别忘了兰教授欠我麻将钱500块”。刑警队束手无策，只好把那个专门研究古文字的专家兰教授请来了。
+
+
+
+
+
+&lt;!-- more --&gt;
+
+老头的孙女溜达小姐也赶来了，望着爷爷的尸体半点眼泪都没掉，兰教授非常奇怪，溜达小姐告诉他说，爷爷是个吃喝嫖赌狂，有一天她放学早，看见爷爷在屋里招了几个鸡大玩多飞... 
+
+
+
+
+闻听此言，兰教授眼前一亮，老头死在唐三彩马旁边，又是个淫棍，这“唐”加上“淫”，那不就是唐寅么？老教授赶到博物馆里唯一的一副唐寅真迹《洞箫仕女图》旁，见玻璃展窗外面用鼻涕写了几个字“吹，吹，给我吹”。 
+
+
+兰教授思索一番，发现了秘密，吹箫？难道是...他走到博物馆的性玩具展区，在一个清代的铁铸男器旁边，找到了一把上面印有号码的小钥匙，据溜达辨认，认为是西安火车站的存包箱的钥匙。
+
+
+
+
+兰教授和溜达小姐双双赶到火车站，打开了那个存包箱，里面竟然是一个密码箱，经分析，包里有炸弹，如果不知道密码暴力开启的话，就会爆炸，俩人拿着箱子走出车站的时候，一不小心，被一新疆人抢了，顺便还摸了溜达小姐的咪咪一把。
+
+
+
+
+突然出现的一关东口音的，看上去像黑社会的家伙说，那新疆人他认识，他们可以一起把包抢回来，但他必须知道包里的秘密。
+
+
+
+
+三人同赴虎穴，到了清真街一羊肉馆，新疆人果然在，经过一番搏斗，把包抢了回来，兰教授不想跟关东人分享秘密，就称自己根本不知道密码，还不如把包交给警察，关东人不依，拿出杀猪刀架在溜达小姐脖子上，称如果不在三分钟内解出密码，就先奸后杀。
+
+
+
+
+兰教授快速思索，密码到底是什么？密码一共6位数字，联想到老头死时在地板上留的一行字“孙女别忘了兰教授欠我麻将钱500块”，有了！麻将共144张牌，加上500，密码一定是144500！
+
+
+
+
+兰教授背对着两人，偷偷转动密码，输入了144500六个数字，打开了密码箱，表面却装作若无其事的样子，偷偷拿出了箱里的一张纸条，关东人茫然不知，就在这时，警笛呼啸，警察包围了羊肉馆，用枪指住了关东人。
+
+
+
+
+兰教授和溜达脱身之后，方仔细看这张纸条，上面写着，“咖喱炖土豆”——考，兰教授想，老头是不是疯了？
+
+
+
+
+
+
+兰教授又开始胡思乱想，咖喱，是印度佬的特有食品，为啥不是咖喱炖牛肉呢？吃素，对，应该是吃素的，什么人吃素呢？——和尚或者道士！印度有道士吗？没有，那么就只能是和尚——庙里才有和尚，所以，下一站是庙！ 
+
+
+
+
+俩人来到了西安最有名的胜地——慈恩寺， 烧 香磕头并给了香火钱之后，他们偷偷摸摸进到了寺里的一个地窖中，意外地发现了一个族谱，原来老头并不是溜达小姐的亲爷爷，溜达小姐的祖先是观音姐姐和孙悟 空生的后代！当初观音姐姐是如来佛的情人，却被孙悟空横刀夺爱，如来一怒之下，用五指山镇住了猴子，在山下压了五百年，后来天上为这件事的闲言碎语实在太 多，又为了传经大业，才把猴子放出来为唐僧护驾，观音却余情未了，在取经途中屡屡出手相救，旧情复发，身怀有孕...如来震怒，把此事列为西天最高机密，任何敢于透露片言只字的都要打下凡间！同时派出一个类似锦衣卫的集团，诛杀任何知道这个秘密的人，老头就是当初被打入凡间的天神的后代，从祖先那里获知的秘密代代相传，也由此为锦衣卫的后代所杀。 
+
+
+老头留下的手记中说，据称，孙悟空成佛之后，再也用不到他的金箍棒了，就把棒子传给了他的私生子，那么棒子到底在哪里？
+
+
+
+
+兰教授的思维又一次陷入了僵局，猛然脑中想起了唐伯虎最有名的一首诗《桃花庵歌》：
+
+
+
+
+
+桃花坞里桃花庵，桃花庵下桃花仙。
+桃花仙人种桃树，又摘桃花换酒钱。
+酒醒只在花前坐，酒醉还来花下眠。
+半醉半醒日复日，花落花开年复年。
+但愿老死花酒间，不愿鞠躬车马前。
+车尘马足显者事，酒盏花枝隐士缘。
+若将显者比隐士，一在平地一在天。
+若将花酒比车马，彼何碌碌我何闲。
+别人笑我太疯癫，我笑他人看不穿。
+不见五陵豪杰墓，无花无酒锄作田。 
+
+
+脑中灵光一闪，原来唐寅这厮也是老头的祖先之一，“桃花仙”，那不就是在说猴王齐天大圣吗？
+
+
+
+
+
+
+看来，那个棒子就在“五陵豪杰墓”其中之一了！五陵，是以西汉王朝长安城外设立的五个陵邑而得名的，分别是高祖的长陵、惠帝的安陵、景帝的阳陵、武帝的茂陵、昭帝的平陵。 
+
+
+唉，兰教授长叹一声，中国特级文物保护单位，世界文化遗产，五个皇帝的陵，虽然就近在咫尺，哪能让你随便挖的！——靠！
+
+
+
+
+
+
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>ZhInput V1.2 released</title>
+   <link href="http://localhost:4000/2006/06/20/zhinput-v12-released/"/>
+   <updated>2006-06-20T12:41:38+08:00</updated>
+   <id>http://localhost:4000/2006/06/20/zhinput-v12-released</id>
+   <content type="html">&lt;p&gt;v1.2 060619 release
+加入节省内存功能，但是开启后切换输入法需重进人物
+加入词组输入
+加入魔兽词组输入&lt;/p&gt;
+
+&lt;p&gt;终于加入了词组支持，虽然毫无技术含量可言。。。&lt;/p&gt;
+
+&lt;p&gt;以后主要关注使用体验的提升了。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>ZhInput V1.1 Released</title>
+   <link href="http://localhost:4000/2006/06/12/zhinput-v11-released/"/>
+   <updated>2006-06-12T08:06:30+08:00</updated>
+   <id>http://localhost:4000/2006/06/12/zhinput-v11-released</id>
+   <content type="html">&lt;p&gt;v1.1 060612 release
+实现窗口拖放，点住窗口的中间就可以拖动
+实现变量存储，输入法选择等可以保留
+修正输入拼音时不能截屏的问题
+添加五笔支持和简单输入法选择，没有界面，使用命令选择，好在这个不会经常变动
+加入中文标点输入&lt;/p&gt;
+
+&lt;p&gt;不大不小的变动。。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>宣传ZhInput</title>
+   <link href="http://localhost:4000/2006/06/10/e5-ae-a3-e4-bc-a0zhinput/"/>
+   <updated>2006-06-11T00:57:21+08:00</updated>
+   <id>http://localhost:4000/2006/06/10/%e5%ae%a3%e4%bc%a0zhinput</id>
+   <content type="html">&lt;p&gt;各大插件站都放了说明资料，已经有回应了，不知会有多少人关注这个东东&lt;/p&gt;
+
+&lt;p&gt;有空把网页弄漂亮点&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>ZhInput Released</title>
+   <link href="http://localhost:4000/2006/06/09/zhinput-released/"/>
+   <updated>2006-06-10T01:04:41+08:00</updated>
+   <id>http://localhost:4000/2006/06/09/zhinput-released</id>
+   <content type="html">&lt;p&gt;终于出来了。。最后修正了几个bug后觉得可用和稳定已经可以release了，界面，交互，功能键，程序行为都可以确定下来，之后就是新功能的添加了。&lt;/p&gt;
+
+&lt;p&gt;插件的主页 预定在 &lt;a href=&quot;http://zhinput.seerhut.org&quot;&gt;zhinput.seerhut.org&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;项目页面在  &lt;a href=&quot;http://www.seerhut.org/blog/zhinput.sf.net&quot;&gt;zhinput.sf.net&lt;/a&gt;  现在还在审批中，应该很快就能使用，bug提交，要求添加功能都在这&lt;/p&gt;
+
+&lt;p&gt;bbs在 &lt;a href=&quot;http://www.seerhut.org/blog/bbs.seerhut.org&quot;&gt;bbs.seerhut.org&lt;/a&gt;   随意讨论。。也不知道有没有人来。。。。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>插件进度2</title>
+   <link href="http://localhost:4000/2006/06/08/e6-8f-92-e4-bb-b6-e8-bf-9b-e5-ba-a62/"/>
+   <updated>2006-06-09T01:09:27+08:00</updated>
+   <id>http://localhost:4000/2006/06/08/%e6%8f%92%e4%bb%b6%e8%bf%9b%e5%ba%a62</id>
+   <content type="html">&lt;p&gt;基本完成！！还有一个按键event的问题，不过应该能很快解决。文档少真是郁闷，再加上本来就不强大的lua被阉割，写脚本的时候就好像被束缚住了手脚，看着一个个lua手册上的function被游戏返回未定义真不是滋味……&lt;/p&gt;
+
+&lt;p&gt;再加把劲！！&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>插件进度1</title>
+   <link href="http://localhost:4000/2006/06/07/e6-8f-92-e4-bb-b6-e8-bf-9b-e5-ba-a61/"/>
+   <updated>2006-06-08T01:45:09+08:00</updated>
+   <id>http://localhost:4000/2006/06/07/%e6%8f%92%e4%bb%b6%e8%bf%9b%e5%ba%a61</id>
+   <content type="html">&lt;p&gt;现在架子已经搭好了，但是WoW API的资料太少了，除了wowwiki甚至只能自己啃从游戏压缩包里找来的文件，很郁闷很郁闷…不过既然做到这一步想来必定是可以完成的，只是莫名的bug不会少。决定暂且只做一个单字输入的，等稳定了再添加词组输入、频度统计、词库学习、智能联想……先这么YY着吧&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>新闻联播换人了</title>
+   <link href="http://localhost:4000/2006/06/07/e6-96-b0-e9-97-bb-e8-81-94-e6-92-ad-e6-8d-a2-e4-ba-ba-e4-ba-86/"/>
+   <updated>2006-06-07T21:17:27+08:00</updated>
+   <id>http://localhost:4000/2006/06/07/%e6%96%b0%e9%97%bb%e8%81%94%e6%92%ad%e6%8d%a2%e4%ba%ba%e4%ba%86</id>
+   <content type="html">&lt;p&gt;长得一般，只是年轻&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>第一个插件</title>
+   <link href="http://localhost:4000/2006/06/07/e7-ac-ac-e4-b8-80-e4-b8-aa-e6-8f-92-e4-bb-b6/"/>
+   <updated>2006-06-07T15:33:54+08:00</updated>
+   <id>http://localhost:4000/2006/06/07/%e7%ac%ac%e4%b8%80%e4%b8%aa%e6%8f%92%e4%bb%b6</id>
+   <content type="html">&lt;p&gt;无法忍受不能在Cedega下的WoW里面输入中文了，决定动手写个中文输入的插件。嘿嘿。。不知道可行不&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>号外</title>
+   <link href="http://localhost:4000/2006/06/02/e5-8f-b7-e5-a4-96/"/>
+   <updated>2006-06-03T04:36:27+08:00</updated>
+   <id>http://localhost:4000/2006/06/02/%e5%8f%b7%e5%a4%96</id>
+   <content type="html">&lt;p&gt;2006中文維基年會的网页上写着：&lt;/p&gt;
+
+&lt;p&gt;5月26日：為答謝Jimbo出席&lt;a href=&quot;http://zh.wikipedia.org/wiki/Red_Hat&quot;&gt;Red Hat&lt;/a&gt;於&lt;a href=&quot;http://zh.wikipedia.org/wiki/%E5%8D%B0%E5%BA%A6&quot;&gt;印度&lt;/a&gt;&lt;a href=&quot;http://zh.wikipedia.org/wiki/%E5%BE%B7%E9%87%8C&quot;&gt;德里&lt;/a&gt;舉辦之會議，Red Hat除了贊助Jimbo從美國經香港轉往德里的機票之外，亦答應捐助3000美元與中文維基年會。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>入手 The C Programming Language</title>
+   <link href="http://localhost:4000/2006/06/02/e5-85-a5-e6-89-8b-the-c-programming-language/"/>
+   <updated>2006-06-02T23:23:13+08:00</updated>
+   <id>http://localhost:4000/2006/06/02/%e5%85%a5%e6%89%8b-the-c-programming-language</id>
+   <content type="html">&lt;p&gt;没想到书很大，还以为是一本32开的手册呢&lt;/p&gt;
+
+&lt;!-- more --&gt;
+&lt;p&gt;&lt;img src=&quot;http://images.amazon.com/images/P/0131103628.01._SS500_SCLZZZZZZZ_.jpg&quot; alt=&quot;The C Programming Language&quot; /&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>今村昌平死了</title>
+   <link href="http://localhost:4000/2006/05/31/e4-bb-8a-e6-9d-91-e6-98-8c-e5-b9-b3-e6-ad-bb-e4-ba-86/"/>
+   <updated>2006-05-31T16:05:49+08:00</updated>
+   <id>http://localhost:4000/2006/05/31/%e4%bb%8a%e6%9d%91%e6%98%8c%e5%b9%b3%e6%ad%bb%e4%ba%86</id>
+   <content type="html">&lt;p&gt;还剩谁&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Google releases Picasa for Linux</title>
+   <link href="http://localhost:4000/2006/05/28/google-releases-picasa-for-linux/"/>
+   <updated>2006-05-28T20:27:12+08:00</updated>
+   <id>http://localhost:4000/2006/05/28/google-releases-picasa-for-linux</id>
+   <content type="html">&lt;p&gt;基于wine和gecko…&lt;/p&gt;
+
+&lt;!-- more --&gt;
+&lt;p&gt;System Requirements&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Should work on any Linux system with Intel 386-compatible processor, glibc 2.3 or greater, and a working X11 display system.&lt;/li&gt;
+  &lt;li&gt;Desktop Integration features require a current version of Gnome or KDE.&lt;/li&gt;
+  &lt;li&gt;Camera detection and integration requires kernel &amp;gt;= 2.6.13, hal &amp;gt;= 0.56, and gnome-volume-manager or equivalent.&lt;/li&gt;
+  &lt;li&gt;Available in English&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://picasa.google.com/linux/download.html&quot;&gt;see here&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Play with imdb</title>
+   <link href="http://localhost:4000/2006/05/24/play-with-imdb/"/>
+   <updated>2006-05-25T02:05:13+08:00</updated>
+   <id>http://localhost:4000/2006/05/24/play-with-imdb</id>
+   <content type="html">&lt;p&gt;不知什么时候开始每查看完一部电影的资料就会点开User Ratings for XXX的那一页，看看各种人投了什么票，颇有意思。投票统计是按照年龄分段：18- 18－29 30－44 45+，各年龄段都包括男女以及合计，因此也就没了民族政治信仰地域穿着方式食物喜好性倾向(?!)…的瓜葛，托这一点的福，在此基础上的分析和揣测也就没可能邪恶了。当然，乐趣还是不会减少的。
+&lt;!-- more --&gt;
+有些片子没什么好说的，例如God Father——想必大家也会将它拿出来举例——条形图齐刷刷了无乐趣，虽然还是能勉强看出女人们对男人迷恋这电影的不解。
+Match Point的男观众一定不会在Scarlett出场的时候眨眼睛(woody对女演员的调教在最糟糕的年代也能让投资人收回成本——至少有个好评价)，女同志们对于情节尤其结局的愤怒我无法判断，但是中年女观众奇低的分数还是让我脑子里蹦出几个词:七年之痒?对号入座?更年期?…没什么关联，我说了它们只是随便蹦出来的。
+Brokeback Mountain也是天生的好素材。男性的评分中规中矩，女观众的评分随年龄降低一路攀高，都说xx爱看xx，xx爱看xx，此话不假。再追究下去的话还可以点开各年龄男性的具体评分分布，随着年龄增长给1分的比例明显降低，可见经历了六七十年代洗礼的男人们和大同世界中长大的小男生观点迥异。P.S. 在此提醒某些穿裙子戴胸罩招摇过市的伪xx们:xx已经去流行了，赶快找个异性xx吧，别延误了传宗接代的大事。
+(咳嗽一声)
+不想写了，给个结尾
+总体来看，年轻女性的痴呆化和荷尔蒙化很明显；年轻男性的荷尔蒙话异常明显，不过暂时没有痴呆化倾向。后面的结论就不直接说了，不能邪恶嘛。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>强烈推荐永中office</title>
+   <link href="http://localhost:4000/2006/05/20/e5-bc-ba-e7-83-88-e6-8e-a8-e8-8d-90-e6-b0-b8-e4-b8-adoffice/"/>
+   <updated>2006-05-21T01:49:08+08:00</updated>
+   <id>http://localhost:4000/2006/05/20/%e5%bc%ba%e7%83%88%e6%8e%a8%e8%8d%90%e6%b0%b8%e4%b8%adoffice</id>
+   <content type="html">&lt;p&gt;我试着用他打开网上流传的各种微软office文档，完美兼容!! starsuite 和 openoffice 与之比较连幼稚都称不上!!
+&lt;!-- more --&gt;
+以前用过永中的2004版，有些小毛病，主要是针对kde界面设计的软件在我的fvwm下显示有瑕疵。这回升级到2007beta后几近完美，速度也有提升。真是不可思议，中国有这么一款软件产品，1000元左右的零售价不算低，但绝对值!!
+&lt;a href=&quot;http://www.evermoresw.com/webch/index.jsp&quot;&gt;永中网站&lt;/a&gt;有试用版下载。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>what does ft mean..</title>
+   <link href="http://localhost:4000/2006/05/19/what-does-ft-mean/"/>
+   <updated>2006-05-19T23:35:33+08:00</updated>
+   <id>http://localhost:4000/2006/05/19/what-does-ft-mean</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;http://nanocrew.net/wp-content/livemessenger.jpg&quot; alt=&quot;http://nanocrew.net/wp-content/livemessenger.jpg&quot; /&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>ADSL Modem 。。。</title>
+   <link href="http://localhost:4000/2006/05/18/adsl-modem-e3-80-82-e3-80-82-e3-80-82/"/>
+   <updated>2006-05-19T03:39:04+08:00</updated>
+   <id>http://localhost:4000/2006/05/18/adsl-modem-%e3%80%82%e3%80%82%e3%80%82</id>
+   <content type="html">&lt;p&gt;Modem断流很厉害，想给它升级一下固件。
+机器是中兴的 ZXDSL 831BII (?) ，阉割过的。 默认的web管理地址是192.168.1.1，普通用户名搜索得知 user/user ，但是管理员的帐号密码都不能使用。摸索了一会得出一个方法可以绕开管理员登录直接更改管理员密码。&lt;/p&gt;
+
+&lt;!-- more --&gt;
+&lt;p&gt;大致是用user/user登录modem，进入用户管理页面，拷贝出源码，将form中的用户名字段改成admin，后面的密码空白，新密码填入自己的设置，保存。用浏览器访问修改的页面，提交即可修改admin的密码，然后就可以登录升级firmware了。很ft的事情是这个时候才发现没有ZTE没有给这个型号的新固件，不过我只是把它做网桥用，即使升级了固件也不见得能有什么起色，就先作罢。&lt;/p&gt;
+
+&lt;p&gt;下面是改好的页面，一般直接就能用（密码也是admin）。断流的问题看来一时没法解决，不过还有一个办法是做个简单的watchdog，发现断流就重启Modem，这个方案正在准备中…………&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;&amp;lt;span class=&quot;start-tag&quot;&amp;gt;html&amp;lt;/span&amp;gt;&amp;gt;
+&amp;lt;&amp;lt;span class=&quot;start-tag&quot;&amp;gt;head&amp;lt;/span&amp;gt;&amp;gt;
+&amp;lt;&amp;lt;span class=&quot;start-tag&quot;&amp;gt;meta&amp;lt;/span&amp;gt;&amp;lt;span class=&quot;attribute-name&quot;&amp;gt; http-equiv&amp;lt;/span&amp;gt;=&amp;lt;span class=&quot;attribute-value&quot;&amp;gt;&quot;content-type&quot; &amp;lt;/span&amp;gt;&amp;lt;span class=&quot;attribute-name&quot;&amp;gt;content&amp;lt;/span&amp;gt;=&amp;lt;span class=&quot;attribute-value&quot;&amp;gt;&quot;text/html; charset=GB2312&quot;&amp;lt;/span&amp;gt;&amp;gt;
+&amp;lt;&amp;lt;span class=&quot;start-tag&quot;&amp;gt;link&amp;lt;/span&amp;gt;&amp;lt;span class=&quot;attribute-name&quot;&amp;gt; rel&amp;lt;/span&amp;gt;=&amp;lt;span class=&quot;attribute-value&quot;&amp;gt;&quot;stylesheet&quot; &amp;lt;/span&amp;gt;&amp;lt;span class=&quot;attribute-name&quot;&amp;gt;type&amp;lt;/span&amp;gt;=&amp;lt;span class=&quot;attribute-value&quot;&amp;gt;&quot;text/css&quot; &amp;lt;/span&amp;gt;&amp;lt;span class=&quot;attribute-name&quot;&amp;gt;href&amp;lt;/span&amp;gt;=&amp;lt;span class=&quot;attribute-value&quot;&amp;gt;&quot;http://192.168.1.1/hag/css/vikingTP.css&quot;&amp;lt;/span&amp;gt;&amp;gt;
+&amp;lt;&amp;lt;span class=&quot;start-tag&quot;&amp;gt;title&amp;lt;/span&amp;gt;&amp;gt;密码设置title&amp;lt;/span&amp;gt;&amp;gt;
+&amp;lt;&amp;lt;span class=&quot;start-tag&quot;&amp;gt;meta&amp;lt;/span&amp;gt;&amp;lt;span class=&quot;attribute-name&quot;&amp;gt; http-equiv &amp;lt;/span&amp;gt;=&amp;lt;span class=&quot;attribute-value&quot;&amp;gt;&quot;pragma&quot; &amp;lt;/span&amp;gt;&amp;lt;span class=&quot;attribute-name&quot;&amp;gt;content&amp;lt;/span&amp;gt;=&amp;lt;span class=&quot;attribute-value&quot;&amp;gt;&quot;no-cache&quot;&amp;lt;/span&amp;gt;&amp;gt;
+&amp;lt;&amp;lt;span class=&quot;start-tag&quot;&amp;gt;script&amp;lt;/span&amp;gt;&amp;lt;span class=&quot;attribute-name&quot;&amp;gt; language&amp;lt;/span&amp;gt;=&amp;lt;span class=&quot;attribute-value&quot;&amp;gt;&quot;JavaScript&quot; &amp;lt;/span&amp;gt;&amp;lt;span class=&quot;attribute-name&quot;&amp;gt;src&amp;lt;/span&amp;gt;=&amp;lt;span class=&quot;attribute-value&quot;&amp;gt;&quot;http://192.168.1.1/hag/js/global.gsv&quot;&amp;lt;/span&amp;gt;&amp;gt;script&amp;lt;/span&amp;gt;&amp;gt;
+head&amp;lt;/span&amp;gt;&amp;gt;
+
+&amp;lt;&amp;lt;span class=&quot;start-tag&quot;&amp;gt;body&amp;lt;/span&amp;gt;&amp;lt;span class=&quot;attribute-name&quot;&amp;gt; class&amp;lt;/span&amp;gt;=&amp;lt;span class=&quot;attribute-value&quot;&amp;gt;&quot;mainbody&quot;&amp;lt;/span&amp;gt;&amp;gt;
+&amp;lt;&amp;lt;span class=&quot;start-tag&quot;&amp;gt;p&amp;lt;/span&amp;gt;&amp;lt;span class=&quot;attribute-name&quot;&amp;gt; class&amp;lt;/span&amp;gt;=&amp;lt;span class=&quot;attribute-value&quot;&amp;gt;&quot;pagetitle&quot;&amp;lt;/span&amp;gt;&amp;gt;密码设置p&amp;lt;/span&amp;gt;&amp;gt;
+&amp;lt;&amp;lt;span class=&quot;start-tag&quot;&amp;gt;p&amp;lt;/span&amp;gt;&amp;lt;span class=&quot;attribute-name&quot;&amp;gt; class&amp;lt;/span&amp;gt;=&amp;lt;span class=&quot;attribute-value&quot;&amp;gt;&quot;pagedesc&quot;&amp;lt;/span&amp;gt;&amp;gt;修改用户密码.p&amp;lt;/span&amp;gt;&amp;gt;
+&amp;lt;&amp;lt;span class=&quot;start-tag&quot;&amp;gt;form&amp;lt;/span&amp;gt;&amp;lt;span class=&quot;attribute-name&quot;&amp;gt; name&amp;lt;/span&amp;gt;=&amp;lt;span class=&quot;attribute-value&quot;&amp;gt;&quot;frmChangePW&quot; &amp;lt;/span&amp;gt;&amp;lt;span class=&quot;attribute-name&quot;&amp;gt;id&amp;lt;/span&amp;gt;=&amp;lt;span class=&quot;attribute-value&quot;&amp;gt;&quot;frmChangePW&quot; &amp;lt;/span&amp;gt;&amp;lt;span class=&quot;attribute-name&quot;&amp;gt;action&amp;lt;/span&amp;gt;=&amp;lt;span class=&quot;attribute-value&quot;&amp;gt;&quot;http://192.168.1.1/Action&quot; &amp;lt;/span&amp;gt;&amp;lt;span class=&quot;attribute-name&quot;&amp;gt;method&amp;lt;/span&amp;gt;=&amp;lt;span class=&quot;attribute-value&quot;&amp;gt;&quot;POST&quot;&amp;lt;/span&amp;gt;&amp;gt;
+
+
+
+
+&amp;lt;&amp;lt;span class=&quot;start-tag&quot;&amp;gt;div&amp;lt;/span&amp;gt;&amp;lt;span class=&quot;attribute-name&quot;&amp;gt; &amp;lt;/span&amp;gt;&amp;gt;
+&amp;lt;&amp;lt;span class=&quot;start-tag&quot;&amp;gt;table&amp;lt;/span&amp;gt;&amp;lt;span class=&quot;attribute-name&quot;&amp;gt; &amp;lt;/span&amp;gt;&amp;gt;
+&amp;lt;&amp;lt;span class=&quot;start-tag&quot;&amp;gt;tr&amp;lt;/span&amp;gt;&amp;lt;span class=&quot;attribute-name&quot;&amp;gt; &amp;lt;/span&amp;gt;&amp;gt;
+&amp;lt;&amp;lt;span class=&quot;start-tag&quot;&amp;gt;td&amp;lt;/span&amp;gt;&amp;lt;span class=&quot;attribute-name&quot;&amp;gt; class&amp;lt;/span&amp;gt;=&amp;lt;span class=&quot;attribute-value&quot;&amp;gt;&quot;tablerowheader&quot;&amp;lt;/span&amp;gt;&amp;gt;用户名:td&amp;lt;/span&amp;gt;&amp;gt;
+&amp;lt;&amp;lt;span class=&quot;start-tag&quot;&amp;gt;td&amp;lt;/span&amp;gt;&amp;lt;span class=&quot;attribute-name&quot;&amp;gt; class&amp;lt;/span&amp;gt;=&amp;lt;span class=&quot;attribute-value&quot;&amp;gt;&quot;tablerowvalue&quot;&amp;lt;/span&amp;gt;&amp;gt;usertd&amp;lt;/span&amp;gt;&amp;gt;&amp;lt;&amp;lt;span class=&quot;start-tag&quot;&amp;gt;input&amp;lt;/span&amp;gt;&amp;lt;span class=&quot;attribute-name&quot;&amp;gt; type&amp;lt;/span&amp;gt;=&amp;lt;span class=&quot;attribute-value&quot;&amp;gt;&quot;hidden&quot; &amp;lt;/span&amp;gt;&amp;lt;span class=&quot;attribute-name&quot;&amp;gt;id&amp;lt;/span&amp;gt;=&amp;lt;span class=&quot;attribute-value&quot;&amp;gt;&quot;login_name&quot; &amp;lt;/span&amp;gt;&amp;lt;span class=&quot;attribute-name&quot;&amp;gt;name&amp;lt;/span&amp;gt;=&amp;lt;span class=&quot;attribute-value&quot;&amp;gt;&quot;login_name&quot; &amp;lt;/span&amp;gt;&amp;lt;span class=&quot;attribute-name&quot;&amp;gt;value&amp;lt;/span&amp;gt;=&amp;lt;span class=&quot;attribute-value&quot;&amp;gt;&quot;admin&quot; &amp;lt;/span&amp;gt;&amp;gt;
+
+tr&amp;lt;/span&amp;gt;&amp;gt;
+&amp;lt;&amp;lt;span class=&quot;start-tag&quot;&amp;gt;tr&amp;lt;/span&amp;gt;&amp;lt;span class=&quot;attribute-name&quot;&amp;gt; &amp;lt;/span&amp;gt;&amp;gt;
+&amp;lt;&amp;lt;span class=&quot;start-tag&quot;&amp;gt;td&amp;lt;/span&amp;gt;&amp;lt;span class=&quot;attribute-name&quot;&amp;gt; class&amp;lt;/span&amp;gt;=&amp;lt;span class=&quot;attribute-value&quot;&amp;gt;&quot;tablerowheader&quot;&amp;lt;/span&amp;gt;&amp;gt;密码:td&amp;lt;/span&amp;gt;&amp;gt;
+&amp;lt;&amp;lt;span class=&quot;start-tag&quot;&amp;gt;td&amp;lt;/span&amp;gt;&amp;lt;span class=&quot;attribute-name&quot;&amp;gt; class&amp;lt;/span&amp;gt;=&amp;lt;span class=&quot;attribute-value&quot;&amp;gt;&quot;tablerowvalue&quot;&amp;lt;/span&amp;gt;&amp;gt;&amp;lt;&amp;lt;span class=&quot;start-tag&quot;&amp;gt;input&amp;lt;/span&amp;gt;&amp;lt;span class=&quot;attribute-name&quot;&amp;gt; type&amp;lt;/span&amp;gt;=&amp;lt;span class=&quot;attribute-value&quot;&amp;gt;&quot;password&quot; &amp;lt;/span&amp;gt;&amp;lt;span class=&quot;attribute-name&quot;&amp;gt;id&amp;lt;/span&amp;gt;=&amp;lt;span class=&quot;attribute-value&quot;&amp;gt;&quot;old_pass&quot; &amp;lt;/span&amp;gt;&amp;lt;span class=&quot;attribute-name&quot;&amp;gt;name&amp;lt;/span&amp;gt;=&amp;lt;span class=&quot;attribute-value&quot;&amp;gt;&quot;old_pass&quot; &amp;lt;/span&amp;gt;&amp;lt;span class=&quot;attribute-name&quot;&amp;gt;value&amp;lt;/span&amp;gt;=&amp;lt;span class=&quot;attribute-value&quot;&amp;gt;&quot;&quot;  &amp;lt;/span&amp;gt;&amp;lt;span class=&quot;attribute-name&quot;&amp;gt;size&amp;lt;/span&amp;gt;=&amp;lt;span class=&quot;attribute-value&quot;&amp;gt;&quot;32&quot; &amp;lt;/span&amp;gt;&amp;lt;span class=&quot;attribute-name&quot;&amp;gt;maxlength&amp;lt;/span&amp;gt;=&amp;lt;span class=&quot;attribute-value&quot;&amp;gt;&quot;128&quot; &amp;lt;/span&amp;gt;&amp;gt;
+td&amp;lt;/span&amp;gt;&amp;gt;
+tr&amp;lt;/span&amp;gt;&amp;gt;
+&amp;lt;&amp;lt;span class=&quot;start-tag&quot;&amp;gt;tr&amp;lt;/span&amp;gt;&amp;lt;span class=&quot;attribute-name&quot;&amp;gt; &amp;lt;/span&amp;gt;&amp;gt;
+
+
+
+
+&amp;lt;&amp;lt;span class=&quot;start-tag&quot;&amp;gt;td&amp;lt;/span&amp;gt;&amp;lt;span class=&quot;attribute-name&quot;&amp;gt; class&amp;lt;/span&amp;gt;=&amp;lt;span class=&quot;attribute-value&quot;&amp;gt;&quot;tablerowheader&quot;&amp;lt;/span&amp;gt;&amp;gt;新密码:td&amp;lt;/span&amp;gt;&amp;gt;
+&amp;lt;&amp;lt;span class=&quot;start-tag&quot;&amp;gt;td&amp;lt;/span&amp;gt;&amp;lt;span class=&quot;attribute-name&quot;&amp;gt; class&amp;lt;/span&amp;gt;=&amp;lt;span class=&quot;attribute-value&quot;&amp;gt;&quot;tablerowvalue&quot;&amp;lt;/span&amp;gt;&amp;gt;&amp;lt;&amp;lt;span class=&quot;start-tag&quot;&amp;gt;input&amp;lt;/span&amp;gt;&amp;lt;span class=&quot;attribute-name&quot;&amp;gt; type&amp;lt;/span&amp;gt;=&amp;lt;span class=&quot;attribute-value&quot;&amp;gt;&quot;password&quot; &amp;lt;/span&amp;gt;&amp;lt;span class=&quot;attribute-name&quot;&amp;gt;id&amp;lt;/span&amp;gt;=&amp;lt;span class=&quot;attribute-value&quot;&amp;gt;&quot;new_pass1&quot; &amp;lt;/span&amp;gt;&amp;lt;span class=&quot;attribute-name&quot;&amp;gt;name&amp;lt;/span&amp;gt;=&amp;lt;span class=&quot;attribute-value&quot;&amp;gt;&quot;new_pass1&quot; &amp;lt;/span&amp;gt;&amp;lt;span class=&quot;attribute-name&quot;&amp;gt;value&amp;lt;/span&amp;gt;=&amp;lt;span class=&quot;attribute-value&quot;&amp;gt;&quot;avalon&quot;  &amp;lt;/span&amp;gt;&amp;lt;span class=&quot;attribute-name&quot;&amp;gt;size&amp;lt;/span&amp;gt;=&amp;lt;span class=&quot;attribute-value&quot;&amp;gt;&quot;32&quot; &amp;lt;/span&amp;gt;&amp;lt;span class=&quot;attribute-name&quot;&amp;gt;maxlength&amp;lt;/span&amp;gt;=&amp;lt;span class=&quot;attribute-value&quot;&amp;gt;&quot;128&quot; &amp;lt;/span&amp;gt;&amp;gt;
+td&amp;lt;/span&amp;gt;&amp;gt;
+tr&amp;lt;/span&amp;gt;&amp;gt;
+&amp;lt;&amp;lt;span class=&quot;start-tag&quot;&amp;gt;tr&amp;lt;/span&amp;gt;&amp;lt;span class=&quot;attribute-name&quot;&amp;gt; &amp;lt;/span&amp;gt;&amp;gt;
+&amp;lt;&amp;lt;span class=&quot;start-tag&quot;&amp;gt;td&amp;lt;/span&amp;gt;&amp;lt;span class=&quot;attribute-name&quot;&amp;gt; class&amp;lt;/span&amp;gt;=&amp;lt;span class=&quot;attribute-value&quot;&amp;gt;&quot;tablerowheader&quot;&amp;lt;/span&amp;gt;&amp;gt;确认新密码:td&amp;lt;/span&amp;gt;&amp;gt;
+&amp;lt;&amp;lt;span class=&quot;start-tag&quot;&amp;gt;td&amp;lt;/span&amp;gt;&amp;lt;span class=&quot;attribute-name&quot;&amp;gt; class&amp;lt;/span&amp;gt;=&amp;lt;span class=&quot;attribute-value&quot;&amp;gt;&quot;tablerowvalue&quot;&amp;lt;/span&amp;gt;&amp;gt;&amp;lt;&amp;lt;span class=&quot;start-tag&quot;&amp;gt;input&amp;lt;/span&amp;gt;&amp;lt;span class=&quot;attribute-name&quot;&amp;gt; type&amp;lt;/span&amp;gt;=&amp;lt;span class=&quot;attribute-value&quot;&amp;gt;&quot;password&quot; &amp;lt;/span&amp;gt;&amp;lt;span class=&quot;attribute-name&quot;&amp;gt;id&amp;lt;/span&amp;gt;=&amp;lt;span class=&quot;attribute-value&quot;&amp;gt;&quot;new_pass2&quot; &amp;lt;/span&amp;gt;&amp;lt;span class=&quot;attribute-name&quot;&amp;gt;name&amp;lt;/span&amp;gt;=&amp;lt;span class=&quot;attribute-value&quot;&amp;gt;&quot;new_pass2&quot; &amp;lt;/span&amp;gt;&amp;lt;span class=&quot;attribute-name&quot;&amp;gt;value&amp;lt;/span&amp;gt;=&amp;lt;span class=&quot;attribute-value&quot;&amp;gt;&quot;avalon&quot;  &amp;lt;/span&amp;gt;&amp;lt;span class=&quot;attribute-name&quot;&amp;gt;size&amp;lt;/span&amp;gt;=&amp;lt;span class=&quot;attribute-value&quot;&amp;gt;&quot;32&quot; &amp;lt;/span&amp;gt;&amp;lt;span class=&quot;attribute-name&quot;&amp;gt;maxlength&amp;lt;/span&amp;gt;=&amp;lt;span class=&quot;attribute-value&quot;&amp;gt;&quot;128&quot; &amp;lt;/span&amp;gt;&amp;gt;
+td&amp;lt;/span&amp;gt;&amp;gt;
+tr&amp;lt;/span&amp;gt;&amp;gt;
+table&amp;lt;/span&amp;gt;&amp;gt;
+div&amp;lt;/span&amp;gt;&amp;gt;
+&amp;lt;&amp;lt;span class=&quot;start-tag&quot;&amp;gt;div&amp;lt;/span&amp;gt;&amp;lt;span class=&quot;attribute-name&quot;&amp;gt; class&amp;lt;/span&amp;gt;=&amp;lt;span class=&quot;attribute-value&quot;&amp;gt;&quot;actionbuttons&quot;&amp;lt;/span&amp;gt;&amp;gt;&amp;lt;&amp;lt;span class=&quot;start-tag&quot;&amp;gt;input&amp;lt;/span&amp;gt;&amp;lt;span class=&quot;attribute-name&quot;&amp;gt; type&amp;lt;/span&amp;gt;=&amp;lt;span class=&quot;attribute-value&quot;&amp;gt;&quot;hidden&quot; &amp;lt;/span&amp;gt;&amp;lt;span class=&quot;attribute-name&quot;&amp;gt;id&amp;lt;/span&amp;gt;=&amp;lt;span class=&quot;attribute-value&quot;&amp;gt;&quot;id&quot; &amp;lt;/span&amp;gt;&amp;lt;span class=&quot;attribute-name&quot;&amp;gt;name&amp;lt;/span&amp;gt;=&amp;lt;span class=&quot;attribute-value&quot;&amp;gt;&quot;id&quot; &amp;lt;/span&amp;gt;&amp;lt;span class=&quot;attribute-name&quot;&amp;gt;value&amp;lt;/span&amp;gt;=&amp;lt;span class=&quot;attribute-value&quot;&amp;gt;&quot;3&quot; &amp;lt;/span&amp;gt;&amp;gt;
+
+&amp;lt;&amp;lt;span class=&quot;start-tag&quot;&amp;gt;input&amp;lt;/span&amp;gt;&amp;lt;span class=&quot;error&quot;&amp;gt;&amp;lt;span class=&quot;attribute-name&quot;&amp;gt; &quot; &amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;span class=&quot;attribute-name&quot;&amp;gt;name&amp;lt;/span&amp;gt;=&amp;lt;span class=&quot;attribute-value&quot;&amp;gt;&quot;cmd提交&quot; &amp;lt;/span&amp;gt;&amp;lt;span class=&quot;attribute-name&quot;&amp;gt;id&amp;lt;/span&amp;gt;=&amp;lt;span class=&quot;attribute-value&quot;&amp;gt;&quot;cmd提交&quot; &amp;lt;/span&amp;gt;&amp;lt;span class=&quot;attribute-name&quot;&amp;gt;value&amp;lt;/span&amp;gt;=&amp;lt;span class=&quot;attribute-value&quot;&amp;gt;&quot;提交&quot; &amp;lt;/span&amp;gt;&amp;lt;span class=&quot;attribute-name&quot;&amp;gt;type&amp;lt;/span&amp;gt;=&amp;lt;span class=&quot;attribute-value&quot;&amp;gt;&quot;submit&quot; &amp;lt;/span&amp;gt;&amp;lt;span class=&quot;attribute-name&quot;&amp;gt;onClick&amp;lt;/span&amp;gt;=&amp;lt;span class=&quot;attribute-value&quot;&amp;gt;&quot;document.frmChangePW.id.value ='3';&quot;&amp;lt;/span&amp;gt;&amp;gt;&amp;amp;&amp;lt;span class=&quot;entity&quot;&amp;gt;nbsp;&amp;lt;/span&amp;gt;&amp;amp;&amp;lt;span class=&quot;entity&quot;&amp;gt;nbsp;&amp;lt;/span&amp;gt;&amp;amp;&amp;lt;span class=&quot;entity&quot;&amp;gt;nbsp;&amp;lt;/span&amp;gt;&amp;amp;&amp;lt;span class=&quot;entity&quot;&amp;gt;nbsp;&amp;lt;/span&amp;gt;
+&amp;lt;&amp;lt;span class=&quot;start-tag&quot;&amp;gt;input&amp;lt;/span&amp;gt;&amp;lt;span class=&quot;attribute-name&quot;&amp;gt;  name&amp;lt;/span&amp;gt;=&amp;lt;span class=&quot;attribute-value&quot;&amp;gt;&quot;cmd取消&quot; &amp;lt;/span&amp;gt;&amp;lt;span class=&quot;attribute-name&quot;&amp;gt;id&amp;lt;/span&amp;gt;=&amp;lt;span class=&quot;attribute-value&quot;&amp;gt;&quot;cmd取消&quot; &amp;lt;/span&amp;gt;&amp;lt;span class=&quot;attribute-name&quot;&amp;gt;value&amp;lt;/span&amp;gt;=&amp;lt;span class=&quot;attribute-value&quot;&amp;gt;&quot;取消&quot; &amp;lt;/span&amp;gt;&amp;lt;span class=&quot;attribute-name&quot;&amp;gt;type&amp;lt;/span&amp;gt;=&amp;lt;span class=&quot;attribute-value&quot;&amp;gt;&quot;button&quot; &amp;lt;/span&amp;gt;&amp;lt;span class=&quot;attribute-name&quot;&amp;gt;onClick&amp;lt;/span&amp;gt;=&amp;lt;span class=&quot;attribute-value&quot;&amp;gt;&quot;self.location.reload(true);&quot;&amp;lt;/span&amp;gt;&amp;gt;
+
+
+
+
+div&amp;lt;/span&amp;gt;&amp;gt;
+body&amp;lt;/span&amp;gt;&amp;gt;
+html&amp;lt;/span&amp;gt;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>余光中〈怎樣改進英式中文？──論中文的常態與變態〉</title>
+   <link href="http://localhost:4000/2006/03/19/e4-bd-99-e5-85-89-e4-b8-ad-e3-80-88-e6-80-8e-e6-a8-a3-e6-94-b9-e9-80-b2-e8-8b-b1-e5-bc-8f-e4-b8-ad-e6-96-87-ef-bc-9f-e2-94-80-e2-94-80-e8-ab-96-e4-b8-ad-e6-96-87-e7-9a-84-e5-b8-b8-e6-85-8b-e8-88-87e/"/>
+   <updated>2006-03-20T05:38:39+08:00</updated>
+   <id>http://localhost:4000/2006/03/19/%e4%bd%99%e5%85%89%e4%b8%ad%e3%80%88%e6%80%8e%e6%a8%a3%e6%94%b9%e9%80%b2%e8%8b%b1%e5%bc%8f%e4%b8%ad%e6%96%87%ef%bc%9f%e2%94%80%e2%94%80%e8%ab%96%e4%b8%ad%e6%96%87%e7%9a%84%e5%b8%b8%e6%85%8b%e8%88%87e</id>
+   <content type="html">&lt;p&gt;余光中〈怎樣改進英式中文？──論中文的常態與變態〉
+    輯自《明報月刊》(1987年10月號)&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;!-- more --&amp;gt; 1
+自五四新文化運動以來，七十年間，中文的變化極大。一方面，優秀的作家與學者
+筆下的白話文愈寫愈成熟，無論表情達意或是分析事理，都能運用自如。另一方面，道
+地的中文，包括文言文與民間文學的白話文，和我們的關係日漸生疏，而英文的影響，
+無論來自直接的學習或是間接的潛移默化，則日漸顯著，因此一般人筆下的白話文，西
+化的病態日漸嚴重。一般人從大眾傳媒學到的，不僅是流行的觀念，還有那些觀念賴以
+包裝的種種說法；有時，那些說法連高明之士也抗拒不了。今日的中文雖因地區不同而
+互見差異，但共同的趨勢都是繁瑣與生硬，例如中文本來是說「因此」，現在不少人卻
+愛說「基於這個原因」；本來是說「問題很多」，現在不少人卻愛說「有很多問題存
+在」。對於這種化簡為繁、以拙代巧的趨勢，有心人如果不及時提出警告，我們的中文
+勢必越變越差，而道地中文原有的那種美德，那種簡潔而又靈活的語文生態，也必將面
+目全非。
+
+中文也有生態嗎？當然有。措詞簡潔、句式靈活、聲調鏗鏘，這些都是中文生命的
+常態。能順著這樣的生態，就能長保中文的健康。要是處處違拗這樣的生態，久而久
+之，中文就會污染而淤塞，危機日漸迫近。
+
+目前中文的一大危機，是西化。我自己出身外文系，三十多歲時有志於中文創新的
+試驗，自問並非語文的保守派。大凡有志於中文創作的人，都不會認為善用四字成語就
+是創作的能事。反之，寫文章而處處仰賴成語，等於只會用古人的腦來想，只會用古人
+的嘴來說，絕非豪傑之士。但是，再反過來說，寫文章而不會使用成語，問題就更大
+了。寫一篇完全不帶成語的文章，不見得不可能，但是很不容易；這樣的文章要寫得
+好，就更難能可貴。目前的情形是，許多人寫中文，已經不會用成語，至少會用的成語
+有限，顯得捉襟見肘。一般香港學生目前只會說「總的來說」，卻似乎忘了「總而言
+之」。同樣地，大概也不會說「一言難盡」，只會說「不是一句話就能夠說得清楚
+的」。
+
+成語歷千百年而猶存，成為文化的一部分。例如「千錘百鍊」，字義對稱，平仄協
+調，如果一定要說成「千鍊百錘」，當然也可以，不過聽來不順，不像「千錘百鍊」那
+樣含有美學。同樣，「朝秦暮楚」、「齊大非偶」、「樂不思蜀」等語之中，都含有中
+國的歷史。成語的衰退正顯示文言的淡忘，文化意識的萎縮。
+
+英文沒有學好，中文卻學壞了，或者可說，帶壞了。中文西化，不一定就是毛病。
+緩慢而適度的西化甚至是難以避免的趨勢，高妙的西化更可以截長補短。但是太快太強
+的西化，破壞了中文的自然生態，就成了惡性西化。這種危機，有心人都應該及時警覺
+而且努力抵制。在歐洲的語文裏面，文法比較單純的英文恐怕是最近於中文的了。儘管
+如此，英文與中文仍有許多基本的差異，無法十分融洽。這一點，凡有中英文互譯經驗
+的人，想必都能同意。其實，研究翻譯就等於研究比較語言學。以下擬就中英文之間的
+差異，略略分析中文西化之病。
+2
+比起中文來，英文不但富於抽象名詞，也喜歡用抽象名詞。英文可以說「他的收入
+的減少改變了他的生活方式」，中文這麼說，就太西化了。英文用抽象名詞「減少」做
+主詞，十分自然。中文的說法是以具體名詞，尤其是人，做主詞：「他因為收入減少而
+改變生活方式」，或者「他收入減少，乃改變生活方式」。
+
+中文常用一件事情 (一個短句) 做主詞，英文則常用一個名詞 (或名詞片語)。
+「橫貫公路再度坍方，是今日的頭條新聞」，是中文的說法。「橫貫公路的再度坍方，
+是今日的頭條新聞」，就是英文語法的流露了。同理，「選購書籍，只好委託你了」是
+中文語法。「書籍的選購，只好委託你了」卻是略帶西化。「推行國語，要靠大家努
+力」是自然的說法。「推行的國語，要靠大家的努力」卻嫌冗贅。這種情形也可見於受
+詞。例如「他們杯葛這種風俗的繼續」，便是一句可怕的話。無論如何，「杯葛繼續」
+總嫌生硬。如果改成「他們反對保存這種風俗」，就自然多了。
+
+英文好用抽象名詞，其結果是軟化了動詞，也可以說是架空了動詞。科學、社會科
+學與公文的用語，大舉侵入了日常生活，逼得許多明確而有力動詞漸漸變質，成為面無
+表情的片語。下面是幾個常見的例子：
+
+apply pressure: press
+give authorization: permit
+send a communication: write
+take appropriate action: act
+
+在前例之中，簡潔的單音節動詞都變成了含有抽象名詞的片詞，表面上看來，顯得比較
+堂皇而高級。例如 press 變成了 apply pressure，動作便一分為二，一半馴化為靜止
+的抽象名詞 pressure，一半淡化為廣泛而籠統的動詞 apply。巴仁 (Jacques Barzun)
+與屈林 (Lionel Trilling) 等學者把這類廣泛的動詞叫做「弱動詞」(weak verb)。他
+們說：「科學報告不免單調而冷淡，影響之餘，現代的文體喜歡把思路分解成一串靜止
+的概念，用介詞和通常是被動語氣的弱動詞連接起來。」
+
+巴仁所謂的弱動詞，相當於英國小說家歐威爾所謂的「文字的義肢」(verbal
+false limb) 。當代的中文也已呈現這種病態，喜歡把簡單明瞭的動詞分解成「萬能動
+詞+抽象名詞」的片詞。目前最流行的萬能動詞，是「作出」和「進行」，惡勢力之
+大，幾乎要吃掉一半的正規動詞。請看下面的例子：
+
+(一) 本校的校友對社會作出了重大的貢獻。
+(二) 昨晚的聽眾對訪問教授作出了十分熱烈的反應。
+(三) 我們對國際貿易的問題已經進行了詳細的研究。
+(四) 心理學家在老鼠的身上進行試驗。
+
+不管是直接或間接的影響，這樣的語法都是日漸西化的現象，因為中文原有的動詞都分
+解成上述的繁瑣片語了。前面的四句話本來可以分別說成
+
+(一) 本校的校友對社會貢獻很大。
+(二) 昨晚的聽眾對訪問教授反應十分熱烈。
+(三) 我們對國際貿易的問題已經詳加研究。
+(四) 心理學家用老鼠來做試驗。(或：心理學家用老鼠試驗。)
+
+巴仁等學者感概現代英文喜歡化簡為繁、化動為靜、化具體為抽象、化直接為迂
+迴，到了「名詞成災」(noun-plague) 的地步。學問分工日細，各種學科的行話術語，
+尤其是科學與社會科學的「夾槓」，經過本行使用，外行借用，加上「新聞體」
+(journalese) 的傳播，一方面固然使現代英文顯得多彩多姿，另一方面卻也造成混
+亂，使日常用語斑駁不堪。英國詩人格雷夫斯 (Robert Graves, 1895-1986) 在短詩
+(耕田) (Tilth) 裏批評這現象說：
+
+Gone are the sad monosyllabic days
+When &quot;agricultural labour&quot;still was tilth；
+And &quot;00% approbation&quot;, praise;
+And &quot;pornographic modernism&quot;, filth-
+And still I stand by tilth and filth and praise.
+
+「名詞成災」的流行病裏，災情最嚴重的該是所謂「科學至上」(scientism)。在
+現代的工業社會裏，科學早成顯貴，科技更是驕子，所以知識分子的口頭與筆下，有意
+無意，總愛用一些「學術化」的抽象名詞，好顯得客觀而精確。有人稱之為「偽術語」
+(pseudo-jargon)。例如：明明是 firstst step，卻要說成 initial phase：明明是
+letter，卻要說成 communication，都屬此類。
+
+中文也是如此。本來可以說「名氣」，卻憑空造出一個「知名度」來，不說「很有
+名」，卻要迂迴作態，貌若高雅，說成「具有很高的知名度」，真是酸腐可笑。另一個
+偽術語是「可讀性」，同樣活躍於書評和出版廣告。明明可以說「這本傳記很動人」，
+「這本傳記引人入勝」，或者乾脆說「這本傳記很好看」，卻要說成「這本傳記的可讀
+性頗高」。我不明白這字眼怎麼來的，因為這觀念在英文裏也只用形容詞 readable而
+不用抽象名詞 readability。英文會說：The biography is highly readable，卻不說
+The biography has high readability。此風在臺灣日漸囂張。在電視上，記者早已在
+說「昨晚的演奏頗具可聽性」。在書評裏，也已見過這樣的句子：「傳統寫實作品只要
+寫得好，豈不比一篇急躁的實驗小說更具可看性？」
+
+我實在不懂那位書評家以不能說「豈不比一篇……更耐看 (更動人)？」同理，
+「更具前瞻性」難道真比「更有遠見」要高雅嗎？長此以往，豈不要出現「他講的這件
+趣事可笑性很高」一類的怪句？此外，「某某主義」之類抽象名詞也使用過度，英美有
+心人士都主張少用為妙。中國大陸文章很愛說「富於愛國主義的精神」，其實頗有語
+病。愛國只是單純的情感，何必學術化為主義？如果愛國也成主義，我們不是也可以說
+「親日主義」、「仇美主義」、「懷鄉主義」？其次，主義也就是一種精神，不必重
+複，所以只要說「富於愛國精神」就夠了。
+名詞而分單數與複數，是歐語文的慣例。英文文法的複數變化，比起其他歐洲語文
+來，單純得多。請看「玫瑰都很嬌小」這句話在英文、法文、德文、西班牙文、義大利
+文裏的各種說法：
+
+The roses are small.
+Les roses sont petites.
+Die Rosen sind klein.
+Las rosas son chiquitas.
+Le rose sono piccole.
+每句話都是四個字，次序完全一樣，都是冠詞、名詞、動詞、形容詞。英文句裏，只有
+動詞跟著名詞變化，其他二字則不分單、複數。德文句裏，只有形容詞不變。法文、西
+班牙文、義大利文的三句裏，因為做主詞的名詞是複數，其他的字全跟著變化。
+幸而中文的名詞沒有複數的變化，也不區分性別，否則將不勝其繁瑣。舊小說的對
+話裏確有「爺們」、「娘們」、「ㄚ頭們」等複數詞，但是在敘述的部分，仍用「諸姐
+妹」、「眾ㄚ鬟」。中文要表多數的時候，也會說「民眾」、「徒眾」、「觀眾」、
+「聽眾」，所以「眾」也有點「們」的作用。但是「眾」也好，「們」也好，在中文裏
+並非處處需要複數語尾。往往，我們說「文武百官」，不說「官們」，也不說「文官
+們」、「武官們」。同理「全國的同胞」、「全校的師生」、「所有的顧客」、「一切
+乘客」當然是複數，不必再畫蛇添足，加以標明。不少國人惑於西化的意識，常愛這麼
+添足，於是「人們」取代原有的「人人」、「大家」、「大眾」、「眾人」、「世
+人」。「人們」實在是醜陃的西化詞，林語堂絕不使用，希望大家也不要使用。電視上
+也有人說「民眾們」、「聽眾們」、「球員們」，實在累贅。尤其「眾、們」並用，已
+經不通。
+
+中文詞不分數量，有時也會陷入困境。例如「一位觀眾」顯然不通，但是「觀眾之
+一」卻嫌累贅，也欠自然。「一位觀者」畢竟不像「一位讀者」那麼現成，所以，「一
+位觀眾來信說……」之類的句子，也只好由它去了。
+可是「……之一」的氾濫，卻不容忽視。「……之一」雖然是單數，但是背景的意
+識卻是多數。和其他歐洲語文一樣，英文也愛說 one of my favorite actresses, one
+of those who believe……, one of the most active promoters。中文原無「……之
+一」的句法，現在我們說「觀眾之一」實在是不得已。至於這樣的句子：
+
+劉伶是竹林七賢之一。
+作為竹林七賢之一的劉伶……
+
+目前已經非常流行。前一句雖然西化，但不算冗贅。後一句卻惡性西化的畸嬰，不但
+「作為」二字純然多餘，「之一的」也文白來雜，讀來破碎，把主詞「劉伶」壓在底
+下，更是扭捏作態。其實，後一句的意思跟前一句完全一樣，卻把英文的語法 as one
+of the Seven Worthies of Bamboo Grove, Liu Ling……生吞活剝地搬到中文裏來。
+所以，與其說「作為竹林七賢之一的劉伶以嗜酒聞名」，何不平平實實地說「劉伶是竹
+林七賢之一，以嗜酒聞名」？其實前一句也儘有辦法不說「之一」。中文本來可以說
+「劉伶乃竹林七賢之同儕」；「劉伶列於竹林七賢」；「劉伶躋身竹林七賢」；「劉伶
+是竹林七賢的同人」。
+
+「竹林七賢之一」也好，「文房四寶之一」也好，情況都不嚴重，因為七和四範圍
+明確，同時邏輯上也不能逕說「劉伶是竹林七賢」，「硯乃文房四寶」。目前的不良趨
+勢，是下列這樣的句子：
+
+紅樓夢是中國文學的名著之一。
+李廣乃漢朝名將之一。
+
+兩句之中。「之一」都是蛇足。世間萬事萬物都有其同儔同類，每次提到其一，都要照
+顧到其他，也未免太周到了。中國文學名著當然不止一部，漢朝名將當然也不會祇有一
+人，不加上這死心眼的「之一」，絕對沒有人會誤會你孤陋寡聞，或者掛一漏萬。一旦
+養成了這種惡習，只怕筆下的句子都要寫成「小張是我的好朋太之一」，「我不過是您
+的平庸的學生之一」，「他的嗜好之一是收集茶壼」了。
+
+「之一」之病到了香港，更變本加厲，成為「其中之一」。在香港的報刊上，早已
+流行「我是聽王家的兄弟其中之一說的」或者「大衛連一直以來都是我最喜歡的導演其
+中之一」這類怪句。英文複數觀念為害中文之深，由此可見。
+
+這就說到「最……之一」的語法來了。英文最喜歡說「他是當代最偉大的思想家之
+一」，好像真是精確極了，其實未必。「最偉大的」是抬到至高，「之一」卻稍加低
+抑，結果只是抬高，並未真正抬到至高。你並不知道「最偉大的思想家」究竟是幾位，
+四位嗎，還是七位，所以彈性頗大。兜了一個大圈子回來，並無多大不同。所以，只要
+說「他是一個大名人」或「他是赫赫有名的人物」就夠了，不必迂而迴之，說什麼「他
+是最有名氣的人物之一」吧。
+3
+在英文裏，詞性相同的字眼常用and來連接：例如 man and wife, you and I,
+back and forth。但在中文裏，類似的場合往往不用連接詞，所以只要說「夫妻」、
+「你我」、「前後」就夠了。同樣地，一長串同類詞在中文裏，也任其並列，無須連接
+：例如「東南西北」、「金木水火土」、「禮樂射御書數」、「柴米油鹽醬醋茶」皆
+是。中國人絕不說「開門七件事，柴、米、油、鹽、醬、醋以及茶。」誰要這麼說，一
+定會惹笑。同理，中文只說「思前想後」、「說古道今」。可是近來and的意識已經潛
+入中文，到處作怪。港報上有過這樣的句子：
+
+在政治民主化與經濟自由化的發展道路，臺北顯然比北京起步更早及
+邁步更快，致在政經體制改革的觀念、行動、範圍及對象，更為深廣更
+具實質……
+
+這樣的文筆實在不很暢順，例如前半句中，當做連接詞的「與」、「及」都不必要。
+「與」還可以說不必要，「及」簡直就要不得。後半句的「更為深廣更具實質」才像中
+文，「起步更早及邁步更快」簡直是英文。「及」字破壞了中文生態，因為中文沒有這
+種用法。此地一定要用連接詞的話，也只能用「而」，不可用「及」。正如 slow but
+sure在中文裏該說「慢而可靠」或者「緩慢而有把握」，卻不可說「慢及可靠」或者
+「緩慢與有把握」。「而」之為連接詞，不但可表更進一步，例如「學而時習之」，還
+可表後退或修正，例如「國風好色而不淫，小雅怨誹而不亂」，可謂兼有and與but之功
+用。
+
+目前的不良趨勢，是原來不用連接詞的地方，在 and 意識的教唆下，都裝上了連
+接詞；而所謂連接詞都由「和」、「與」、「及」、「以及」包辦，可是靈活而宛轉的
+「而」、「並」、「而且」等詞，幾乎要絕跡了。
+(※英：但也不要不當而而而！）
+
+4
+介詞在英文裏的用途遠比中文裏重要，簡直成了英文的潤滑劑。英文的不及物動詞加
+上介詞，往往變成了及物動詞，例如 look after, take in皆是。介詞片語
+(prepositional phrase) 又可當作形容詞或助詞使用，例如 a friend in  need,
+said it in earnest。所以英文簡直離不了介詞。中文則不盡然。「揚州十日、嘉定三
+屠」兩個片語不用一個介詞，換了英文，非用不可。
+
+「歡迎王教授今天來到我們的中間，在有關環境污染的各種問題上，為我們作一次
+學術性的演講。」這樣不中不西的開場白，到處可以聽見。其實「中間」、「有關」等
+介詞，都是畫蛇添足。有一些聖經的中譯，牧師的傳道，不顧中文的生態，會說成「神
+在你的裏面」。意思懂，卻不像中文。
+「有關」、「關於」之類，大概是用得最濫的介詞了。「有關文革的種種，令人不
+能置信」；「今天我們討論有關臺灣交通的問題」；「關於他的申請，你看過了沒有
+？」在這句子裏，「有關」、「關於」完全多餘。最近我擔任「全國學生文學獎」評
+審，有一篇投稿的題目很長，叫「關於一個河堤孩子的成長故事」。十三個字裏，「關
+於」兩字毫無作用，「一個」與「故事」也可有可無。
+「關於」有幾個表兄弟，最出風的是「由於」。這字眼在當代中文裏，往往用得不
+妥：
+
+由於秦末天下大亂，(所以) 群雄四起。
+由於好奇心的驅使，我向窗內看了一眼。
+由於他的家境貧窮，使得他只好休學。
+
+英文在形式上重邏輯，喜歡交代事物物的因果關係。中文則不盡然。「清風徐來，水波
+不興」，其中當然有因果關係，但是中文只用上下文作不言之喻。換了是英文，恐怕會
+說「因為清風徐來，所以水波不興」，或者「清風徐來，而不興起水波」。上列的第一
+句，其實刪掉「由於」與「所以」，不但無損文意，反而可使文章乾淨。第二句的「由
+於好奇心的驅使」並沒有什麼大毛病 (註四)，可是有點囉嗦，更犯不著動用「驅使」
+一類的正式字眼。如果簡化為「出於好奇，我向窗內看了一眼」或者「為了好奇，我向
+窗內看了一眼」，就好多了。第三句的不通，犯者最多。「由於他的家境貧窮」這種片
+語，只能拿來修飾動詞，卻不能當做主詞。這一句如果刪掉「由於」，「使得」一類交
+代因果的冗詞，寫成「他家境貧窮，只好休學」，反覺眉清目秀。
+
+5
+英文的副詞形式對中文為害尚不顯著，但也已經開始了。例如這樣的句子：
+
+他苦心孤詣地想出一套好辦法來。
+老師苦口婆心地勸了他半天。
+大家苦中作樂地竟然大唱其民謠。
+
+「苦」字開頭的三句成語，本來都是動詞，套上副詞語尾的「地」就降為副詞了。這麼
+一來，文章仍然清楚，文法上卻主客分明，太講從屬的關係，有點呆板。若把「地」一
+律刪去，代以逗點，不但可以擺脫這主客的關係，語氣也會靈活一些。
+
+有時這樣的西化副詞片語太長，例如「他知其不可為而為之地還是去赴了約」，就
+更應把「地」刪掉，代之以逗點，使句法鬆鬆筋骨。目前最濫的副詞是「成功地」。有
+一次我不該為入學試出了這麼一個作文題目：〈國父誕辰的感想〉，結果十個考生裏至
+少有六個都說：「國父孫中山先生成功地推翻了滿清。」這副詞「成功地」在此毫無意
+義，因為既然推而翻之，就是成功了，何待重複。同理，「成功地發明了相對論」、
+「成功地泳渡了直布羅陀海峽」也都是饒舌之說。天下萬事，凡做到的都要加上「成功
+地」，豈不累人？
+
+6
+白話文一用到形容詞，似乎就離不開「的」，簡直無「的」不成句了。在白話文
+裏，這「的」字成了形容詞除不掉的尾巴，至少會出現在這些場合：
+
+好的，好的，我就來。是的，沒問題。
+快來看這壯麗的落日！
+你的筆乾了，先用我的筆吧。
+也像西湖的有裏外湖一樣，麗芒分為大湖小湖兩部分。
+他當然是別有用心的。你不去是對的。
+
+喜歡用「的」或者無力拒「的」之人，也許還有更多的場合要偏勞這萬能「的」字。我
+說「偏勞」，因為在英文裏，形容詞常用的語尾有-tive, -able, -ical, -ous等多
+種，不像在中文裏全由「的」來擔任。英文句子裏常常連用幾個形容詞，但因語尾變化
+頗大，不會落入今日中文的公式。例如雪萊的句子：
+
+An old, mad, blind, despised, and dying king──
+
+一連五個形容詞，直譯過來，就成了：
+
+一位衰老的、瘋狂的、瞎眼的、被人蔑視的、垂死的君王──
+
+一碰到形容詞，就不假思索，交給「的」去組織，正是流行的白話文所以僵化的原因。
+白話文所以囉嗦而軟弱，虛字太多是一大原因，而用得最濫的虛字正是「的」。學會少
+用「的」字之道，恐怕是白話文作家的第一課吧。其實許多名作家在這方面都很隨便，
+且舉數例為證：
+
+(一) 月光是隔了樹照過來的，高處叢生的灌木，落下參差的斑駁的黑影， 峭楞
+楞如鬼一般；彎彎的楊柳的稀疏的倩影，卻又像是畫在荷葉上。
+
+(二) 最後的鴿群……也許是誤認這灰暗的淒冷的天空為夜色的來襲，或是 也預
+感到風雨的將至，遂過早地飛回它們溫暖的木舍。
+
+(三) 白色的鴨也似有一點煩躁了，有不潔的顏色的都市的河溝裏傳出它們焦 急
+的叫聲。
+
+第一句的「參差的斑駁的黑影」和「彎彎的楊柳的稀疏的倩影」，都是單調而生硬的重
+疊。用這麼多「的」，真有必要嗎？為什麼不能說「參差而斑駁」呢？後面半句的原意
+本是「彎彎的楊柳投下稀疏的倩影」，卻不分層次，連用三個「的」，讀者很自然會分
+成「彎彎的、楊柳的、稀疏的、倩影」。第二句至少可以省掉三個「的」。就是把「灰
+暗的淒冷的天空」改成「灰暗而淒冷的天空」，再把「夜色的來襲」和「風雨的將至」
+改成「夜色來襲」、「風雨將至」。前文說過，中文好用短句，英文好用名詞，尤其是
+抽象名詞。「夜色來襲」何等有力，「夜色的來襲」就鬆軟下來了。最差的該是第三句
+了。「白色的鴨」跟「白鴨」有什麼不同呢？「有不潔的顏色的都市的河溝」，亂用
+「的」字，最是惑人。此句原意應是「顏色不潔的都市河溝」(本可簡化為)「都市的髒
+河溝」，但讀者同樣會念成「有不潔的、顏色的、都市的、河溝」。
+
+目前的形容詞又有了新的花樣，那便是用學術面貌的抽象名詞來打扮。再舉數例為
+證：
+這是難度很高的技巧。
+他不愧為熱情型的人。
+太專業性的字眼恐怕查不到吧。
+
+「難度很高的」是什麼鬼話呢？原意不就是「很難的」嗎？同理，「熱情型的人」就是
+「熱情的人」；「太專業性的字眼」就是「太專門的字眼」。到抽象名詞裏去兜了一圈
+回來，門面像是堂皇了，內容仍是空洞的。
+
+形容詞或修飾語 (modifier) 可以放在名詞之前，謂之前飾，也可以跟在名詞之
+後，謂之後飾。法文往往後飾，例如紀德的作品 La Symphonie pastorale與 Les
+Nourritures terrestres，形容詞都跟在名詞之後；若譯成英文，例如 The Pastoral
+Symphony，便是前飾了。中文譯為「田園交響樂」，也是前飾。
+
+英文的形容詞照例是前飾，例如前引雪萊的詩句，但有時也可以後飾，例如雪萊的
+另一詩句：One too like thee--tameless, and swift, and proud 。至於形容詞片或
+子句，則往往後飾，例如：man of action, I saw a man who looked like your
+brother。（※英：此例極佳，請注意！）
+
+目前的白話文，不知何故，幾乎一律前飾，似乎不懂後飾之道。例如前引的英文
+句，若用中文來說，一般人會不假思索說成：「我見到一個長得像你兄弟的男人。」卻
+很少人會說：「我見到一個男人，長得像你兄弟。」如果句短，前飾也無所謂。如果句
+長，前飾就太生硬了。例如下面這句：「我見到一個長得像你兄弟說話也有點像他的陌
+生男人。」就冗長得尾大不掉了。要是改為後飾，就自然得多：「我見到一個陌生男
+人，長得像你兄弟，說話也有點像他。」其實文言文的句子往往是後飾的，例如司馬遷
+寫項羽與李廣的這兩句：
+
+籍長八尺餘，力能扛鼎，才氣過人。
+廣為人長，猿臂，其善射亦天性也。
+
+這兩句在當代白話文裏，很可能變成：
+
+項籍是一個身高八尺，力能扛鼎，同時才氣過人的漢子。
+李廣是一個高個子，手臂長得好像猿臂，天性就會射箭的人。
+
+後飾句可以一路加下去，雖長而不失自然，富於彈性。前飾句以名詞壓底，一長了，就
+顯得累贅，緊張，不勝負擔。所以前飾句是關閉句，後飾句是開放句。
+
+7
+動詞是英文文法的是非之地，多少糾紛，都是動詞惹出來的。英文時態的變化，比
+起其他歐洲語文來，畢竟單純得多。若是西班牙文，一個動詞就會變出七十八種時態。
+中文的名詞不分單複與陰陽，動詞也不變時態，不知省了多少麻煩。(阿房宮賦) 的句
+子：「秦人不暇自哀，而後人哀之。後人哀之而不鑑之，亦使後人而復哀後人也。」就
+這麼一個「哀」字，若用西文來說，真不知要玩出多少花樣來。
+
+中文本無時態變化，所以在這方面幸而免於西化。中國文化這麼精妙，中文當然不
+會拙於分別時間之先後。散文裏說：「人之將死，其言也善」；「議論未定，而兵已渡
+河。」詩裏說：「已涼天氣未寒時」。這裏面的時態夠清楚的了。蘇軾的七絕：「荷盡
+已無擎雨蓋，菊殘猶有傲霜枝。一年好景君須記，最是橙黃橘綠時。」裏面的時序，有
+已逝，有將逝，更有正在發生，區別得準確而精細。
+
+中文的動詞既然不便西化，一般人最多也只能寫出「我們將要開始比賽了」之類的
+句子，問題並不嚴重。動詞西化的危機另有兩端：一是單純動詞分解為「弱動詞+抽象
+名詞」的複合動詞，前文已經說過。不說「一架客機失事，死了九十八人」，卻說「一
+架客機失事，造成九十八人死亡」，實在是迂迴作態。
+另一端是採用被動詞語氣。凡是及物動詞，莫不發於施者而及於受者。所以用及物
+動詞敘述一件事，不出下列三種方式：
+
+(一) 哥倫布發現了新大陸。
+(二) 新大陸被哥倫布發現了。
+(三) 新大陸被發現了。
+
+第一句施者做主詞，乃主動語氣。第二句受者做主詞，乃被動語氣。第三句仍是受者做
+主詞，仍是被動，卻不見施者。這三種句子在英文裏都很普遍，但在中文裏卻以第一種
+最常見，第二、第三種就少得多。第三種在中文裏常變成主動語氣，例如「糖都吃光
+了」，「戲看完了」，「稿寫了一半」，「錢已經用了」。
+目前西化的趨勢，是在原來可以用主動語氣的場合改用被動語氣。請看下列的例句
+：
+
+(一) 我不會被你這句話嚇倒。
+(二) 他被懷疑偷東西。
+(三) 他這意見不被人們接受。
+(四) 他被升為營長。
+(五) 他不被准許入學。
+
+這些話都失之生硬，違反了中文的生態。其實，我們儘可還原為主動語氣如下：
+
+(一) 你這句話嚇不倒我。
+(二) 他有偷東西的嫌疑。
+(三) 他這意見大家都不接受。
+(四) 他升為營長。
+(五) 他未獲准入學。
+
+同樣，「他被選為議長」不如「他當選為議長」。「他被指出許多錯誤」也不如「有人
+指出他許多錯誤」。「他常被詢及該案的真相」也不如「常有人問起他該案的真相」。
+
+目前中文的被動語氣有兩個毛病。一個是用生硬的被動語氣來取代自然的主動語
+氣。另一個是千篇一律只會用「被」字，似乎因為它發音近於英文的 by，卻不解從
+「受難」到「遇害」，從「挨打」到「遭殃」，從「輕人指點」到「為世所重」，可用
+的字還有許多，不必套一個公式。
+
+8
+中文的西化有重有輕，有暗有明，但其範圍愈益擴大，其現象愈益昭彰，頗有加速
+之勢。以上僅就名詞、連接詞、介詞、副詞、形容詞、動詞等西化之病稍加分析，希望
+讀者能舉一反三，知所防範。
+
+常有樂觀的人士說，語言是活的，有如河流，不能阻其前進，所謂西化乃必然趨
+勢。語言誠然是活的，但應該活得健康，不應帶病延年。至於河流的比喻，也不能忘了
+兩岸，否則氾濫也會成災。西化的趨勢當然也無可避免，但不宜太快、太甚，應該截長
+補短，而非以短害長。
+
+頗有前衛作家不以杞人之憂為然，認為堅持中文的常規，會妨礙作家的創新。這句
+話我十分同情，因為我也是「過來人」了。「語法豈為我輩而設哉！」詩人本有越界的
+自由。我在本文強調中文的生態，原為一般寫作說法，無意規範文學的創作。前衛作家
+大可放心去追逐繆思，不用礙手礙腳，作語法之奴。
+
+不過有一點不可不知。中文發展了好幾千年，從清通到高妙，自有千錘百鍊的一套
+常態。誰要是不知常態為何物而貿然自詡為求變，其結果也許只是獻拙，而非生巧。變
+化之妙，要有常態襯托才顯得出來。一旦常態不存，餘下的只是亂，不是變了。
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>keroro tv list</title>
+   <link href="http://localhost:4000/2006/03/18/keroro-101/"/>
+   <updated>2006-03-18T18:18:24+08:00</updated>
+   <id>http://localhost:4000/2006/03/18/keroro-101</id>
+   <content type="html">&lt;h1 id=&quot;軍曹keroro-tv&quot;&gt;軍曹\keroro TV\&lt;/h1&gt;
+
+&lt;p&gt;001 在下乃 Keroro 軍曹 + Keroro 立於大地之上
+002 桃華 &amp;amp; Tamama 出擊 + 桃華 &amp;amp; Tamama 日向家登陸
+003 Keroro 突破危險臨點界 + Keroro 絕秘任務開始
+004 Giroro 宇宙最危險的男人 + Keroro 下雨是危險男人
+005 深愛玩具的男人們之歌前、後篇&lt;/p&gt;
+
+&lt;!-- more --&gt;
+&lt;p&gt;006 桃華  Love Love 南海大作戰 + 桃華 靈異南海大作戰
+007 摩亞 初次的地球破壞 + Tamama 對摩亞 結果Tamama敗北
+008 Keroro 侵略作戰形勢大好 + Keroro 錯誤百出的基地建造
+009 夏美 邁向戀愛之路 Kululu  + 日向秋 爆炸性的女人
+010 決戰！第三大臼齒前、後篇
+011 Keroro小隊 上電視前、後篇
+012 Sumomo 偶像要穿越宇宙 + Giroro 戰場上的小天使
+013 Dororo 被遺忘的戰士 + Dororo 和 小雪 友情是美好的嗎
+014 五人結集！可能是史上最大的作戰前、後篇
+015 桃華 裡桃華 登埸 + 另一個桃華 計中計
+016 摩亞 裡摩亞 登埸 + 摩亞 摩亞摩亞大混亂
+017 Keroro Vs 夏美 水中大決戰 + 冬樹 歡迎來到恐怖世界
+018 夏美 爆笑！大人的海岸故事前、後篇
+019 Keroro Vs 夏美 節日大決戰 + Keroro 讓侵略廣播傳入你耳朵
+020 冬樹 Meet A Girl + 冬樹 農特露瑪的使者
+021 Keroro 侵略也要節能 + Keroro 向鄉下進軍
+022 Tamama 從今天起我是隊長前、後篇
+023 Panic！日向家最喧鬧的一天前、後篇
+024 Keroro 正義和貧窮的偵探 + 556 特輯就職最前線
+025 桃華 愛 青春 與混亂的逃亡前、後篇
+026 Keroro 團結一致 入侵運動日前、後篇
+027 Keroro 來了老爸 青蛙老爸 + Keroro 溫泉 Go！Go！Go！
+028 Keroro 雪戰生存演習 + Kululu kukuku的ku
+029 夏美 &amp;amp; 小雪 舞台上的青春 + Keroro 新聞是Ng
+030 Tamama K隆星來的少年 + 桃華 目標是豐滿的身材
+031 Keroro 想要回家 卻回不了前、後篇
+032 Keroro 動物隊員大集合 + Giroro 貓咪想說話
+033 Keroro小隊 用動畫侵略藍星前、後篇
+034 桃華 Vs 小雪 溫泉爭奪戰 + Keroro &amp;amp; 冬樹 一起出遊
+035 極秘！夏美生日大作戰前、後篇
+036 Keroro 死鬥！軍曹 Vs 冬將軍 + 冬樹 就那麼回事啦 西澤
+037 Dororo 來忍者教室 + Keroro的恐龍
+038 Giroro 愛的機動步兵 + Giroro 對夏美 相遇
+039 Keroro 聖誕節大作戰 + Keroro 年終大掃除
+040 摩亞 就是說 謹賀新年 + Keroro 過節也不錯 可是還有作業
+041 Keroro 雙六攻略戰 + Dororo 揮灑熱血吧
+042 Keroro 熱血的Keroro小隊 + Tamama 友情的嫉妒踢
+043 Giroro 紅鬼不哭 + Giroro 飛躍節分
+044 Keroro Vs 冬樹 體術激鬥 + Kululu Vs 秋 侵略機器人爆鬥
+045 keroro 愛的Ikinari糰子 + 夏美 &amp;amp; 桃華 發動V作戰
+046 Keroro 你被遺忘了嗎？前、後篇
+047 夏美 保護女孩節 + Keroro 爆炸頭音顫
+048 Keroro小隊 春天的煥發精神大作戰 + 冬樹 發懶行動救出作戰
+049 Kululu 在宇宙裡順利工作的方法 + 桃華 白色情人節顛峰作戰
+050 夏美 高熱的地球戰士 + Giroro 我不做誰做？
+051 Keroro 小隊撤退！別了藍星前、後篇
+052 Keroro 再次來到大地之上 + Tamama 暗黑Tamama
+053 Keroro 寶物侵略大作戰 + 安格爾‧摩亞 賞花的摩亞
+054 冬樹 我是名偵探 + Dororo 復活的戰士
+055 Giroro 甦醒的戰士 + 冬樹 游吧鯉魚旗
+056 夏美和小雪 網球公主 + Keroro 侵略中的一絲曙光
+057 Dororo 逆襲有我 + Keroro 巨蛙對南海大怪獸
+058 Keroro 自助販賣機侵略 + Tamama 醒覺！新必殺技
+059 Keroro 培養城 + Keroro 的移動城
+060 Keroro  KeroKero機械猛道 + 摩亞 睡美人 就是說 想睡覺？
+061 冬樹 神祕的轉校少女發生了什麼？ + 夏美 和 三郎 回不去的2人
+062 桃華&amp;amp;夏美&amp;amp;摩亞 More Peach Summer + Keroro 必勝！ 水中大決戰
+063 Keroro 教師GeroGero的故事 + Keroro 再見、父親哦
+064 Keroro 再吸就吸！還是別說謊為好 + dororo 從心靈創傷裏解脫
+065 Keroro 向藍星怒吼 + Tamama K隆星來的訪問者
+066 Giroro 拯救愛的大作戰 + 夏美和小雪 心跳的初次約見
+067 冬樹和桃華 秘密的靈異探險約見 + Keroro 喂 來製作遊戲吧
+068 Keroro 大改造！ 翻新就要有戲劇性 + Dororo 去吧！宿命對決
+069 夏美和冬樹的神隱 + Keroro 憤例！盛夏的微笑對抗
+070 K隆星人對地球人 終於要全面對決了麼 + 小雪 緊張的初捏飯團
+071 極惡！ 麻煩！ 宇宙忘記作業大王傳說前、後篇
+072 Keroro 鐵人廚師的挑戰書 + Tamama 最強戰士的挑戰書
+073 冬樹 198X‧我們的暑假前、後篇
+074 GeroGero 30分鐘
+075 桃華 覺醒！ 第三個桃華前、後篇
+076 Keroro小隊 帶我去月亮吧前、後篇
+077 恭喜你 Tamama二等 要幸福啊 + Tamama 封印Tamama衝擊波
+078 Keroro 找寶還是要到寶島找前、後篇
+079 冬樹 不放棄運動日 + Giroro 貓咪知道
+080 Keroro 唉！離家出走還真是寂寞啊前、後篇
+081 Giroro 真紅的忍耐之日 + 戰鬥的小雪 為了守護重要的人
+082 623 來上我的節目吧 + Keroro Vs 夏美 1∕6認真對決！
+083 Keroro 露天混浴溫泉殺人事件 + Kululu 討厭到底的傢伙
+084 桃華 去宇宙吃午餐吧 +  Keroro 尋找松茸！
+085 Keroro 一轉就換 + 夏美 變成魔法少女的話
+086 夏美＆冬樹 住在日向家的惡魔 + Keroro 變成超級英雄
+087 Keroro 慶祝！生日快樂 + 摩亞 不可思議國的摩亞
+088 DASONUMASO 藍星歸我了！老實說 我也不想要前、後篇
+089 Giroro 7面男人 + 冬樹 沸騰吧！神秘現象大賽
+090 Keroro 說不出聖誕快樂前、後篇
+091 Keroro 新年‧新生Keroro誕生 + 小雪 外婆來了
+092 Keroro小隊 向天空傾註愛 + 桃華對摩亞 激戰羽毛鍵對抗
+093 夏美 侵入秘密基地 + 日向 秋 可能是宇宙最強的女人
+094 karara &amp;amp; Taruru 藍星歸我們了！
+095 夏美 和 Giroro 分開？拚命的解救作戰
+096 More Peach Summer Snow 之決戰情人節 + Keroro世上也有不幸的故事
+097 桃華 寫成強敵卻念成朋友 + keroro和冬樹 兩個人
+098 桃華 私奔大作戰 + Dororo和小雪 相遇時的記憶
+099 夏美 名犬小夏 + keroro 頑皮K隆派
+100 keroro 唉？我是誰？你們是誰？
+101 Keroro小隊 藍星靜止之日！?
+102 keroro小隊 藍星！！走向滅亡的愛之星啊！！
+103 keroro小隊 恢復你的真心
+104 Keroro 告別可愛的Keroro！+ Keroro 數向滅亡的倒數計時
+105 Keroro 新裝開店微笑服務 + 桃華 觀櫻花Love Love大亂戰
+106 冬樹和夏美 擅自侵入者 + Giroro 趣味的時間
+107 夏美恐怖的身體檢查 + 夏美和冬樹 姊弟大戰
+108 Tamama 獨占！大人的時間 + 冬樹＆桃華 Dr.Kululu之島
+109 Keroro 媽媽大人療養大作戰 + Dororo 沈默的暴走銀河特快
+110 Keroro 有些不可思議的特效藥 + Keroro 條條大路通楊桃
+111 小雪 忍者派的睡衣晚會 + 夏美 突如其來的家庭訪問
+112 Kululu和三郎的相遇 畫物成真戰的勝負前、後篇
+113 Keroro 戰鬥吧我們的潮濕王 + 夏美 再次出現的潮濕王
+114 Giroro 我們要復仇 + Keroro 又是又是又是dasunumaso？
+115 keroro ryuroro對機械ryuroro + keroro 不和nyubo一起去
+116 keroro 目標極品風呂 + 摩亞 叔叔日記
+117 keroro 向七夕許願 + keroro 復活！怪傑多巴胺
+118 幽靈妹妹 去學校吧 + kululu 咖哩曹長大人
+119 Giroro 壯烈！暑假合宿 + keroro 抓住週六的丑日
+120 ケロロ 土井中村リターンズ であります/桃華 ひと夏の経験 であります&lt;/p&gt;
+
+&lt;p&gt;附註：83集前半全稱
+KERORO 露天混浴溫泉殺人事件
+漂泊在浴氣中 宇宙第一不幸的兄妹魂
+哥哥做的彩色盒子溫泉
+緊急想要進去 卻只進去了一隻腳 因為意外而滑倒 在哥哥氣絕時 妹妹的眼淚隨浴花飛舞&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>终于决定更换Browser了</title>
+   <link href="http://localhost:4000/2006/03/12/e7-bb-88-e4-ba-8e-e5-86-b3-e5-ae-9a-e6-9b-b4-e6-8d-a2browser-e4-ba-86/"/>
+   <updated>2006-03-13T01:19:59+08:00</updated>
+   <id>http://localhost:4000/2006/03/12/%e7%bb%88%e4%ba%8e%e5%86%b3%e5%ae%9a%e6%9b%b4%e6%8d%a2browser%e4%ba%86</id>
+   <content type="html">&lt;p&gt;slackware刚从第4版跳至第7版的时候开始用Mozilla。这之后就没考虑过别的浏览器，但是firefox的插件对mozilla的兼容性越来越差，甚至前些日子mozilla的网站上还出现了酷似Mozilla suite的新项目Seamonkey，似乎大家已经准备好了抛弃这个Netscape时代的遗留物。&lt;/p&gt;
+
+&lt;p&gt;不合时宜的话还是不多说了，做技术总要有这点觉悟的。&lt;/p&gt;
+
+&lt;p&gt;想想~/.mozilla下还保存着各种passwd cookie form bookmarks mails ，每次回家这点东西总是要带走的，否则寸步难行。。呵呵。讽刺的是发现firefox的用户目录竟然是在~/.mozilla之下，恩，也是，毕竟是mozilla的后代么，先这么想着。。。。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>GCC 4.1.0 has been released</title>
+   <link href="http://localhost:4000/2006/03/01/gcc-410-has-been-released/"/>
+   <updated>2006-03-01T13:53:14+08:00</updated>
+   <id>http://localhost:4000/2006/03/01/gcc-410-has-been-released</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;http://gcc.gnu.org/gcc-4.1/&quot;&gt;http://gcc.gnu.org/gcc-4.1/&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Choose your favour Linux distro</title>
+   <link href="http://localhost:4000/2006/02/25/choose-your-favour-linux-distro/"/>
+   <updated>2006-02-25T19:59:50+08:00</updated>
+   <id>http://localhost:4000/2006/02/25/choose-your-favour-linux-distro</id>
+   <content type="html">&lt;p&gt;go here :  &lt;a href=&quot;http://eedok.voidofmind.com/linux/chooser.html&quot;&gt;http://eedok.voidofmind.com/linux/chooser.html&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>空中に浮かび上がる３次元(3D)映像</title>
+   <link href="http://localhost:4000/2006/02/13/e7-a9-ba-e4-b8-ad-e3-81-ab-e6-b5-ae-e3-81-8b-e3-81-b3-e4-b8-8a-e3-81-8c-e3-82-8b-ef-bc-93-e6-ac-a1-e5-85-833d-e6-98-a0-e5-83-8f/"/>
+   <updated>2006-02-13T19:05:08+08:00</updated>
+   <id>http://localhost:4000/2006/02/13/%e7%a9%ba%e4%b8%ad%e3%81%ab%e6%b5%ae%e3%81%8b%e3%81%b3%e4%b8%8a%e3%81%8c%e3%82%8b%ef%bc%93%e6%ac%a1%e5%85%833d%e6%98%a0%e5%83%8f</id>
+   <content type="html">&lt;p&gt;2006年2月7日　発表&lt;/p&gt;
+
+&lt;p&gt;■&lt;strong&gt;空中に浮かび上がる３次元(3D)映像&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;−プラズマの発光を用いて“リアルな３次元(3D)映像”の空間描画に成功−&lt;/p&gt;
+
+&lt;p&gt;● ポイント&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;レーザービームを空間中にフォーカスし、空気をプラズマ化して発光させる技術&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;発生するプラズマの輝度・コントラスト・生成距離を制御する技術を開発&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;空気以外何も存在しない空間に“リアルな３次元(3D)映像”を世界で初めて表示することに成功&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;概要&lt;/p&gt;
+
+&lt;p&gt;独立行政法人 産業技術総合研究所【理事長 吉川 弘之】（以下「産総研」という） &lt;a href=&quot;http://unit.aist.go.jp/photonics/index.html&quot;&gt;光技術研究部門&lt;/a&gt;【部 門長 渡辺 正信】は、 慶應義塾大学【塾長 安西　祐一郎】（以下「慶應大」という）理工学部システムデザイン工学科　内山 太郎研究室、株式会社バートン【代表取締役　木村 秀尉】（以下「（株）バートン」という）と共同で、空気以外なにも存在しない空間にドットアレイからなる“リアルな３次元(3D)映像”を表示する装置の 試作に成功した。これまでに報告されている多くの３次元ディスプレイ技術は、人間の両眼視差を利用する３次元表示方法であり、視野制限や虚像の誤認識によ る生理的不快感などがあった。本装置は集光&lt;a href=&quot;http://www.aist.go.jp/aist_j/press_release/pr2006/pr20060207/pr20060207.html#a&quot;&gt;レーザー&lt;/a&gt;光で焦点近傍の空気を&lt;a href=&quot;http://www.aist.go.jp/aist_j/press_release/pr2006/pr20060207/pr20060207.html#b&quot;&gt;プラズマ&lt;/a&gt;化し発光させるものであり、レーザー光の焦点位置を３次元空間中に自由に制御することで空中（３次元空間）に実像としてのドットアレイからなる３次元映像の表示を実現したものである。&lt;/p&gt;
+&lt;table cellpadding=&quot;5&quot; border=&quot;0&quot; align=&quot;center&quot; cellspacing=&quot;2&quot;&gt;
+&lt;tr&gt;
+
+&lt;td colspan=&quot;2&quot; align=&quot;center&quot;&gt;![図1画像](http://www.aist.go.jp/aist_j/press_release/pr2006/pr20060207/fig1.jpg)
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+
+&lt;td colspan=&quot;2&quot;&gt;
+
+
+
+
+
+図1 ３次元像空間描画装置を用いて表示した３次元画像
+（露光時間３秒　Ｆ＝４．５）
+
+
+
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;p&gt;研究の背景&lt;/p&gt;
+
+&lt;p&gt;我々は３次元(3D)空間に住んでおり、誰もが画像情報の理解促進のために３次元で画像情報を描写してもらいたいと考える。この要望を受けて、３次元的に立体視できる映像技術の開発が盛んに進められている。しかし、ほとんどの方法は人間の&lt;a href=&quot;http://www.aist.go.jp/aist_j/press_release/pr2006/pr20060207/pr20060207.html#c&quot;&gt;視差&lt;/a&gt;（図 ２参照）のみを利用した擬似的な３次元表示技術を使っており、視野制限、疑似感覚による生理的不快感などの問題があるため、長時間の鑑賞には適していな かった。大空間に描かれた３次元映像を、多くの人が映画のように同時に鑑賞できれば、従来の３次元映像が抱える問題を全て解決できる。このような要望か ら、直接３次元空間に映像を描画できる技術の実現が求められていた。&lt;/p&gt;
+&lt;table cellpadding=&quot;5&quot; border=&quot;0&quot; align=&quot;center&quot; cellspacing=&quot;2&quot;&gt;
+&lt;tr&gt;
+
+&lt;td colspan=&quot;2&quot; align=&quot;center&quot;&gt;![図2画像](http://www.aist.go.jp/aist_j/press_release/pr2006/pr20060207/fig2.png)
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+
+&lt;td colspan=&quot;2&quot;&gt;
+
+
+
+
+
+図2 立体視の生理的要因
+
+
+
+
+
+
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;p&gt;研究の経緯&lt;/p&gt;
+
+&lt;p&gt;空 気中の３次元空間に輝点を作る技術として、レーザー光を空間中の１点に強く集光させ焦点近傍の空気をプラズマ化して発光させる技術がある。慶應大と（株） バートンは、この技術を使って、ドットアレイからなる空気中の２次元像表示にも成功している。（株）バートンは、更にこの技術を発展させるため「川崎市産 学共同研究開発プロジェクト助成事業」の支援の下、３次元で表示できる立体広告灯の実現を目指し、産総研および慶應大と共同研究を進めてきた。これまでの空気中の２次元像描画技術は、レーザー光源と&lt;a href=&quot;http://www.aist.go.jp/aist_j/press_release/pr2006/pr20060207/pr20060207.html#d&quot;&gt;ガルバノミラー&lt;/a&gt;を組み合わせることで実現しているが、３次元映像を描画するには焦点の位置も３次元的に正確に制御しなければならず、レーザーの品質および焦点可変方法などに大幅な改良が必要であり実現できないでいた。&lt;/p&gt;
+
+&lt;p&gt;研究の内容&lt;/p&gt;
+
+&lt;p&gt;今回、産総研、慶應大、（株）バートンは共同で、従来の２次元描画装置を改良し、焦点位置を制御する&lt;a href=&quot;http://www.aist.go.jp/aist_j/press_release/pr2006/pr20060207/pr20060207.html#e&quot;&gt;リニアモーター&lt;/a&gt;システムと、高品質・高輝度赤外パルスレーザーを組み合わせて、ドットアレイではあるが“リアルな三次元（３D）映像”の空間表示に成功した。&lt;/p&gt;
+
+&lt;p&gt;開発した装置は、レーザー光の焦点位置を焦点位置調整用レンズ位置によって自在に、かつ正確に制御し、従来の２次元位置を制御するガルバノミラーに、この焦点位置調整用レンズを高速で位置制御できるリニアシステムを開発することで３次元映像描画に成功した（図３参照）。&lt;/p&gt;
+
+&lt;p&gt;使 用したレーザー光源には、高品質・高輝度の赤外パルスレーザー（パルス繰り返し周波数 〜100Ｈｚ、パルス発光時間はナノ秒（10億分の１秒）オーダー、）を用い、プラズマ生成をより高精度に制御することに成功した。また、高輝度・高コン トラストな描画を行うために、１ドットにつき２パルスを用いて人間の目に強く残像を残す方法を採用した。さらには、描画装置から描画ポイントまでの距離も 数メーターと大幅に延ばすことに成功し、３次元広告用装置としても使用できるようになった（図４参照）。&lt;/p&gt;
+&lt;table cellpadding=&quot;5&quot; border=&quot;0&quot; align=&quot;center&quot; cellspacing=&quot;2&quot;&gt;
+&lt;tr&gt;
+
+&lt;td colspan=&quot;2&quot; align=&quot;center&quot;&gt;![図3画像](http://www.aist.go.jp/aist_j/press_release/pr2006/pr20060207/fig3.png)
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+
+&lt;td colspan=&quot;2&quot;&gt;
+
+
+
+
+
+図３　三次元空間描画装置の概略図
+
+
+
+
+
+
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;table cellpadding=&quot;5&quot; border=&quot;0&quot; align=&quot;center&quot; cellspacing=&quot;2&quot;&gt;
+&lt;tr&gt;
+
+&lt;td colspan=&quot;2&quot; align=&quot;center&quot;&gt;![図4画像](http://www.aist.go.jp/aist_j/press_release/pr2006/pr20060207/fig4.jpg)
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+
+&lt;td colspan=&quot;2&quot;&gt;
+
+
+
+
+
+図4 本装置で描画した各種２Ｄ,３Ｄオブジェクト
+
+
+
+
+
+
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;p&gt;今後の予定&lt;/p&gt;
+
+&lt;p&gt;今回開発した装置は次世代の広告媒体として業界より注目されており、早期に製品化を予定している。また、今回の３次元画像描画は、レーザー装置の限界により100ドット／秒の表示であるが、更にドット数を増やして滑らかな映像を描画させたい。&lt;/p&gt;
+
+&lt;p&gt;用語の解説&lt;/p&gt;
+
+&lt;p&gt;◆レーザー
+レーザー (Laser)とは、光を増幅し、コヒーレントな光を発生させる装置（レーザー装置）またはその光（レーザー光）をさす。レーザーは大別すると連続的に光 を発生する連続発振レーザーと瞬間的に光を発生するパルスレーザーに分かれる。連続発振レーザーはコンパクトディスクのピックアップ光源やレーザーポイン タなどで使われている。パルスレーザーはある瞬間にしか光を発生しないが、瞬時光強度が大きく（一般にはパルス発光時間が短いほど高強度である）、プラズ マ発生に適している。&lt;a href=&quot;http://www.aist.go.jp/aist_j/press_release/pr2006/pr20060207/pr20060207.html#a1&quot;&gt;[戻る]&lt;/a&gt;◆プラズマ
+正の電荷をもつ粒子（イオン）と負の電荷をもつ電子が電離状態で同程度存在し、全体としてほぼ中性である気体状の粒子集団のこと。一般に気体中で放電する ことによって生成される。 身近な例としては、点灯している蛍光灯の内部も水銀ガスがプラズマになったものである。レーザー光を強く集光すると、その焦点近傍で気体が瞬間的にプラズ マ化し、それに伴う発光が観測される。&lt;a href=&quot;http://www.aist.go.jp/aist_j/press_release/pr2006/pr20060207/pr20060207.html#b1&quot;&gt;[戻る]&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;◆視差
+人間が立体を認識するには、両眼視差の存在が重要であるが、それ以外にも両眼のふくそう角、焦点調節、単眼運動視差など複数の要因が重なっている。
+・ 両眼視差：右目と左目の網膜に写った像の違いを脳内で処理して奥行きを知覚すると考えられている。近距離において奥行き知覚の最も重要な要因となる。
+・ 両眼のふくそう角：物を見つめるときは、像が網膜の中央に来るように眼球を回転させる。この角度（輻輳角）は物体までの距離によって変化するので、眼球の回転角から奥行きを知覚できる。
+・焦点調節（水晶体の調節）：眼球のレンズである水晶体の厚みを変えることで焦点を合わせる。水晶体の厚みを変える筋肉（毛様体筋）の弛緩から奥行きを知覚する。
+・単眼の運動視差：物体と観察者の相対運動により網膜像の大きさや形状が変化する。これにより奥行きを知覚する。&lt;a href=&quot;http://www.aist.go.jp/aist_j/press_release/pr2006/pr20060207/pr20060207.html#c1&quot;&gt;[戻る]&lt;/a&gt;◆ガルバノミラー
+軸に固定された自由に回転できるミラーで、光路を連続的に変化させるデバイス。
+光スキャナなどでよく用いられる。&lt;a href=&quot;http://www.aist.go.jp/aist_j/press_release/pr2006/pr20060207/pr20060207.html#d1&quot;&gt;[戻る]&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;◆リニアモーター
+リニアモーターとは、一般的なモーター（電動機）が回転運動をするのに対して、平面上を直線的に動くモーターのことをいう。動作原理により、リニア誘導 モータ、リニア同期モータ、リニア直流モータがある。回転部分がないので、駆動系をコンパクトにすることができ、回転モータを置くだけのスペースが確保で きない場合などに使われる。工作機械など、応用範囲は幅広く、とくに大規模なものがリニアモーターカーに使われている。&lt;a href=&quot;http://www.aist.go.jp/aist_j/press_release/pr2006/pr20060207/pr20060207.html#e1&quot;&gt;[戻る]&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;問い合わせ&lt;/p&gt;
+
+&lt;p&gt;独立行政法人 産業技術総合研究所 広報部
+広報業務室　菅原　敏之　〒305-8568 茨城県つくば市梅園1-1-1 中央第2
+つくば本部・情報技術共同研究棟8Ｆ
+電話：029-862-6216　FAX：029-862-6212　Eメール：&lt;a href=&quot;mailto:presec@m.aist.go.jp&quot;&gt;presec@m.aist.go.jp&lt;/a&gt;&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Why is Gandhi in hell ?</title>
+   <link href="http://localhost:4000/2006/02/04/why-is-gandhi-in-hell/"/>
+   <updated>2006-02-04T20:22:17+08:00</updated>
+   <id>http://localhost:4000/2006/02/04/why-is-gandhi-in-hell</id>
+   <content type="html">&lt;p&gt;当然是指 south park 中了。。看的时候的确很疑惑，似乎戴安娜也在里面，偶然看见这个帖子，权且当作一种解释吧&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.nitpickers.com/movies/nitpick.cgi?np=25103&quot;&gt;http://www.nitpickers.com/movies/nitpick.cgi?np=25103 &lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Linus encourages people to switch to KDE</title>
+   <link href="http://localhost:4000/2005/12/17/linus-encourages-people-to-switch-to-kde/"/>
+   <updated>2005-12-17T10:07:45+08:00</updated>
+   <id>http://localhost:4000/2005/12/17/linus-encourages-people-to-switch-to-kde</id>
+   <content type="html">&lt;p&gt;‘I personally just encourage people to switch to KDE. ‘ he said.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://mail.gnome.org/archives/usability/2005-December/msg00021.html&quot;&gt;here is the original text&lt;/a&gt;&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;h1 id=&quot;usability-re-desktop_architects-printing-dialog-and-gnome&quot;&gt;[Usability] Re: [Desktop_architects] Printing dialog and GNOME&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;From&lt;/em&gt;: Linus Torvalds&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;To&lt;/em&gt;: Till Kamppeter&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;Cc&lt;/em&gt;: usability gnome org, jody gnome org, mclasen redhat com,   desktop_architects lists osdl org&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;Subject&lt;/em&gt;: [Usability] Re: [Desktop_architects] Printing dialog and GNOME&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;Date&lt;/em&gt;: Mon, 12 Dec 2005 17:46:21 -0800 (PST)&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;On Tue, 13 Dec 2005, Till Kamppeter wrote:
+&amp;gt;
+&amp;gt; Frederic told that the options from the PPD file are intentionally mot
+&amp;gt; listed in the printing dialog, the usability team of GNOME was against
+&amp;gt; listing these options. They clutter the dialog and can be more confusing
+&amp;gt; than useful to the user.
+
+I personally just encourage people to switch to KDE.
+
+This &quot;users are idiots, and are confused by functionality&quot; mentality of
+Gnome is a disease. If you think your users are idiots, only idiots will
+use it. I don't use Gnome, because in striving to be simple, it has long
+since reached the point where it simply doesn't do what I need it to do.
+
+Please, just tell people to use KDE.
+
+Linus
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>奥组委紧急通知</title>
+   <link href="http://localhost:4000/2005/12/16/e5-a5-a5-e7-bb-84-e5-a7-94-e7-b4-a7-e6-80-a5-e9-80-9a-e7-9f-a5/"/>
+   <updated>2005-12-16T15:28:34+08:00</updated>
+   <id>http://localhost:4000/2005/12/16/%e5%a5%a5%e7%bb%84%e5%a7%94%e7%b4%a7%e6%80%a5%e9%80%9a%e7%9f%a5</id>
+   <content type="html">&lt;p&gt;伊丽川的blog上看见的。。&lt;/p&gt;
+
+&lt;p&gt;——转自李大纲一世&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;为迎合中华民族“六六大顺”的吉祥数目
+且增添本次奥运会浓厚的京味文化&lt;/p&gt;
+
+&lt;p&gt;奥组委紧急决定新增一名 无论名称还是寓意极有北京特色的吉祥物—— 丫丫！&lt;/p&gt;
+
+&lt;p&gt;创意：“北京欢迎你丫”&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://img.chinapet.com/2005/11/24/sf_20051124164531.jpg&quot;&gt;&lt;img src=&quot;http://img.chinapet.com/2005/11/24/sf_20051124164531.jpg&quot; alt=&quot;&quot; /&gt;screen.width/2)this.style.width=screen.width/2;” /&amp;gt; &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;随后有看见了更全的版本&lt;/p&gt;
+
+&lt;p&gt;“北京欢迎你丫挺的”&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://images.blogcn.com/2005/12/10/7/kasbert,2005121013815.jpg&quot; alt=&quot;The image “http://images.blogcn.com/2005/12/10/7/kasbert,2005121013815.jpg” cannot be displayed, because it contains errors.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;中国的平面人才济济，平时都哪里去了，呵呵&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>关于无极</title>
+   <link href="http://localhost:4000/2005/12/16/e5-85-b3-e4-ba-8e-e6-97-a0-e6-9e-81/"/>
+   <updated>2005-12-16T15:11:41+08:00</updated>
+   <id>http://localhost:4000/2005/12/16/%e5%85%b3%e4%ba%8e%e6%97%a0%e6%9e%81</id>
+   <content type="html">&lt;p&gt;没有看，但评论都惨不忍睹，先摘录几个，看完后再来评价&lt;/p&gt;
+
+&lt;p&gt;from &lt;a href=&quot;http://blog.sina.com.cn/u/4701280b010000vj&quot;&gt;http://blog.sina.com.cn/u/4701280b010000vj&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://blog.sina.com.cn/u/4701280b010000vj&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;我们一直错怪了张艺谋——无极观后感&lt;/p&gt;
+
+&lt;p&gt;今天去看了无极，80一张票子。人不算少。&lt;/p&gt;
+
+&lt;p&gt;无极开始了。&lt;/p&gt;
+
+&lt;p&gt;后来无极就结束了。&lt;/p&gt;
+
+&lt;p&gt;from q3acn&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+
+</feed>

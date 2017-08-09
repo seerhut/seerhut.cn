@@ -1,0 +1,14 @@
+---
+author: admin
+comments: true
+date: 2008-11-30 04:16:58+00:00
+layout: post
+link: http://www.seerhut.cn/2008/11/30/%e6%89%93%e4%b8%80%e6%9e%aa%e5%b0%b1%e6%8d%a2%e4%b8%aa%e5%9c%b0%e6%96%b9/
+slug: '%e6%89%93%e4%b8%80%e6%9e%aa%e5%b0%b1%e6%8d%a2%e4%b8%aa%e5%9c%b0%e6%96%b9'
+title: 打一枪就换个地方
+wordpress_id: 99
+---
+
+看中飞信了，抓包看了看协议，是变种SIP。。。
+
+准备着手弄一个玩玩

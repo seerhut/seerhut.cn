@@ -1,0 +1,12 @@
+---
+author: admin
+comments: true
+date: 2009-11-26 02:22:50+00:00
+layout: post
+link: http://www.seerhut.cn/2009/11/26/uname-a/
+slug: uname-a
+title: $uname -a
+wordpress_id: 215
+---
+
+<blockquote>Linux localhost 2.6.21.7 #143 SMP Thu Nov 26 01:46:05 UTC 2009 mips GNU/Linux</blockquote>

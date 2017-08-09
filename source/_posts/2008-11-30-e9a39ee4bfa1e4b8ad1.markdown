@@ -1,0 +1,12 @@
+---
+author: admin
+comments: true
+date: 2008-11-30 14:17:42+00:00
+layout: post
+link: http://www.seerhut.cn/2008/11/30/%e9%a3%9e%e4%bf%a1%e4%b8%ad1/
+slug: '%e9%a3%9e%e4%bf%a1%e4%b8%ad1'
+title: 飞信中1
+wordpress_id: 106
+---
+
+能登录SSI Portal了，明天修改一下结构再继续做proxy register部分

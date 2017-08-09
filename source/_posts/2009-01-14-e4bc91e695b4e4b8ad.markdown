@@ -1,0 +1,18 @@
+---
+author: admin
+comments: true
+date: 2009-01-14 17:44:56+00:00
+layout: post
+link: http://www.seerhut.cn/2009/01/15/%e4%bc%91%e6%95%b4%e4%b8%ad/
+slug: '%e4%bc%91%e6%95%b4%e4%b8%ad'
+title: 休整中
+wordpress_id: 168
+---
+
+可以暂时抛开副业，昨天今天搞了下sam9261的板子。
+
+先是移植了最新的内核，话说15到27的变动真是不少，api change有8、9页。。。不过代码结构清晰了些。
+
+接着是做rootfs，oe有了不少更新，正好重新编译，顺便把目录结构弄得合理些。
+
+qt-embedded 4.4的移植很顺利，gui在lcd上运行良好。只是尝试移植qtopia 4.3的时候不太走运，程序大致可以正常运行，但是lcd花屏，似乎是qtopia用了极低的色彩深度，原因未知。。。

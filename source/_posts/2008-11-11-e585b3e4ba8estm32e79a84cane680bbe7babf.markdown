@@ -1,0 +1,32 @@
+---
+author: admin
+comments: true
+date: 2008-11-11 11:01:32+00:00
+layout: post
+link: http://www.seerhut.cn/2008/11/11/%e5%85%b3%e4%ba%8estm32%e7%9a%84can%e6%80%bb%e7%ba%bf/
+slug: '%e5%85%b3%e4%ba%8estm32%e7%9a%84can%e6%80%bb%e7%ba%bf'
+title: 关于STM32的CAN总线
+wordpress_id: 95
+---
+
+loopback很快就没问题了，接入网络的时候要注意几个问题：
+
+
+
+	
+  1. 不要忘记remap用作CAN的引脚，需要的话。
+
+	
+  2. 记清楚时钟用了HSE还是PLL，还有PCLK2是怎么从HCLK分频的。算CAN总线速率的时候是用CAN的时钟去除以(SJW+BS1+BS2)再除以Prescaler。
+
+	
+  3. 终端电阻的配备。总之注意阻抗和相应的信号反射问题就是了。
+
+	
+  4. 开了中断不去处理是要遭报应的。。。别忘记把收到的message删掉。
+
+	
+  5. 模拟示波器这个时候是没用的。。。。要是有台带协议分析的存储示波器就好了。
+
+
+以上。

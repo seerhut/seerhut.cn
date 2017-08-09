@@ -1,0 +1,12 @@
+---
+author: admin
+comments: true
+date: 2006-06-07 07:33:54+00:00
+layout: post
+link: http://www.seerhut.cn/2006/06/07/%e7%ac%ac%e4%b8%80%e4%b8%aa%e6%8f%92%e4%bb%b6/
+slug: '%e7%ac%ac%e4%b8%80%e4%b8%aa%e6%8f%92%e4%bb%b6'
+title: 第一个插件
+wordpress_id: 28
+---
+
+无法忍受不能在Cedega下的WoW里面输入中文了，决定动手写个中文输入的插件。嘿嘿。。不知道可行不

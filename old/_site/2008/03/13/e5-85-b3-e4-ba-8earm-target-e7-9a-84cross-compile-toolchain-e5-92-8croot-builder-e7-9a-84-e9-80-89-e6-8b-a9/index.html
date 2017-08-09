@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      关于ARM target的cross compile toolchain和root builder的选择 &middot; Seerhut Labs
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/public/css/lanyon.css">
+  <!--link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400"-->
+
+  <!-- Icons -->
+  <link rel="shortcut icon" href="/public/favicon.ico">
+  <link rel="apple-touch-icon" sizes="57x57" href="/public/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/public/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/public/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/public/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/public/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/public/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/public/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/public/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/public/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/public/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/public/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/public/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/public/favicon-16x16.png">
+<link rel="manifest" href="/public/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/public/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+
+  <script>
+var _hmt = _hmt || [];
+(function() {
+      var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?7e34e0b4d978130592967cb5364e50c3";
+          var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+            })();
+</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-2913322-1', 'auto');
+    ga('send', 'pageview');
+
+    </script>
+
+</head>
+
+
+  <body class="theme-base-0d sidebar-overlay">
+
+    <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    <p>.
+</p>
+  </div>
+
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item" href="/">Home</a>
+
+    
+
+    
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/about/">About</a>
+        
+      
+    
+      
+    
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/qdoris/">Qdoris</a>
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/qfetion/">Qfetion</a>
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/wow-zhinput/">wow-zhinput</a>
+        
+      
+    
+
+    <span class="sidebar-nav-item">Currently v20170211</span>
+  </nav>
+
+  <div class="sidebar-item">
+    <p>
+      &copy; 2017. All rights reserved.
+    </p>
+  </div>
+</div>
+
+
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="/" title="Home">Seerhut Labs</a>
+            <small>42</small>
+          </h3>
+        </div>
+      </div>
+
+      <div class="container content">
+        <div class="post">
+  <h2 class="post-title">关于ARM target的cross compile toolchain和root builder的选择</h2>
+  <span class="post-date">13 Mar 2008</span>
+  <p>当然是在x86 host上的。
+首先试了uclibc的buildroot，可编译toolchain和rootfs，svn更新。使用很方便，用了类似内核和busybox的配置界面menuconfig，可定制项目较细，自动化程度好。但是有个硬伤，不能选择使用glibc，强制使用uclibc。。。。但可能有patch能去掉这个限制。考虑到这个项目的主页也是buildroot.uclibc.org就不难理解这个限制了。对于使用uclinux的用户倒是很合适。</p>
+
+<p><a href="http://buildroot.uclibc.org">http://buildroot.uclibc.org</a></p>
+
+<p>其次是timesys的商业套件，直接提供成品toolchain和BSP。大致每个季度更新，可以下载个人版，基本的工具还是全的。这公司似乎同atmel和arm联系较紧密 ，技术应该很可靠，但是要真正做项目个人版还是不够的，不过个人版提供的一些资料还是很由用处。顺便说一句，我的ebd9261就是提供了这个作为开发工具。</p>
+
+<p><a href="http://www.timesys.com">http://www.timesys.com</a></p>
+
+<p>接着是open embedded，可编译toolchain和target package。总得来说做得不错，自动化程度很高，随时更新（用户从版本库检出更新），使用配置文件进行基本配置，可以选择任意包编译。build package的时候会把需安装的文件单独存放，而且粒度很细，比如vim就分放在vim vim-common vim-doc vim-dev vim-syntax vim-dbg vim-help等目录下，同时也提供存放完整vim文件的目录，还提供上述所有的ipk包，总之很是贴心。但是本项目使用的版本管理工具略显怪异。。</p>
+
+<p><a href="http://www.openembedded.org">http://www.openembedded.org</a></p>
+
+<p>随后是gentoo自己的crossdev，这个没什么可说的，四海一家的方案。。。</p>
+
+<p><a href="http://www.gentoo.org/proj/en/base/embedded/handbook">http://www.gentoo.org/proj/en/base/embedded/handbook</a></p>
+
+</div>
+
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="/2011/05/25/duke-e5-92-8clinux-ef-bc-8c-e6-96-b0-e9-97-bb/">
+            duke和linux，新闻
+            <small>25 May 2011</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/2011/05/18/e5-85-b3-e4-ba-8ebitcoin/">
+            关于Bitcoin
+            <small>19 May 2011</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/2010/11/30/e6-8e-a8-e8-8d-90vpsyou-e5-92-8cstartssl/">
+            推荐vpsyou和startssl
+            <small>30 Nov 2010</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</div>
+
+      </div>
+    </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+    <script>
+      (function(document) {
+        var toggle = document.querySelector('.sidebar-toggle');
+        var sidebar = document.querySelector('#sidebar');
+        var checkbox = document.querySelector('#sidebar-checkbox');
+
+        document.addEventListener('click', function(e) {
+          var target = e.target;
+
+          if(!checkbox.checked ||
+             sidebar.contains(target) ||
+             (target === checkbox || target === toggle)) return;
+
+          checkbox.checked = false;
+        }, false);
+      })(document);
+    </script>
+  </body>
+</html>

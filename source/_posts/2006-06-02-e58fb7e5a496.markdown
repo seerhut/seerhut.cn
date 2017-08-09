@@ -1,0 +1,14 @@
+---
+author: admin
+comments: true
+date: 2006-06-02 20:36:27+00:00
+layout: post
+link: http://www.seerhut.cn/2006/06/03/%e5%8f%b7%e5%a4%96/
+slug: '%e5%8f%b7%e5%a4%96'
+title: 号外
+wordpress_id: 26
+---
+
+2006中文維基年會的网页上写着：
+
+5月26日：為答謝Jimbo出席[Red Hat](http://zh.wikipedia.org/wiki/Red_Hat)於[印度](http://zh.wikipedia.org/wiki/%E5%8D%B0%E5%BA%A6)[德里](http://zh.wikipedia.org/wiki/%E5%BE%B7%E9%87%8C)舉辦之會議，Red Hat除了贊助Jimbo從美國經香港轉往德里的機票之外，亦答應捐助3000美元與中文維基年會。

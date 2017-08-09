@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      WoW's User Interface API changed &middot; Seerhut Labs
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/public/css/lanyon.css">
+  <!--link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400"-->
+
+  <!-- Icons -->
+  <link rel="shortcut icon" href="/public/favicon.ico">
+  <link rel="apple-touch-icon" sizes="57x57" href="/public/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/public/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/public/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/public/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/public/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/public/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/public/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/public/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/public/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/public/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/public/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/public/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/public/favicon-16x16.png">
+<link rel="manifest" href="/public/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/public/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+
+  <script>
+var _hmt = _hmt || [];
+(function() {
+      var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?7e34e0b4d978130592967cb5364e50c3";
+          var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+            })();
+</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-2913322-1', 'auto');
+    ga('send', 'pageview');
+
+    </script>
+
+</head>
+
+
+  <body class="theme-base-0d sidebar-overlay">
+
+    <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    <p>.
+</p>
+  </div>
+
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item" href="/">Home</a>
+
+    
+
+    
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/about/">About</a>
+        
+      
+    
+      
+    
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/qdoris/">Qdoris</a>
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/qfetion/">Qfetion</a>
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/wow-zhinput/">wow-zhinput</a>
+        
+      
+    
+
+    <span class="sidebar-nav-item">Currently v20170211</span>
+  </nav>
+
+  <div class="sidebar-item">
+    <p>
+      &copy; 2017. All rights reserved.
+    </p>
+  </div>
+</div>
+
+
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="/" title="Home">Seerhut Labs</a>
+            <small>42</small>
+          </h3>
+        </div>
+      </div>
+
+      <div class="container content">
+        <div class="post">
+  <h2 class="post-title">WoW's User Interface API changed</h2>
+  <span class="post-date">06 Sep 2006</span>
+  <p>from  <strong><a href="http://forums.worldofwarcraft.com/thread.html?topicId=15401595&amp;sid=1">2.0.0 Changes - Concise List</a></strong></p>
+
+<ul>
+  <li>09/02/2006 03:12:11 AM UTC</li>
+</ul>
+
+<p>This is a consolidated list of the announced (and sometimes observed) changes in the User Interface API’s and functionality for the Burning Crusade expansion (2.0) release. Please note that this thread is to discuss the upcoming changes and any clarifications or features that are a direct result of those changes, or things which we’ve been asked to remind slouken of.</p>
+
+<!-- more -->
+<p>IMPORTANT: Off-topic or entirely redundant posts are liable to get deleted. It is however in everyone’s best interest to not post them in the first place - We’d rather slouken could spend his time coding us cool things than moderating this thread!</p>
+
+<p><strong>Significant Changes</strong></p>
+<ul>
+  <li>The expansion will be using Lua version 5.1.1, which provides a number of useful features, most notably incremental garbage collection and memory-efficient variable arguments. There ARE some incompatible changes with Lua 5.0 and authors are advised to familiarize themselves with <a href="http://www.lua.org/manual/5.1">http://www.lua.org/manual/5.1</a></li>
+</ul>
+
+<p><strong>Slash Commands</strong>
+The following new slash commands will be available:</p>
+<ul>
+  <li>Targetting: /targetlasttarget</li>
+  <li>Items and equipment: /use , /equip , /equipslot</li>
+  <li>Pet control: /petattack, /petfollow, /petstay, /petpassive, /petdefensive, /petaggressive</li>
+</ul>
+
+<p><strong>Spell Casting</strong></p>
+<ul>
+  <li>When casting a ranked buff spell that’s too high a level for a friendly target the game will automatically use the highest appropriate rank of the spell instead.</li>
+</ul>
+
+<p><strong>Actions</strong></p>
+<ul>
+  <li>The old CURRENT_ACTIONBAR_PAGE variable is no longer used, the ChangeActionBarPage(page) function now takes the new page as its argument, and GetActionBarPage() returns the current page number.</li>
+</ul>
+
+<p><strong>Unit Function Changes</strong></p>
+<ul>
+  <li>The GetSlashCmdTarget() UI function is no longer necessary. All the functions that required it now properly interpret the unit tokens (“player”, “pet”, etc.) in addition to names, and an empty string defaults to your current target.</li>
+</ul>
+
+<p><strong>Key Bindings</strong></p>
+<ul>
+  <li>You will be able to bind keys directly to spells, using the scripting interface, e.g. /script SetBinding(“[”, “Holy Light”)</li>
+</ul>
+
+<p><strong>Bug Fixes</strong></p>
+<ul>
+  <li>Fixed missing CHAT_MSG_SPELL_SELF_BUFF messages (Opening, Mining, Gathering)</li>
+</ul>
+
+<p><em>Last updated 2006-09-04 19:11 pacific</em>
+[ Post edited by Iriel ]</p>
+
+<hr />
+
+<p><strong>UI and Macros Forum MVP</strong> - Understand GC!</p>
+
+
+</div>
+
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="/2011/05/25/duke-e5-92-8clinux-ef-bc-8c-e6-96-b0-e9-97-bb/">
+            duke和linux，新闻
+            <small>25 May 2011</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/2011/05/18/e5-85-b3-e4-ba-8ebitcoin/">
+            关于Bitcoin
+            <small>19 May 2011</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/2010/11/30/e6-8e-a8-e8-8d-90vpsyou-e5-92-8cstartssl/">
+            推荐vpsyou和startssl
+            <small>30 Nov 2010</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</div>
+
+      </div>
+    </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+    <script>
+      (function(document) {
+        var toggle = document.querySelector('.sidebar-toggle');
+        var sidebar = document.querySelector('#sidebar');
+        var checkbox = document.querySelector('#sidebar-checkbox');
+
+        document.addEventListener('click', function(e) {
+          var target = e.target;
+
+          if(!checkbox.checked ||
+             sidebar.contains(target) ||
+             (target === checkbox || target === toggle)) return;
+
+          checkbox.checked = false;
+        }, false);
+      })(document);
+    </script>
+  </body>
+</html>

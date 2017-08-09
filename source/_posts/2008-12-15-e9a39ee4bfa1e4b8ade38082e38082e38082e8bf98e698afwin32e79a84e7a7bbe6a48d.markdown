@@ -1,0 +1,18 @@
+---
+author: admin
+comments: true
+date: 2008-12-15 06:36:10+00:00
+layout: post
+link: http://www.seerhut.cn/2008/12/15/%e9%a3%9e%e4%bf%a1%e4%b8%ad%e3%80%82%e3%80%82%e3%80%82%e8%bf%98%e6%98%afwin32%e7%9a%84%e7%a7%bb%e6%a4%8d/
+slug: '%e9%a3%9e%e4%bf%a1%e4%b8%ad%e3%80%82%e3%80%82%e3%80%82%e8%bf%98%e6%98%afwin32%e7%9a%84%e7%a7%bb%e6%a4%8d'
+title: 飞信中。。。还是win32的移植
+wordpress_id: 147
+---
+
+大致在msdn浏览了一下相关的问题，结果却在adobe的开发页面上找到资料。
+
+总之是vs8之后的manifest啥啥，一会装个clean的虚拟机试试。。
+
+另外做了keep-alive部分，昨天挂了6小时没掉线。
+
+去除了裸C++的md5库，改用Qt自己的crypt类。

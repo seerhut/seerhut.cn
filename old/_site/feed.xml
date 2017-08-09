@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.4.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-04-07T12:54:32+08:00</updated><id>http://localhost:4000/</id><title type="html">Seerhut Labs</title><subtitle>.
+</subtitle><entry><title type="html">duke和linux，新闻</title><link href="http://localhost:4000/2011/05/25/duke-e5-92-8clinux-ef-bc-8c-e6-96-b0-e9-97-bb/" rel="alternate" type="text/html" title="duke和linux，新闻" /><published>2011-05-25T11:51:12+08:00</published><updated>2011-05-25T11:51:12+08:00</updated><id>http://localhost:4000/2011/05/25/duke%E5%92%8Clinux,%E6%96%B0%E9%97%BB</id><content type="html" xml:base="http://localhost:4000/2011/05/25/duke-e5-92-8clinux-ef-bc-8c-e6-96-b0-e9-97-bb/">&lt;p&gt;两条新闻：&lt;/p&gt;
+
+&lt;p&gt;一是Linux Kernel Maillist里的：Torvalds同学说：&lt;/p&gt;
+
+&lt;p&gt;“PS. The voices in my head also tell me that the numbers are getting
+too big. I may just call the thing 2.8.0. And I almost guarantee that
+this PS is going to result in more discussion than the rest, but when
+the voices tell me to do things, I listen.”&lt;/p&gt;
+
+&lt;p&gt;二是﻿Duke Nukem Forever终于确定发售日了，6月10-14日！&lt;/p&gt;
+
+&lt;p&gt;特此纪念。&lt;/p&gt;</content><author><name>admin</name></author><summary type="html">两条新闻：</summary></entry><entry><title type="html">关于Bitcoin</title><link href="http://localhost:4000/2011/05/18/e5-85-b3-e4-ba-8ebitcoin/" rel="alternate" type="text/html" title="关于Bitcoin" /><published>2011-05-19T02:55:30+08:00</published><updated>2011-05-19T02:55:30+08:00</updated><id>http://localhost:4000/2011/05/18/%E5%85%B3%E4%BA%8Ebitcoin</id><content type="html" xml:base="http://localhost:4000/2011/05/18/e5-85-b3-e4-ba-8ebitcoin/">&lt;p&gt;bitcoin今天突然在中文圈爆红，可能是因为某篇报道或易懂的blog文章开始流传了。这东西存在有几年了，但最近社区膨胀的速度有点出乎意料。&lt;/p&gt;
+
+&lt;p&gt;bitcoin的成功恐怕在于他同时有贵金属和纸币的一些特性，又有严谨的算法维持信用体系，不过我还是有一点疑问：&lt;/p&gt;
+
+&lt;p&gt;货币的稀有性基于人类有限的计算能力以及对计算能力增长的预估，但是算法的实现复杂度可能会发生骤变，包括sha系列算法实现方式的进步，专有硬件的出现，这不是幻想，openCL/CUDA系列的mining程序已经满天飞了，twitter上一群失恋电信男在讨论verilog实现。如果真有获利机会，一定会有人砸钱搞低成本mining farm的。在original client中有算法保证相同计算量获得的BTC会逐渐降低，因此可以避免货币贬值，但是当网络中充斥着不遵循这条规则的客户端后就会重新回到上面所担心的情况。&lt;/p&gt;
+
+&lt;p&gt;流通依赖整个p2p网络的共识，但节点数上规模后会不会出现一些比较“自我”的区域，其中的节点数足够多但信息向外广播不畅（镇里……）导致此区域的决定和整个p2p不和，因此某些在其中受到认可的交易其实全局看来是非法的？这种情况可能的话，对这个网络的攻击也就可行。&lt;/p&gt;
+
+&lt;p&gt;现在的pooled mining有点像当年的淘金热，淘金热里真正获得财富的人并不多，倒是levi’s这类服务商获利颇丰，现在的mining热里能真正获得有意义的收益的人（比起计算带来的成本，电费，冷却，维护时间，机器折旧……）恐怕很少，但是p2p理论和各种高性能计算相关的技术恐怕可以小小进步下了，这可是直接算出钱来阿，算出钱来阿，算出……&lt;/p&gt;
+
+&lt;p&gt;整个体系中银行消失了，这可能是最诱人的一部分。货币的发行，消费的认证都由用户自己进行，但大众对这种基于某算法的信用体系有多少信心，这种算法本身的可靠度如何还未知。&lt;/p&gt;
+
+&lt;p&gt;在BIDU时，林主席问过我计算是什么，但我无论如何也没想到还有这么个回答：计算是黄金。。。&lt;/p&gt;</content><author><name>admin</name></author><summary type="html">bitcoin今天突然在中文圈爆红，可能是因为某篇报道或易懂的blog文章开始流传了。这东西存在有几年了，但最近社区膨胀的速度有点出乎意料。</summary></entry><entry><title type="html">推荐vpsyou和startssl</title><link href="http://localhost:4000/2010/11/30/e6-8e-a8-e8-8d-90vpsyou-e5-92-8cstartssl/" rel="alternate" type="text/html" title="推荐vpsyou和startssl" /><published>2010-11-30T10:53:39+08:00</published><updated>2010-11-30T10:53:39+08:00</updated><id>http://localhost:4000/2010/11/30/%E6%8E%A8%E8%8D%90vpsyou%E5%92%8Cstartssl</id><content type="html" xml:base="http://localhost:4000/2010/11/30/e6-8e-a8-e8-8d-90vpsyou-e5-92-8cstartssl/">&lt;p&gt;180M内存的xen vps只需￥70/month，可以安装centos/ubuntu/slackware/gentoo，32 or 64 bit，跑各种服务无障碍。&lt;/p&gt;
+
+&lt;p&gt;startssl提供免费的class 1 ca，而且各浏览器ie/ff/ch/sf都信任此根证书！&lt;/p&gt;
+
+&lt;p&gt;稳定性有待测试，机房网络安全有待测试。。&lt;/p&gt;</content><author><name>admin</name></author><summary type="html">180M内存的xen vps只需￥70/month，可以安装centos/ubuntu/slackware/gentoo，32 or 64 bit，跑各种服务无障碍。</summary></entry><entry><title type="html">vmware sharedFolder的符号链接问题</title><link href="http://localhost:4000/2010/10/13/vmware-sharedfolder-e7-9a-84-e7-ac-a6-e5-8f-b7-e9-93-be-e6-8e-a5-e9-97-ae-e9-a2-98/" rel="alternate" type="text/html" title="vmware sharedFolder的符号链接问题" /><published>2010-10-13T21:31:58+08:00</published><updated>2010-10-13T21:31:58+08:00</updated><id>http://localhost:4000/2010/10/13/vmware-sharedfolder%E7%9A%84%E7%AC%A6%E5%8F%B7%E9%93%BE%E6%8E%A5%E9%97%AE%E9%A2%98</id><content type="html" xml:base="http://localhost:4000/2010/10/13/vmware-sharedfolder-e7-9a-84-e7-ac-a6-e5-8f-b7-e9-93-be-e6-8e-a5-e9-97-ae-e9-a2-98/">&lt;p&gt;win guest无法识别share Folder中的符号链接，解决办法：&lt;/p&gt;
+
+&lt;p&gt;在虚拟机的vmx文件中添加&lt;/p&gt;
+
+&lt;p&gt;sharedFolder0.followSymlinks = “TRUE”
+这问题很久前就碰到了，怎么就一直没仔细搜一下呢&lt;/p&gt;</content><author><name>admin</name></author><summary type="html">win guest无法识别share Folder中的符号链接，解决办法：</summary></entry><entry><title type="html">需要一次大甩卖</title><link href="http://localhost:4000/2010/07/17/e9-9c-80-e8-a6-81-e4-b8-80-e6-ac-a1-e5-a4-a7-e7-94-a9-e5-8d-96/" rel="alternate" type="text/html" title="需要一次大甩卖" /><published>2010-07-17T14:25:04+08:00</published><updated>2010-07-17T14:25:04+08:00</updated><id>http://localhost:4000/2010/07/17/%E9%9C%80%E8%A6%81%E4%B8%80%E6%AC%A1%E5%A4%A7%E7%94%A9%E5%8D%96</id><content type="html" xml:base="http://localhost:4000/2010/07/17/e9-9c-80-e8-a6-81-e4-b8-80-e6-ac-a1-e5-a4-a7-e7-94-a9-e5-8d-96/">&lt;p&gt;卖示波器 一台模拟一台数字， 卖各类运放，卖电源ic，卖光电开关，卖st的cortex-cm3 mcu多量。。。如果有时间的话&lt;/p&gt;
+
+&lt;p&gt;仔细请点了一下，没想到有这么多项目残留物体，有些ic还是整条的，用来当仓库的房间已经塞满了，一定要处理一下了。。。如果有时间的话&lt;/p&gt;</content><author><name>admin</name></author><summary type="html">卖示波器 一台模拟一台数字， 卖各类运放，卖电源ic，卖光电开关，卖st的cortex-cm3 mcu多量。。。如果有时间的话</summary></entry><entry><title type="html">该整理一下了</title><link href="http://localhost:4000/2010/07/16/e8-af-a5-e6-95-b4-e7-90-86-e4-b8-80-e4-b8-8b-e4-ba-86/" rel="alternate" type="text/html" title="该整理一下了" /><published>2010-07-17T00:15:42+08:00</published><updated>2010-07-17T00:15:42+08:00</updated><id>http://localhost:4000/2010/07/16/%E8%AF%A5%E6%95%B4%E7%90%86%E4%B8%80%E4%B8%8B%E4%BA%86</id><content type="html" xml:base="http://localhost:4000/2010/07/16/e8-af-a5-e6-95-b4-e7-90-86-e4-b8-80-e4-b8-8b-e4-ba-86/">&lt;p&gt;感觉这段日子过得很快，很多问题也浮出水面，到了整理一下的时候了。&lt;/p&gt;
+
+&lt;p&gt;书在桌上越堆越高，不过已经没有闲书的踪影了，这就是所谓专注么。&lt;/p&gt;
+
+&lt;p&gt;马上就面临硬仗了，全新的领域，必须120%的投入。&lt;/p&gt;
+
+&lt;p&gt;有想法和方案就赶紧动手，别想太多了。&lt;/p&gt;
+
+&lt;p&gt;私人的时间就暂时不要了吧。。&lt;/p&gt;</content><author><name>admin</name></author><summary type="html">感觉这段日子过得很快，很多问题也浮出水面，到了整理一下的时候了。</summary></entry><entry><title type="html">重装系统。。。</title><link href="http://localhost:4000/2010/06/16/e9-87-8d-e8-a3-85-e7-b3-bb-e7-bb-9f-e3-80-82-e3-80-82-e3-80-82/" rel="alternate" type="text/html" title="重装系统。。。" /><published>2010-06-16T14:09:33+08:00</published><updated>2010-06-16T14:09:33+08:00</updated><id>http://localhost:4000/2010/06/16/%E9%87%8D%E8%A3%85%E7%B3%BB%E7%BB%9F%E3%80%82%E3%80%82%E3%80%82</id><content type="html" xml:base="http://localhost:4000/2010/06/16/e9-87-8d-e8-a3-85-e7-b3-bb-e7-bb-9f-e3-80-82-e3-80-82-e3-80-82/">&lt;p&gt;这两天看球，顺便重装了系统，因为需要切换到64位。
+32位的系统是02年开始使用，之后换了两次电脑也一直没重新装过，现在需要切换到64位，终于可以重新装一次了。
+安装顺利。。64位桌面很成熟鸟，二进制发布的软件也对64位支持甚好，只是baidu vpn的client需要32位的java vm，略折腾了一下。&lt;/p&gt;
+
+&lt;p&gt;昨天在大悦城逛了逛apple店，决定下一个电脑是mbp。&lt;/p&gt;</content><author><name>admin</name></author><summary type="html">这两天看球，顺便重装了系统，因为需要切换到64位。 32位的系统是02年开始使用，之后换了两次电脑也一直没重新装过，现在需要切换到64位，终于可以重新装一次了。 安装顺利。。64位桌面很成熟鸟，二进制发布的软件也对64位支持甚好，只是baidu vpn的client需要32位的java vm，略折腾了一下。</summary></entry><entry><title type="html">Intro To Erlang</title><link href="http://localhost:4000/2010/05/08/intro-to-erlang/" rel="alternate" type="text/html" title="Intro To Erlang" /><published>2010-05-09T00:23:59+08:00</published><updated>2010-05-09T00:23:59+08:00</updated><id>http://localhost:4000/2010/05/08/intro-to-erlang</id><content type="html" xml:base="http://localhost:4000/2010/05/08/intro-to-erlang/">&lt;p&gt;不错的介绍，转载来标记一下，待细看&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://www.slideshare.net/asceth/intro-to-erlang-presentation&quot;&gt;Intro To Erlang&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;View more &lt;a href=&quot;http://www.slideshare.net/&quot;&gt;presentations&lt;/a&gt; from &lt;a href=&quot;http://www.slideshare.net/asceth&quot;&gt;asceth&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://www.slideshare.net/btedev/erlang-concurrency-presentation&quot;&gt;Erlang Concurrency&lt;/a&gt;&lt;/strong&gt;View more &lt;a href=&quot;http://www.slideshare.net/&quot;&gt;presentations&lt;/a&gt; from &lt;a href=&quot;http://www.slideshare.net/btedev&quot;&gt;Barry Ezell&lt;/a&gt;.&lt;/p&gt;</content><author><name>admin</name></author><summary type="html">不错的介绍，转载来标记一下，待细看</summary></entry><entry><title type="html">在豆瓣认领自己，again</title><link href="http://localhost:4000/2010/04/27/e5-9c-a8-e8-b1-86-e7-93-a3-e8-ae-a4-e9-a2-86-e8-87-aa-e5-b7-b1-ef-bc-8cagain/" rel="alternate" type="text/html" title="在豆瓣认领自己，again" /><published>2010-04-28T04:52:05+08:00</published><updated>2010-04-28T04:52:05+08:00</updated><id>http://localhost:4000/2010/04/27/%E5%9C%A8%E8%B1%86%E7%93%A3%E8%AE%A4%E9%A2%86%E8%87%AA%E5%B7%B1,again</id><content type="html" xml:base="http://localhost:4000/2010/04/27/e5-9c-a8-e8-b1-86-e7-93-a3-e8-ae-a4-e9-a2-86-e8-87-aa-e5-b7-b1-ef-bc-8cagain/">&lt;p&gt;doubanclaim5b6101043a94526d&lt;/p&gt;</content><author><name>admin</name></author><summary type="html">doubanclaim5b6101043a94526d</summary></entry><entry><title type="html">逃离</title><link href="http://localhost:4000/2010/04/27/e9-80-83-e7-a6-bb/" rel="alternate" type="text/html" title="逃离" /><published>2010-04-27T13:27:37+08:00</published><updated>2010-04-27T13:27:37+08:00</updated><id>http://localhost:4000/2010/04/27/%E9%80%83%E7%A6%BB</id><content type="html" xml:base="http://localhost:4000/2010/04/27/e9-80-83-e7-a6-bb/">&lt;p&gt;决定不忍备案了，在境外找了服务器，但是。。。&lt;/p&gt;
+
+&lt;p&gt;为什么python版本那么老！！ 2.3。。。&lt;/p&gt;</content><author><name>admin</name></author><summary type="html">决定不忍备案了，在境外找了服务器，但是。。。</summary></entry></feed>

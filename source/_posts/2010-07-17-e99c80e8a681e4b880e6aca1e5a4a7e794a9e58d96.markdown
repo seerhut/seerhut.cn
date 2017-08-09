@@ -1,0 +1,14 @@
+---
+author: admin
+comments: true
+date: 2010-07-17 06:25:04+00:00
+layout: post
+link: http://www.seerhut.cn/2010/07/17/%e9%9c%80%e8%a6%81%e4%b8%80%e6%ac%a1%e5%a4%a7%e7%94%a9%e5%8d%96/
+slug: '%e9%9c%80%e8%a6%81%e4%b8%80%e6%ac%a1%e5%a4%a7%e7%94%a9%e5%8d%96'
+title: 需要一次大甩卖
+wordpress_id: 264
+---
+
+卖示波器 一台模拟一台数字， 卖各类运放，卖电源ic，卖光电开关，卖st的cortex-cm3 mcu多量。。。如果有时间的话
+
+仔细请点了一下，没想到有这么多项目残留物体，有些ic还是整条的，用来当仓库的房间已经塞满了，一定要处理一下了。。。如果有时间的话
